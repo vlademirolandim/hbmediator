@@ -1,3 +1,3 @@
 {
-	"flagcomp": [ "-n" , "-m" , "-q2" , "-Ic:\\projetos\\sistemas23\\include" , "-IC:\\HMG.3.5\\HARBOUR\\include" ]
+	"flagcomp": [ "-n" , "-m" , "-Ic:\\projetos\\sistemas23\\include" , "-IC:\\HMG.3.5\\HARBOUR\\include" ]
 }

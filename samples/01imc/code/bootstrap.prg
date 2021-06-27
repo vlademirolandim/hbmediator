@@ -4,7 +4,7 @@
 #define TAMANHO_CLASSE_IMC 20
 
 PROCEDURE Hbm_BootStrap
-    LOCAL cJsonConfig, cConfig AS CHARACTER
+
     MODULE FORM
 
     CONFIG INIT FILE "config.json" COMPILE
@@ -13,15 +13,14 @@ PROCEDURE Hbm_BootStrap
 
     //--------------- INIT -----------------------//
     CLS
-    FORM TEMPLATE FILE "bootstrap.txt" COMPILE
-    FORM CMD INIT ROWTOP 14 COLTOP 30
+    FORM TEMPLATE FILE "bootstrap.txt" 
+    FORM ROWTOP 14 COLTOP 30
     FORM TITLE "IMC"
 
     FORM ADD MAP "A" NAME "Text_Peso" VAL 0 PICT "@re 9999.99"  MESSAGE "Informe o peso"   
     FORM ADD MAP "B" NAME "Text_Altura" VAL 0 PICT "@re 9999.99"  MESSAGE "Informe a altura"   
-    FORM ADD MAP "C" NAME "Text_IMC" VAL 0 PICT "@re 9999.99"  READONLY   
-    FORM ADD MAP "D" NAME "Text_cLASSE_IMC" VAL SPACE(TAMANHO_CLASSE_IMC) READONLY
-     
+    FORM ADD MAP "C" NAME "Text_IMC" VAL 0 PICT "@re 9999.99"  ISREADONLY .T.  
+    FORM ADD MAP "D" NAME "Text_cLASSE_IMC" VAL SPACE(TAMANHO_CLASSE_IMC) ISREADONLY .T.
     
     FORM VALID Valida
     FORM SHOW

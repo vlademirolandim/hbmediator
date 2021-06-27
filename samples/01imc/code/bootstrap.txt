@@ -1,9 +1,9 @@
      
-      Peso.....: [A     
+      Peso......: [A     
 
-      Altura...: [B  
-
-      IMC......: [C                 [D
+      Altura....: [B  
+      
+      IMC.......: [C                 [D
 	  
 	  
 	 

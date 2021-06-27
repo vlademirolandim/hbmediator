@@ -5,4 +5,6 @@ echo "Deleting files"
 echo "Deletando arquivos"
 
 REM Arquivos por extensao
-del samples\*.exe /s
+del *.exe /s
+del *.ppo /s
+del *.log /s

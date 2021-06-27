@@ -1,47 +1,38 @@
 #include "vbase.ch"
 #include "vdata.ch"
+#include "form.ch"
 
-PROCEDURE Hbm_BancoConta
-    LOCAL oForm, oBrw AS OBJECT
-    LOCAL cScreen AS CHARACTER
- 
-    oBrw := VBrowseCMD():New( "MINIERP" , "SELECT id, nome, tipoconta, banco_nome FROM BancoConta"  )
-    oBrw:setStandardScreen( .t. )
-    oBrw:addColumn( "nome" , "Nome da conta" , "@x" , 30 )
-    oBrw:addColumn( "tipoconta" , "Tipo" , "!" , 1 )
-    oBrw:addColumn( "banco_nome" , "Banco" , "@x" , 30 )
-    oBrw:setIDDatabase( "MINIERP" )
-    oBrw:setTable( "BancoConta" )
-    oBrw:setPKName( "id" )
+procedure HBM_BancoConta
 
-    #pragma __binarystreaminclude "bancoconta.txt" | cScreen := %s // Compile time
-    oForm := VGetCMD():New( "", cScreen , 5 , 22 )
-    oForm:addMapControl( "A" , "Text_Nome" , "" , "@!" , 40 , "C" , "NOME" )
-    oForm:addMapControl( "B" , "Text_TipoConta" , "" , "@!" , 40 , "C" , "tipoconta" )
-    oBrw:setUpdate( oForm )
-    oBrw:setInsert( oForm )
+    MODULE BROWSE
 
-    IF oBrw:Open()
-        oBrw:Show()
-    ENDIF    
+    BROWSE CMD INIT USING CONNECT "MINIERP" QUERY "SELECT id, nome, tipoconta, banco_nome FROM BancoConta"
+    BROWSE TITLE "Contas bancárias"
+
+    BROWSE ADD COLUMN "nome" CAPTION "Nome da conta" PICTURE "@x" LENGTH 30
+    BROWSE ADD COLUMN "TIPOCONTA" CAPTION "Tipo" PICTURE "@x" LENGTH 10
+    BROWSE ADD COLUMN "BANCO_NOME" CAPTION "Nome do Banco" PICTURE "@x" LENGTH 30
     
-
+    BROWSE SET TABLE "BANCOCONTA"
+    BROWSE SET PKNAME "ID"
+    BROWSE SET UPDATE FrmBancoConta
+    BROWSE SET INSERT FrmBancoConta
+    BROWSE SET DELETE ON
+        
+    BROWSE SHOW
+ 
 RETURN
 
-/*
-Validation
-*/
-STATIC FUNCTION Valid( cControl , xVal )
+BEGIN FORM FrmBancoConta
 
-    LOCAL lRet := .t.
+    MODULE FORM
 
-    IF UPPER( cControl ) == "TEXT_EMPNO"
-        IF xVal <= 10
-            hb_alert( "Valor inválido. Insira um valor maior do que 10" )
-            lRet := .f.
-        ENDIF
-    ENDIF
+    FORM TEMPLATE FILE "bancoconta.txt" COMPILE
+    FORM CMD INIT ROWTOP 14 COLTOP 30
+    FORM TITLE "Conta Corrente"
 
-    RETURN lRet
-    
-	
+    FORM ADD MAP "A" NAME "Text_Nome" VAL "" PICT "@!" MAXLEN 30  FIELDNAME "NOME" MESSAGE "Nome da conta"   
+    FORM ADD MAP "B" NAME "Text_TipoConta" VAL "" PICT "@X" MAXLEN 1 FIELDNAME "TIPOCONTA" MESSAGE "Tipo"   
+    FORM ADD MAP "C" NAME "Text_BancoNome" VAL "" PICT "@!" MAXLEN 30 FIELDNAME "BANCO_NOME" MESSAGE "Banco"
+
+END FORM RETURN TO BROWSE

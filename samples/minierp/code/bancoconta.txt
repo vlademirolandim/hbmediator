@@ -1,7 +1,9 @@
      
-      Código...: [A     
+      Conta....: [A     
 
-      Nome.....: [B                 
+      Tipo.....: [B 
+
+      Banco....: [C               
 	 
     
 
