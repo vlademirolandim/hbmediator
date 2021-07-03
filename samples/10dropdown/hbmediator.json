@@ -1,0 +1,3 @@
+{
+	"flagcomp": [ "-n" , "-m" , "-w1" , "-es2" , "-p" ,  "-Ic:\\projetos\\sistemas23\\include" , "-I/home/vlademiro/sistemas/sistemas23/include" ]
+}

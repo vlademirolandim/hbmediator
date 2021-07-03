@@ -6,7 +6,7 @@ procedure HBM_BancoConta
 
     MODULE BROWSE
 
-    BROWSE CMD INIT USING CONNECT "MINIERP" QUERY "SELECT id, nome, tipoconta, banco_nome FROM BancoConta"
+    BROWSE INIT USING CONNECT "MINIERP" QUERY "SELECT id, nome, tipoconta, banco_nome FROM BancoConta" 
     BROWSE TITLE "Contas bancárias"
 
     BROWSE ADD COLUMN "nome" CAPTION "Nome da conta" PICTURE "@x" LENGTH 30
@@ -25,10 +25,9 @@ RETURN
 
 BEGIN FORM FrmBancoConta
 
-    MODULE FORM
 
-    FORM TEMPLATE FILE "bancoconta.txt" COMPILE
-    FORM CMD INIT ROWTOP 14 COLTOP 30
+    FORM TEMPLATE FILE "bancoconta.txt" 
+    FORM ROWTOP 14 COLTOP 30
     FORM TITLE "Conta Corrente"
 
     FORM ADD MAP "A" NAME "Text_Nome" VAL "" PICT "@!" MAXLEN 30  FIELDNAME "NOME" MESSAGE "Nome da conta"   

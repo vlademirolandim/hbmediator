@@ -1,0 +1,21 @@
+PROCEDURE HBM_31listbox
+
+    LOCAL aList := { "Option1" , "Option2" , "Option3" }
+    LOCAL aCity := { "Milano", "Genova", "Roma", "Pisa", "Torino" }
+    LOCAL nSelect := 0
+    LOCAL cSelect := ""
+    LOCAL nSelect2 := 0
+    LOCAL cSelect2 := ""
+
+    SetPos( 08, 14 ) ; AAdd( GetList, _GET_( nSelect, "nSelect", NIL,, ) ) ; ATail( GetList ):Control := _ListBox_( ATail( Getlist ):row, ATail( Getlist ):col, 13, 30, nSelect, aList, "My Dropdown",, "W/N,B/W+,W/N,W+/B,W/N,N/W*,G/W*,N/G",,, .T., .T., ) ; ATail( GetList ):reader := {| a, b, c, d | GUIReader( a, b, c, d ) } ; ATail( GetList ):Control:Display()
+    SetPos( 08, 54 ) ; AAdd( GetList, _GET_( cSelect, "cSelect", NIL,, ) ) ; ATail( GetList ):Control := _ListBox_( ATail( Getlist ):row, ATail( Getlist ):col, 13, 70, cSelect, aList, "My Dropdown 2",, "W/N,B/W+,W/N,W+/B,W/N,N/W*,G/W*,N/G",,, .T., .T., ) ; ATail( GetList ):reader := {| a, b, c, d | GUIReader( a, b, c, d ) } ; ATail( GetList ):Control:Display()
+    SetPos( 15, 14 ) ; AAdd( GetList, _GET_( nSelect2, "nSelect2", NIL,, ) ) ; ATail( GetList ):Control := _ListBox_( ATail( Getlist ):row, ATail( Getlist ):col, 25, 30, nSelect2, aCity, "My Listbox",, "W/N,B/W+,W/N,W+/B,W/N,N/W*,G/W*",,, .F., .F., ) ; ATail( GetList ):reader := {| a, b, c, d | GUIReader( a, b, c, d ) } ; ATail( GetList ):Control:Display()
+    SetPos( 15, 54 ) ; AAdd( GetList, _GET_( cSelect2, "cSelect2", NIL,, ) ) ; ATail( GetList ):Control := _ListBox_( ATail( Getlist ):row, ATail( Getlist ):col, 25, 70, cSelect2, aCity, "My Listbox 2",, "W/N,B/W+,W/N,W+/B,W/N,N/W*,G/W*",,, .F., .F., ) ; ATail( GetList ):reader := {| a, b, c, d | GUIReader( a, b, c, d ) } ; ATail( GetList ):Control:Display()
+    ReadModal( GetList, NIL,,,,, ) ; GetList := {} ; ( GetList )
+
+    DevPos( 28, 10 ) ; DevOut( hb_strformat( "My Dropdown return : %d and My Dropdown 2 return %s", nSelect, cSelect ), "W/N" )
+    DevPos( 29, 10 ) ; DevOut( hb_strformat( "My ListBox return : %d and My ListBox 2 return %s", nSelect2, cSelect2 ), "W/N" )
+
+    MyPause( hb_utf8SubStr( Procname() , 5 ) )
+
+RETURN

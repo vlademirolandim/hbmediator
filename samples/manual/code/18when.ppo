@@ -1,0 +1,28 @@
+PROCEDURE HBM_18when
+
+    LOCAL cSex := " "
+    LOCAL cName := SPACE(30)
+    LOCAL cPap := cSp := cBlood := " "
+
+
+    DevPos( 08, 10 ) ; DevOut( "Name                      : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( cName, "cName",, {|| CheckField( cName )}, ) ) ; ATail( GetList ):Display()
+    DevPos( 10, 10 ) ; DevOut( "(M)asculine or (F)eminine : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( cSex, "cSex",, {|| CheckField( cSex ) .AND. cSex $ ("MF")}, ) ) ; ATail( GetList ):Display()
+    DevPos( 12, 10 ) ; DevOut( "Pap smear OK ? (Y/N)      : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( cPap, "cPap",, {|| CheckField( cPap ) .AND. cPap $ ("YN")}, {|| cSex == "F"} ) ) ; ATail( GetList ):Display()
+    DevPos( 14, 10 ) ; DevOut( "Spermogram OK ? (Y/N)     : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( cSp, "cSp",, {|| CheckField( cSp ) .AND. cSp $ ("YN")}, {|| cSex == "M"} ) ) ; ATail( GetList ):Display()
+    DevPos( 16, 10 ) ; DevOut( "Blood test OK ? (Y/N)     : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( cBlood, "cBlood",, {|| CheckField( cBlood ) .AND. cBlood $ ("YN")}, ) ) ; ATail( GetList ):Display()
+
+    ReadModal( GetList, NIL,,,,, ) ; GetList := {} ; ( GetList )
+
+    MyPause( hb_utf8SubStr( Procname() , 5 ) )
+
+RETURN
+
+STATIC FUNCTION CheckField( xVal )
+
+    LOCAL lRet := .T.
+    IF EMPTY( xVal )
+        Alert("Field is mandatory")
+        lRet := .F.
+    ENDIF
+
+RETURN lRet

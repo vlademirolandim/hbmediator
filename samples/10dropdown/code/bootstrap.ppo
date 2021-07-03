@@ -1,0 +1,32 @@
+#line 5 "code/bootstrap.prg"
+PROCEDURE Hbm_BootStrap
+
+   LOCAL hGets
+
+    LOCAL __oForm__ := VGetCMD():New()
+
+ InitConfig( e"{   \"loglevel\": 1,\n    \"logdisplay\": false,\n    \"sysname\":\"Cálculo do IMC\",\n    \"orgname\":\"\",\n    \"deptname\":\"\",\n    \"complement\":\"\",\n    \"address01\":\"\",\n    \"address02\":\"\",\n    \"email\":\"\",\n    \"url\":\"\"\n}" )
+ ConfigTUISingleton( e"{   \n\t\"maxrow\":39,\n\t\"maxcol\":128,\n\t\"colortheme\":\"GREEN\"\n}\n" )
+    ConfigSetLogLevel( 4 )
+
+
+    Scroll() ; SetPos( 0, 0 )
+__oForm__:setScreenDef(e"     \n      Name......: [A     \n\n      Surname...: [B  \n      \n      Color ....: [C                 \n\t  \n\t  \n\t \n    \n\n\n")
+    __oForm__:setRowBegin(14);__oForm__:setColBegin(30)
+    __oForm__:setTitle( "DropDown" )
+
+    __oForm__:addMapControl( "A" , "Text_Name" , SPACE(10) , , , , , , "Name" )
+    __oForm__:addMapControl( "B" , "Text_Surname" , SPACE(10) , , , , , , "Surname" )
+    __oForm__:addMapControl( "C" , "Text_Color" , "" , , , , , .F. , "Favorite color" , "DROPDOWN" , 10 , 5 , { "Yellow" , "Blue" , "Green" , "Cyan" } )
+
+    hGets := __oForm__:getAllGets()
+
+    __oForm__:ButtonsOff()
+    __oForm__:Show()
+
+
+    DevPos( 28, 03 ) ; DevOut( "Values : " + hb_ValToExp( hGets ) )
+    DevPos( 30, 40 ) ; DevOut( "Type any key to exit" )
+    INKEY(0)
+
+RETURN

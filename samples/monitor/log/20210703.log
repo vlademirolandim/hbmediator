@@ -1,0 +1,25 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210703 02:01:31
+***************************** END LOG HEADER **************************************
+
+20210703 - 02:01:31 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210703 - 02:01:31 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+

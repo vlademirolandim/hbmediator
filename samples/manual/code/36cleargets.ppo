@@ -1,0 +1,18 @@
+
+PROCEDURE HBM_36cleargets
+
+    LOCAL cField := "JOSEPH READ ONLY"
+    LOCAL cField2 := "MARKETING"
+
+
+    DevPos( 10, 10 ) ; DevOut( "Name       : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( cField, "cField",,, ) ) ; ATail( GetList ):Display()
+    DevPos( 12, 10 ) ; DevOut( "Department : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( cField2, "cField2",,, ) ) ; ATail( GetList ):Display()
+    ReadKill( .T. ) ; GetList := {} ; ( GetList )
+    DevPos( 14, 10 ) ; DevOut( "PRESS. ANY KEY TO CONTINUE" )
+    INKEY(0)
+
+    MyPause( hb_utf8SubStr( Procname() , 5 ) )
+    Set( 33, "ON" )
+    Set( 34, "[]" )
+
+RETURN

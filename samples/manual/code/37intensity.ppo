@@ -1,0 +1,17 @@
+
+PROCEDURE HBM_37intensity
+
+    LOCAL cField := "JOSEPH READ WRITE   "
+    LOCAL cField2 := "MARKETING   "
+    LOCAL cField3 := SPACE(30)
+
+    Set( 31, "OFF" )
+    DevPos( 10, 10 ) ; DevOut( "Name       : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( cField, "cField",,, ) ) ; ATail( GetList ):Display()
+    DevPos( 12, 10 ) ; DevOut( "Cargo      : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( cField3, "cField3",,, ) ) ; ATail( GetList ):Display()
+    Set( 31, "ON" )
+    DevPos( 14, 10 ) ; DevOut( "Department : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( cField2, "cField2",,, ) ) ; ATail( GetList ):Display()
+    ReadModal( GetList, NIL,,,,, ) ; GetList := {} ; ( GetList )
+
+    MyPause( hb_utf8SubStr( Procname() , 5 ) )
+
+RETURN

@@ -1,0 +1,11 @@
+#line 6 "{SOURCE}.prg"
+PROCEDURE Hbm_AddUser
+
+    LOCAL hGet
+
+    LOCAL __oForm__ := VGetCMD():New()
+
+
+
+    Scroll() ; SetPos( 0, 0 )
+

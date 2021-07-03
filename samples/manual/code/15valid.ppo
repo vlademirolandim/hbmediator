@@ -1,0 +1,14 @@
+PROCEDURE HBM_15valid
+
+    LOCAL nAge := 0
+    LOCAL cName := SPACE(30)
+
+
+    DevPos( 08, 10 ) ; DevOut( "Name        : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( cName, "cName",, {|| IIF(EMPTY( cName ) , (alert("Name is mandatory"),.F.) , .T. )}, ) ) ; ATail( GetList ):Display()
+    DevPos( 10, 10 ) ; DevOut( "Client age  : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( nAge, "nAge",, {|| IIF(nAge >= 18 .AND. nAge <= 99 , .T. , (Alert("Age must between 18 and 99"),.F.) )}, ) ) ; ATail( GetList ):Display()
+
+    ReadModal( GetList, NIL,,,,, ) ; GetList := {} ; ( GetList )
+
+    MyPause( hb_utf8SubStr( Procname() , 5 ) )
+
+RETURN

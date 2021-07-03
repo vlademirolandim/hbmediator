@@ -1,0 +1,28 @@
+PROCEDURE HBM_33radio
+
+    LOCAL cRadio1 := Space(10)
+    LOCAL nRadio2 := 0
+    LOCAL aList := {}
+    LOCAL aList2 := {}
+
+    AADD( aList , RadioButto( 9 , 15 , "Opt 1" ) )
+    AADD( aList , RadioButto( 10 , 15 , "Opt 2" ) )
+    AADD( aList , RadioButto( 11, 15 , "Opt 3" ) )
+    AADD( aList , RadioButto( 12 , 15 , "Opt 4" ) )
+
+    AADD( aList2 , RadioButto( 9 , 45 , "Opt 1" ) )
+    AADD( aList2 , RadioButto( 10 , 45 , "Opt 2" ) )
+    AADD( aList2 , RadioButto( 11, 45 , "Opt 3" ) )
+    AADD( aList2 , RadioButto( 12 , 45 , "Opt 4" ) )
+
+
+    SetPos( 08, 14 ) ; AAdd( GetList, _GET_( cRadio1, "cRadio1", NIL,, ) ) ; ATail( GetList ):Control := _RadioGrp_( ATail( Getlist ):row, ATail( Getlist ):col, 13, 30, cRadio1, aList, "My Radio 1",,,, ) ; ATail( GetList ):reader := {| a, b, c, d | GUIReader( a, b, c, d ) } ; ATail( GetList ):Control:Display()
+    SetPos( 08, 44 ) ; AAdd( GetList, _GET_( nRadio2, "nRadio2", NIL,, ) ) ; ATail( GetList ):Control := _RadioGrp_( ATail( Getlist ):row, ATail( Getlist ):col, 13, 50, nRadio2, aList2, "My Radio 2",,,, ) ; ATail( GetList ):reader := {| a, b, c, d | GUIReader( a, b, c, d ) } ; ATail( GetList ):Control:Display()
+    ReadModal( GetList, NIL,,,,, ) ; GetList := {} ; ( GetList )
+
+    DevPos( 28, 10 ) ; DevOut( hb_strformat( "Radio 1 : %s", hb_valtoexp(cRadio1) ), "W/N" )
+    DevPos( 29, 10 ) ; DevOut( hb_strformat( "Radio 2 : %d", nRadio2 ), "W/N" )
+
+    MyPause( hb_utf8SubStr( Procname() , 5 ) )
+
+RETURN

@@ -1,7 +1,7 @@
      
-      [01] Criar e-mail do usuário
+      [01] Criar usuário
       
-      [02] Aumentar a quota do usuário
+      [02] Criar shell do usuário
       
       [03] Verificar espaço em disco livre
       

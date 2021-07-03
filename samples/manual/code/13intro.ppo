@@ -1,0 +1,17 @@
+PROCEDURE HBM_13intro
+
+    LOCAL cName := SPACE(30)
+    LOCAL dBirth := CTOD("//")
+    LOCAL nRow := 14, nCol := 10, nWidth := 30
+
+    DevPos( 10, 10 ) ; DevOut( "Client name  : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( cName, "cName",,, ) ) ; ATail( GetList ):message := "Type client name" ; ATail( GetList ):Display()
+    DevPos( 12, 10 ) ; DevOut( "Birth's date : " ) ; SetPos( Row(), Col() + 1 ) ; AAdd( GetList, _GET_( dBirth, "dBirth",,, ) ) ; ATail( GetList ):message := "Type client birth" ; ATail( GetList ):Display()
+    ReadModal( GetList, NIL,, nRow, nCol, nWidth, "N/W" ) ; GetList := {} ; ( GetList )
+
+    DevPos( 16, 10 ) ; DevOut( "Name : " + cName )
+    DevPos( 18, 10 ) ; DevOut( "Your age : " + Str( Int( (Date()-dBirth)/365) ) )
+
+
+    MyPause( hb_utf8SubStr( Procname() , 5 ) )
+
+RETURN

@@ -5,6 +5,8 @@
 
 PROCEDURE Hbm_BootStrap
 
+    LOCAL hGet 
+
     MODULE FORM
 
     CONFIG INIT FILE "config.json" COMPILE
@@ -14,16 +16,21 @@ PROCEDURE Hbm_BootStrap
     //--------------- INIT -----------------------//
     CLS
     FORM TEMPLATE FILE "bootstrap.txt" 
-    FORM INIT ROWTOP 05 COLTOP 05
+    FORM ROWTOP 05 COLTOP 05
     FORM TITLE "Menu Principal"
 
     FORM ADD MAP "A" NAME "WOPC" VAL "  " PICT "99"  MESSAGE "Digite o número referente a opção selecionada (99 SAI)"   
    
     FORM VALID Valida
+    FORM BUTTONS OFF
 
     DO WHILE .T.
         FORM SHOW
+        FORM RETURN GETS TO hGet
         DO CASE
+        CASE hGet["WOPC"] == "01" // Criar usuário
+            HbmLoad("adduser")
+        CASE hGet["WOPC"] == "02" //
         CASE LASTKEY() == K_ESC
             EXIT
         ENDCASE
