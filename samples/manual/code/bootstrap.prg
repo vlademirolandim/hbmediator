@@ -77,6 +77,11 @@ PROCEDURE Hbm_BootStrap
             HbmLoad("37intensity")            
          CASE nOpc == 38
             HbmLoad("38cursor")                
+         CASE nOpc == 40
+            HbmLoad("40checkbox")
+         CASE nOpc == 41
+            HbmLoad("41listbox")
+            
       OTHERWISE
  
       ENDCASE
@@ -138,6 +143,14 @@ STATIC FUNCTION MyMenu
        { " Intensity off ", , "", 37 } , ;              
        { " Set Cursor ", , "", 38 }  ;           
      }
+
+    hMenu[ "[ Intermediate II ]" ] := { ;
+       { " Checkbox  ", , "", 40 },  ;       
+       { " Listbox ", , "", 41 },  ;           
+       { " PushButton ", , "", 42 },  ;                  
+       { " Radio ", , "", 43 } , ;                         
+       { " TBrowse ", , "", 44 }  ;       
+    }
 
     oMainMenu  := HBTopBarMenu():new( 4, 14, 80 ) //MaxCol() -3 )
     oMainMenu:colorSpec := cMenuColor

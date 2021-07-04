@@ -1,9 +1,30 @@
-     
-     Login .........: [A     
 
-     Grupo..........: [B
 
-     E-mail pessoal : [C
+
+     Nome...........: [A
+
+     Sobre-nome.....: [B
+
+     Nome completo..: [C
+
+     Login .........: [D     
+
+     Senha..........: [E                                    Confirma Senha ..: [F
+
+
+
+     Grupo..........: [G                                    Home directory ..: [H
+
+     Telefone fixo..: [I                                    Telefone celular : [J
+
+     E-mail pessoal : [K
+
+     Conclui em.....: [L         (Formato : AAAA.1 / Ex: 2022.1)
+
+
+
+
+
 
 
 
