@@ -25,8 +25,8 @@ PROCEDURE Hbm_AddUser
     FORM ADD MAP "B" NAME "SOBRENOME" VAL SPACE(40) MESSAGE "Informe o sobre-nome" 
     FORM ADD MAP "C" NAME "NOMECOMPLETO" VAL SPACE(80) ISREADONLY .T.
     FORM ADD MAP "D" NAME "LOGIN" VAL SPACE(30) PICT "@X" MESSAGE "Login"
-    FORM ADD MAP "E" NAME "SENHA" VAL SPACE(30) PICT "@X" MESSAGE "Senha"
-    FORM ADD MAP "F" NAME "SENHA2" VAL SPACE(30) PICT "@X" MESSAGE "Confirme a senha"
+    FORM ADD MAP "E" NAME "SENHA" VAL SPACE(30) PICT "@X" MESSAGE "Senha" PASSWORD
+    FORM ADD MAP "F" NAME "SENHA2" VAL SPACE(30) PICT "@X" MESSAGE "Confirme a senha" PASSWORD
     FORM ADD MAP "G" NAME "GRUPO" VAL 1 MESSAGE "Informe o grupo";
                          DROPDOWN WIDTH 30 HEIGHT 5 OPTIONS aGrupos
     FORM ADD MAP "H" NAME "DIRETORIO" VAL SPACE(40) PICT "@S30" ISREADONLY .T.
@@ -56,6 +56,18 @@ Validation
 BEGIN FORM VALID Valida( hGet )
 
     DO CASE
+    CASE CONTROL NAME "NOME"
+        IF EMPTY( hGet["NOME"] )
+            HB_ALERT("Informe o nome")
+            RETURN .f.
+        ENDIF
+    CASE CONTROL NAME "SOBRENOME"
+        IF EMPTY( hGet["SOBRENOME"] )
+            HB_ALERT("Informe o sobrenome")
+            RETURN .f.
+        ENDIF
+        hGet["NOMECOMPLETO"] := ALLTRIM( hGet["NOME"] ) + SPACE(1) + ALLTRIM( hGet["SOBRENOME"] )
+        
     CASE CONTROL NAME "LOGIN"
         IF EMPTY(hGet["LOGIN"])
             HB_ALERT("Informe um valor para o login")
