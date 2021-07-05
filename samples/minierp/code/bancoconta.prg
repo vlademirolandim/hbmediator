@@ -1,12 +1,20 @@
 #include "vbase.ch"
 #include "vdata.ch"
 #include "form.ch"
+#include "vdata.ch"
 
 procedure HBM_BancoConta
 
+    LOCAL cSQL
     MODULE BROWSE
 
-    BROWSE INIT USING CONNECT "MINIERP" QUERY "SELECT id, nome, tipoconta, banco_nome FROM BancoConta" 
+    TEXT SQL TO cSQL
+        SELECT  id, nome, tipoconta,
+                banco_nome, obs, agencia, conta
+        FROM BancoConta        
+    ENDTEXT
+
+    BROWSE INIT USING CONNECT "MINIERP" QUERY cSQL 
     BROWSE TITLE "Contas bancárias"
 
     BROWSE ADD COLUMN "nome" CAPTION "Nome da conta" PICTURE "@x" LENGTH 30
