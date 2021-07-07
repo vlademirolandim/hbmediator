@@ -3,8 +3,16 @@
 
       Tipo.....: [B 
 
+
+
+
+
+
       Banco....: [C               
-	 
+	  
+      Agência..: [D                                           Conta..: [E
+
+      
     
 
 

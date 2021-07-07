@@ -1,4 +1,4 @@
 {
-	"flagcomp": [ "-n" , "-m" , "-Ic:\\projetos\\sistemas23\\include" , "-IC:\\HMG.3.5\\HARBOUR\\include"  ,
+	"flagcomp": [ "-q0" , "-n" , "-m" , "-Ic:\\projetos\\sistemas23\\include" , "-IC:\\HMG.3.5\\HARBOUR\\include"  ,
                                     "-I/usr/local/include/harbour" , "-I/home/vlademiro/sistemas/sistemas23/include" ]
 }

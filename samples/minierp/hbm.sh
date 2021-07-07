@@ -1,2 +1,4 @@
 hbmediator $1
-tmux kill-session
+if [[ -n "$PS1" ]] && [[ -z "$TMUX" ]] && [[ -n "$SSH_CONNECTION" ]]; then
+    tmux kill-session
+fi    

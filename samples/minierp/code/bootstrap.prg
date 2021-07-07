@@ -40,6 +40,9 @@ PROCEDURE Hbm_BootStrap
                ENDIF    
          CASE nOpc == 11
             HbmLoad("bancoconta")
+         CASE nOpc == 12
+            HbmLoad("banco")
+
 
       OTHERWISE
  
@@ -59,7 +62,8 @@ STATIC FUNCTION MyMenu
 
     hMenu := { => }
     hMenu[ "[ Cadastros ]" ] := { ;
-       { " Conta corrente ", , "", 11 } ;
+       { " Conta corrente ", , "", 11 } ,;
+       { " Movimentação Bancária" , , "" , 12 } ;
        }
  
 
