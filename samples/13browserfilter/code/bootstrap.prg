@@ -2,6 +2,7 @@
 #include "vdata.ch"
 #include "form.ch"
 #include "inkey.ch"
+
 procedure HBM_Bootstrap
 
     MODULE BROWSE
@@ -19,8 +20,11 @@ procedure HBM_Bootstrap
 
     BROWSE SET BLOCKFOOTER {|| BlockFooter() } HEIGHT 5
    // BROWSE SET FOOTER MESSAGE "Mensagem de rodapé"
-
-    __oBrw__:setFilter( "Titulo" , "ENAME LIKE '%' || %s || '%' AND SAL > %s AND SAL < %s" , { "Name   : " , "Salary > " , "Salary < " } , { "var1" , "var2" , "var3" } , { SPACE(30) , 0 , 100000 } , { "@K" , "@RE 999,999.99" , "@RE 999,999.99" } , { .t. , .F. , .F. } )
+    BROWSE SET FILTER "Search Employee" WHERE  "ENAME LIKE '%' || %s || '%' AND SAL >= %s AND SAL <= %s" ;
+        CAPTION  { "Name   : " , "Salary >= " , "Salary <= " } ;
+        VAL { SPACE(30) , 0 , 100000 } ;
+        PICT   { "@K" , "@RE 999,999.99" , "@RE 999,999.99" }  ;
+        NEWLINE  { .t. , .F. , .F. } 
 
     BROWSE SHOW
  
