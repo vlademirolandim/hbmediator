@@ -1,0 +1,26 @@
+# Parameters
+prgflags=-n
+prgflags=-m
+prgflags=-w3
+prgflags=-es2
+
+libs=fcore
+libs=vbase
+libs=vcore
+libs=vdatacore
+libs=vdatasqlite
+libs=vcmd
+libs=superlib
+{linux}libs=dl
+libs=pthread
+
+incpaths=${SISTEMAS_PATH_TO_INCLUDE}
+libpaths=${SISTEMAS_PATH_TO_LIB}
+
+{win}hbcs=hbwin
+hbcs=xhb
+hbcs=rddsql
+hbcs=hbsqlit3
+
+
+

@@ -41,11 +41,9 @@ BEGIN FORM FrmBancoConta
     FORM TITLE "Conta Corrente"
 
     FORM ADD MAP "A" NAME "Text_Nome" VAL "" PICT "@!" MAXLEN 30  FIELDNAME "NOME" MESSAGE "Nome da conta"   
-    FORM ADD MAP "B" NAME "Text_TipoConta" VAL "" FIELDNAME "TIPOCONTA" MESSAGE "Tipo" LISTBOX WIDTH 20 HEIGHT 4 OPTIONS { "Conta Corrente" , "Poupança" }
+    FORM ADD MAP "B" NAME "Text_TipoConta" VAL "" FIELDNAME "TIPOCONTA" MESSAGE "Tipo" DROPDOWN WIDTH 20 HEIGHT 4 OPTIONS { "CONTA_CORRENTE" => "Conta Corrente" , "POUPANCA" => "Poupança" }
     FORM ADD MAP "C" NAME "Text_BancoNome" VAL "" PICT "@!" MAXLEN 30 FIELDNAME "BANCO_NOME" MESSAGE "Banco"
     FORM ADD MAP "D" NAME "Text_Agencia" VAL "" PICT "@!" MAXLEN 30 FIELDNAME "AGENCIA" MESSAGE "Agência do banco"
     FORM ADD MAP "E" NAME "Text_Conta" VAL "" PICT "@R 99999-X" MAXLEN 15 FIELDNAME "CONTA" MESSAGE "Conta corrente (com o dígito)"
-
-
 
 END FORM RETURN TO BROWSE

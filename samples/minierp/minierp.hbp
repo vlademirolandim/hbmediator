@@ -1,0 +1,10 @@
+#IniBlock=Main
+#Automatic=Yes
+hbmediator.hbc
+minierp.prg
+isql.prg
+code/banco.prg
+code/bancoconta.prg
+code/bootstrap.prg
+#EndBlockMain
+

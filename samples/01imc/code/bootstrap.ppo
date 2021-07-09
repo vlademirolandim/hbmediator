@@ -13,10 +13,10 @@ __oForm__:setScreenDef(e"     \n      Peso......: [A     \n\n      Altura....: [
     __oForm__:setRowBegin(14);__oForm__:setColBegin(30)
     __oForm__:setTitle( "IMC" )
 
-    __oForm__:addMapControl( "A" , "Text_Peso" , 0 , "@re 9999.99" , , , , , "Informe o peso" )
-    __oForm__:addMapControl( "B" , "Text_Altura" , 0 , "@re 9999.99" , , , , , "Informe a altura" )
-    __oForm__:addMapControl( "C" , "Text_IMC" , 0 , "@re 9999.99" , , , , .T. , )
-    __oForm__:addMapControl( "D" , "Text_cLASSE_IMC" , SPACE(20) , , , , , .T. , )
+    __oForm__:addMapControl( "A" , "Text_Peso" , 0 , "@re 9999.99" , , , , , "Informe o peso" , )
+    __oForm__:addMapControl( "B" , "Text_Altura" , 0 , "@re 9999.99" , , , , , "Informe a altura" , )
+    __oForm__:addMapControl( "C" , "Text_IMC" , 0 , "@re 9999.99" , , , , .T. , , )
+    __oForm__:addMapControl( "D" , "Text_cLASSE_IMC" , SPACE(20) , , , , , .T. , , )
 
     __oForm__:setValid( {|a,b|Valida(a,b)} )
     __oForm__:Show()
