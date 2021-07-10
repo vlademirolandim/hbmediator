@@ -58,16 +58,17 @@ STATIC FUNCTION MyMenu
     LOCAL hElement
     LOCAL aItem, oItem, oSubMenu    
     LOCAL bMenuBlock := {|| NIL } 
-    LOCAL cMenuColor := COLOR_MENU 
+    LOCAL oCfgTUI := ConfigTUISingleton()
+    LOCAL cMenuColor := oCfgTUI:getColorMenu()
 
     hMenu := { => }
     hMenu[ "[ Cadastros ]" ] := { ;
-       { " Conta corrente ", , "", 11 } ,;
+       { " &Conta corrente ", , "", 11 } ,;
        { " Movimentação Bancária" , , "" , 12 } ;
        }
  
-
-    oMainMenu  := HBTopBarMenu():new( 4, 14, 80 ) //MaxCol() -3 )
+                                             // Coluna onde termina a barra horizontal
+    oMainMenu  := HBTopBarMenu():new( 4, 14, 14+13+2 ) //MaxCol() -3 )
     oMainMenu:colorSpec := cMenuColor
  
  

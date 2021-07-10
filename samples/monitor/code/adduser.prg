@@ -6,10 +6,10 @@
 PROCEDURE Hbm_AddUser
 
 //    LOCAL hGet 
-    LOCAL aGrupos :=  { "Funcionário" , ;
-                        "Estudante - Graduação" , ;
-                        "Estudante - Mestrado" , ;
-                        "Estudante - Doutorado" } 
+    LOCAL hGrupos :=  { "FUNCIONARIO" => "Funcionário" , ;
+                        "GRADUACAO" => "Estudante - Graduação" , ;
+                        "MESTRADO" => "Estudante - Mestrado" , ;
+                        "DOUTORADO" => "Estudante - Doutorado" } 
 
     MODULE FORM
 
@@ -27,7 +27,7 @@ PROCEDURE Hbm_AddUser
     FORM ADD MAP "E" NAME "SENHA" VAL SPACE(30) PICT "@X" MESSAGE "Senha" PASSWORD
     FORM ADD MAP "F" NAME "SENHA2" VAL SPACE(30) PICT "@X" MESSAGE "Confirme a senha" PASSWORD
     FORM ADD MAP "G" NAME "GRUPO" VAL 1 MESSAGE "Informe o grupo";
-                         RADIOGROUP WIDTH 30 HEIGHT 5 OPTIONS aGrupos
+                         RADIOGROUP WIDTH 30 HEIGHT 5 OPTIONS hGrupos
     FORM ADD MAP "H" NAME "DIRETORIO" VAL SPACE(40) PICT "@S30" ISREADONLY .T.
     FORM ADD MAP "I" NAME "FONE" VAL SPACE(16) PICT "@R (99) 99999-9999"
     FORM ADD MAP "J" NAME "CELULAR" VAL SPACE(16) PICT "@R (99) 99999-9999"
