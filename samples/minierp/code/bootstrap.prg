@@ -61,6 +61,8 @@ STATIC FUNCTION MyMenu
     LOCAL oCfgTUI := ConfigTUISingleton()
     LOCAL cMenuColor := oCfgTUI:getColorMenu()
 
+set console on
+
     hMenu := { => }
     hMenu[ "[ Cadastros ]" ] := { ;
        { " &Conta corrente ", , "", 11 } ,;
