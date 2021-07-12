@@ -26,14 +26,13 @@ PROCEDURE Hbm_BootStrap
        
        KEYBOARD chr(K_ENTER)
        @ 4, 2 SAY " .: Menu >> "
-       nOpc := MenuModal( oMainMenu, Int( nOpc / 10 ), ;
+       nOpc := MenuModal( oMainMenu,  Int( nOpc / 10 ) , ;
           MaxRow()-1, 2, MaxCol()-2, ;
           oMainMenu:colorSpec )
  
        
        
       DO CASE
- 
          CASE nOpc == -1
                IF Alert("Exit ?",{"Yes","No"})==1
                   EXIT
@@ -42,6 +41,9 @@ PROCEDURE Hbm_BootStrap
             HbmLoad("bancoconta")
          CASE nOpc == 12
             HbmLoad("banco")
+
+         CASE nOpc == 31
+            HbmLoad("conta")
 
 
       OTHERWISE
@@ -60,6 +62,7 @@ STATIC FUNCTION MyMenu
     LOCAL bMenuBlock := {|| NIL } 
     LOCAL oCfgTUI := ConfigTUISingleton()
     LOCAL cMenuColor := oCfgTUI:getColorMenu()
+    LOCAL nLargura := 0, xElem
 
 set console on
 
@@ -68,9 +71,16 @@ set console on
        { " &Conta corrente ", , "", 11 } ,;
        { " Movimentação Bancária" , , "" , 12 } ;
        }
+     hMenu[ "[ Configurações ]" ] := { ;
+       { " &Contas ", , "", 31 } ;
+       }
  
+    FOR EACH xElem IN hMenu
+        nLargura += LEN( xElem:__enumkey() ) + 2
+    NEXT    
+
                                              // Coluna onde termina a barra horizontal
-    oMainMenu  := HBTopBarMenu():new( 4, 14, 14+13+2 ) //MaxCol() -3 )
+    oMainMenu  := HBTopBarMenu():new( 4, 14, 14+nLargura ) //MaxCol() -3 )
     oMainMenu:colorSpec := cMenuColor
  
  
