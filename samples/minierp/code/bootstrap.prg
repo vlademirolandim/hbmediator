@@ -26,7 +26,7 @@ PROCEDURE Hbm_BootStrap
        
        KEYBOARD chr(K_ENTER)
        @ 4, 2 SAY " .: Menu >> "
-       nOpc := MenuModal( oMainMenu,  Int( nOpc / 10 ) , ;
+       nOpc := MenuModal( oMainMenu,  1 , ;
           MaxRow()-1, 2, MaxCol()-2, ;
           oMainMenu:colorSpec )
  
@@ -41,9 +41,12 @@ PROCEDURE Hbm_BootStrap
             HbmLoad("bancoconta")
          CASE nOpc == 12
             HbmLoad("banco")
+         CASE nOpc == 13
+            HbmLoad("fornecedor")
 
          CASE nOpc == 31
             HbmLoad("conta")
+            
 
 
       OTHERWISE
@@ -69,7 +72,8 @@ set console on
     hMenu := { => }
     hMenu[ "[ Cadastros ]" ] := { ;
        { " &Conta corrente ", , "", 11 } ,;
-       { " Movimentação Bancária" , , "" , 12 } ;
+       { " Movimentação Bancária" , , "" , 12 } ,;
+       { " Fornecedor " , , "" , 13 } ;
        }
      hMenu[ "[ Configurações ]" ] := { ;
        { " &Contas ", , "", 31 } ;

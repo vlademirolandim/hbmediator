@@ -1,0 +1,30 @@
+
+      Nome......: [A                                              Nascimento : [O
+
+
+      Endereço..: [B                                                  Bairro : [C 
+
+      Cidade....: [D                                                  Estado : [E
+
+      C.E.P.....: [F
+
+
+
+      E-mails...: [G                                               Telefones : [H
+
+      C.N.P.J...: [I                                      Inscrição Estadual : [J
+	  
+
+      Contato 1 : [K                                           
+
+      Contato 2 : [L
+
+      Observações
+
+      [M
+      [N
+
+      
+    
+
+
