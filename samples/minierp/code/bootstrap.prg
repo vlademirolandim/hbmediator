@@ -16,7 +16,7 @@ PROCEDURE Hbm_BootStrap
    ConfigTUISingleton( cJsonConfig )  
 
    oMainMenu := MyMenu()
-   nOpc := 1
+   //nOpc := 1
    CLS
    SAVE SCREEN TO cTela
    oScreen := VCmd():New()

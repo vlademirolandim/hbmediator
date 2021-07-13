@@ -25,7 +25,7 @@ PROCEDURE Hbm_BootStrap
     FORM VALID Valida
     FORM SHOW
 
-    @ 30,40 SAY "Tecle algo para sair"
+    @ 21,4 SAY "Tecle algo para sair"
     INKEY(0)    
 
 RETURN

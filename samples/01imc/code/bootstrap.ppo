@@ -4,7 +4,7 @@ PROCEDURE Hbm_BootStrap
     LOCAL __oForm__ := VGetCMD():New()
 
  InitConfig( e"{   \"loglevel\": 1,\n    \"logdisplay\": false,\n    \"sysname\":\"Cálculo do IMC\",\n    \"orgname\":\"\",\n    \"deptname\":\"\",\n    \"complement\":\"\",\n    \"address01\":\"\",\n    \"address02\":\"\",\n    \"email\":\"\",\n    \"url\":\"\"\n}" )
- ConfigTUISingleton( e"{   \n\t\"maxrow\":39,\n\t\"maxcol\":128,\n\t\"colortheme\":\"GREEN\"\n}\n" )
+ ConfigTUISingleton( e"{   \n\t\"maxrow\":29,\n\t\"maxcol\":128,\n\t\"colortheme\":\"GREEN\"\n}\n" )
     ConfigSetLogLevel( 4 )
 
 
@@ -21,7 +21,7 @@ __oForm__:setScreenDef(e"     \n      Peso......: [A     \n\n      Altura....: [
     __oForm__:setValid( {|a,b|Valida(a,b)} )
     __oForm__:Show()
 
-    DevPos( 30, 40 ) ; DevOut( "Tecle algo para sair" )
+    DevPos( 21, 4 ) ; DevOut( "Tecle algo para sair" )
     INKEY(0)
 
 RETURN

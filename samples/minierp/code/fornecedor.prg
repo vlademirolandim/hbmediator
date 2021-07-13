@@ -65,8 +65,8 @@ BEGIN FORM FrmFornecedor
     FORM ADD MAP "M" NAME "OBS" VAL SPACE(50)  FIELDNAME "OBS"
     FORM ADD MAP "N" NAME "OBS2" VAL SPACE(50) FIELDNAME "OBS2"
 
-   FORM BEFORE SHOW FornecedorBeforeShow
-   FORM BEFORE SUBMIT FornecedorBeforeSubmit
+  // FORM BEFORE SHOW FornecedorBeforeShow
+  // FORM BEFORE SUBMIT FornecedorBeforeSubmit
 
 //   FORM ADD HIDDEN FIELD "DEBITO" VAL 0
 
@@ -74,7 +74,7 @@ BEGIN FORM FrmFornecedor
 
 END FORM RETURN TO BROWSE
 
-FUNCTION BlockFooter
+static FUNCTION BlockFooter
 
     @ ROW()+1,2 SAY "Contato 1 : " + PADR( FIELD->CONTATO1 , 50 )
     @ ROW()+2,2 SAY "Contato 2 : " + PADR( FIELD->CONTATO2 , 50 )
@@ -90,8 +90,9 @@ BEGIN FORM VALID ValidFrmBanco( hGet )
 RETURN lRet
 */
 
-FUNCTION FornecedorBeforeShow( hGet , hHidden )
 /*
+FUNCTION FornecedorBeforeShow( hGet , hHidden )
+
     if hHidden["DEBITO"] > 0
         hGet["TEXT_VALOR"] := hHidden["DEBITO"]
         hGet["TEXT_TIPO"] := "DEBITO"
@@ -99,12 +100,12 @@ FUNCTION FornecedorBeforeShow( hGet , hHidden )
         hGet["TEXT_VALOR"] := hHidden["CREDITO"]
         hGet["TEXT_TIPO" ] := "CREDITO"
     endif    
-*/
+
 RETURN .T.
 
 FUNCTION FornecedorBeforeSubmit( hGet , hHidden )
 
-/*
+
     if hGet["TEXT_TIPO"] == "DEBITO"
         hHidden["DEBITO"] := hGet["TEXT_VALOR"]
         hHidden["CREDITO"] := 0
@@ -112,8 +113,8 @@ FUNCTION FornecedorBeforeSubmit( hGet , hHidden )
         hHidden["CREDITO"] := hGet["TEXT_VALOR"]
         hHidden["DEBITO"] := 0
     endif    
-*/
+
 
 RETURN .T.
-
+*/
 
