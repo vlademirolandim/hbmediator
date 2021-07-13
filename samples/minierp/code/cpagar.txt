@@ -1,0 +1,19 @@
+     
+      Data Conta.: [A
+
+      Vencimento.: [B
+
+      Fornecedor.: [C       [H
+
+      Conta......: [D       [I
+
+      Valor.....: [E               
+	  
+      Descrição.: [F                                           
+
+      Observação: [G
+
+      
+    
+
+

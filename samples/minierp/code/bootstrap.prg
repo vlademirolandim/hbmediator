@@ -43,7 +43,8 @@ PROCEDURE Hbm_BootStrap
             HbmLoad("banco")
          CASE nOpc == 13
             HbmLoad("fornecedor")
-
+         CASE nOpc == 21
+            HbmLoad("cpagar")
          CASE nOpc == 31
             HbmLoad("conta")
             
@@ -75,6 +76,12 @@ set console on
        { " Movimentação Bancária" , , "" , 12 } ,;
        { " Fornecedor " , , "" , 13 } ;
        }
+       
+     hMenu[ "[ Movimentações ]" ] := { ;
+       { " Contas a pagar ", , "", 21 } ;
+       }
+ 
+       
      hMenu[ "[ Configurações ]" ] := { ;
        { " &Contas ", , "", 31 } ;
        }
