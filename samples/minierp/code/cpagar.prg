@@ -69,13 +69,13 @@ BEGIN FORM FrmCPagar
               ALIGNS { "LEFT" }
 
     TEXT SQL TO cSQL
-        SELECT  distinct nome as nome_conta  
-        FROM conta 
+        SELECT  id, nome as nome_conta  
+        FROM conta WHERE tipoconta='D' 
     ENDTEXT
 
-    FORM SEARCH "Conta_ID" KEY "ID" CONNECT "MINIERP"  QUERY cSQL WHERE "WHERE CONTA_ID=#1" ;
+    FORM SEARCH "Conta_ID" KEY "ID" CONNECT "MINIERP"  QUERY cSQL WHERE " and ID=#1" ;
       RETURN "NOME_CONTA" TO "NomeConta" ;
-      GRID WHERE "Where tipoconta='D' and nome_conta LIKE '%#1%'" FIELDS { 'nome_conta' } ;
+      GRID WHERE " and nome_conta LIKE '%#1%'" FIELDS { 'nome_conta' } ;
               CAPTIONS { 'Conta' } ;
               WIDTHS { "100%" } ;
               ALIGNS { "LEFT" }
@@ -84,7 +84,7 @@ BEGIN FORM FrmCPagar
 
 END FORM RETURN TO BROWSE
 
-FUNCTION BlockFooter
+STATIC FUNCTION BlockFooter
 
     //@ ROW()+1,2 SAY "Banco : " + PADR( FIELD->BANCO_NOME , 50 )
 

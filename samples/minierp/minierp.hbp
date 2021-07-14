@@ -7,6 +7,7 @@ code/banco.prg
 code/bancoconta.prg
 code/bootstrap.prg
 code/conta.prg
+code/cpagar.prg
 code/fornecedor.prg
 #EndBlockMain
 
