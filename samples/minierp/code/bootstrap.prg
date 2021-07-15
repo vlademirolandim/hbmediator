@@ -43,10 +43,14 @@ PROCEDURE Hbm_BootStrap
             HbmLoad("banco")
          CASE nOpc == 13
             HbmLoad("fornecedor")
+         CASE nOpc == 14
+            HbmLoad("cliente")
          CASE nOpc == 21
             HbmLoad("cpagar")
          CASE nOpc == 31
             HbmLoad("conta")
+         CASE nOpc == 32
+            HbmLoad("formapagamento")
             
 
 
@@ -74,7 +78,8 @@ set console on
     hMenu[ "[ Cadastros ]" ] := { ;
        { " &Conta corrente ", , "", 11 } ,;
        { " Movimentação Bancária" , , "" , 12 } ,;
-       { " Fornecedor " , , "" , 13 } ;
+       { " Fornecedor " , , "" , 13 } ,;
+       { " Cliente " , , "" , 14 } ;
        }
        
      hMenu[ "[ Movimentações ]" ] := { ;
@@ -83,7 +88,8 @@ set console on
  
        
      hMenu[ "[ Configurações ]" ] := { ;
-       { " &Contas ", , "", 31 } ;
+       { " &Contas ", , "", 31 } ,;
+       { " Forma de pagamento ", , "", 32 } ;
        }
  
     FOR EACH xElem IN hMenu

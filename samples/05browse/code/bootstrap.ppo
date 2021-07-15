@@ -35,8 +35,8 @@ STATIC FUNCTION FrmEmp( __oForm__ )
 __oForm__:setScreenDef(e"     \n      Code.....: [A     \n\n      Name.....: [B  \n\n\t  \n\t  \n\t \n    \n\n\n")
     __oForm__:setRowBegin(14);__oForm__:setColBegin(30)
 
-    __oForm__:addMapControl( "A" , "Text_EmpNo" , 0 , "@r 99999" , , , "EMPNO" , IIF( __oForm__:getOper() == "A" , .T. , .F. ) , "Type code employee" )
-    __oForm__:addMapControl( "B" , "Text_Ename" , "" , "@X" , 30 , , "ENAME" , , "Type name employee" )
+    __oForm__:addMapControl( "A" , "Text_EmpNo" , 0 , "@r 99999" , , , "EMPNO" , IIF( __oForm__:getOper() == "A" , .T. , .F. ) , "Type code employee" , )
+    __oForm__:addMapControl( "B" , "Text_Ename" , "" , "@X" , 30 , , "ENAME" , , "Type name employee" , )
 
 RETURN __oForm__
 

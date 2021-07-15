@@ -70,7 +70,7 @@ BEGIN FORM FrmCPagar
 
     TEXT SQL TO cSQL
         SELECT  id, nome as nome_conta  
-        FROM conta WHERE tipoconta='D' 
+        FROM conta WHERE tipoconta='D'
     ENDTEXT
 
     FORM SEARCH "Conta_ID" KEY "ID" CONNECT "MINIERP"  QUERY cSQL WHERE " and ID=#1" ;

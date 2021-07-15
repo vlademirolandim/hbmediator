@@ -1,0 +1,22 @@
+     
+      Data......: [A
+
+      Conta.....: [B        [C
+
+      Tipo......: [D
+
+
+
+
+
+
+      Valor.....: [E               
+	  
+      Descrição.: [F                                           
+
+      Observação: [G
+
+      
+    
+
+
