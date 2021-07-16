@@ -2,6 +2,7 @@
 #include "vdata.ch"
 #include "form.ch"
 #include "vdata.ch"
+#include "code/cliente.prg"
 
 procedure HBM_Venda
 
@@ -48,6 +49,7 @@ BEGIN FORM FrmVenda
 
     FORM SEARCH "Cliente" KEY "ID" CONNECT "MINIERP"  QUERY "SELECT * FROM CLIENTE" WHERE "WHERE ID=#1" ;
       RETURN "NOME" TO "NOMe" ;
+      FORM TITLE "tITU" TABLE "cliente" BLOCK FrmCliente ;
       GRID WHERE "Where nome LIKE '%#1%'" FIELDS { 'nome' } ;
               CAPTIONS { 'Cliente' } ;
               WIDTHS { "100%" } ;
