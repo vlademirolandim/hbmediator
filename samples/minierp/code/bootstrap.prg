@@ -47,6 +47,8 @@ PROCEDURE Hbm_BootStrap
             HbmLoad("cliente")
          CASE nOpc == 21
             HbmLoad("cpagar")
+         CASE nOpc == 23
+            HbmLoad("venda")
          CASE nOpc == 31
             HbmLoad("conta")
          CASE nOpc == 32
@@ -83,7 +85,8 @@ set console on
        }
        
      hMenu[ "[ Movimentações ]" ] := { ;
-       { " Contas a pagar ", , "", 21 } ;
+       { " Contas a pagar ", , "", 21 }, ;
+       { " Vendas ", , "" , 23 } ;
        }
  
        

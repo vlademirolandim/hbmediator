@@ -1,0 +1,16 @@
+     
+      Data......: [A
+
+      Cliente...: [B        [C
+
+      Descrição.: [D
+
+      Valor.....: [E               
+	  
+      Observação: [F                                           
+
+
+      
+    
+
+
