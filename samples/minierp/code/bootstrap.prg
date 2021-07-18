@@ -3,19 +3,40 @@
 #include "inkey.ch"
 
 PROCEDURE Hbm_BootStrap
-   LOCAL cJsonConfig, cConfig AS CHARACTER
    LOCAL oMainMenu
    LOCAL nOpc
    LOCAL oScreen
    LOCAL cTela
+   LOCAL hMenu
 
-   #pragma __streaminclude "config.json" | cConfig := %s // Compile time
-   CONFIG INIT cConfig
+    hMenu := { => }
+    hMenu[ "[ Cadastros ]" ] := { ;
+       { " &Conta corrente ", , "", 11 } ,;
+       { " Movimentação Bancária" , , "" , 12 } ,;
+       { " Fornecedor " , , "" , 13 } ,;
+       { " Cliente " , , "" , 14 } ;
+       }
+       
+     hMenu[ "[ Movimentações ]" ] := { ;
+       { " Contas a pagar ", , "", 21 }, ;
+       { " Vendas ", , "" , 23 } ;
+       }
+ 
+       
+     hMenu[ "[ Configurações ]" ] := { ;
+       { " &Contas ", , "", 31 } ,;
+       { " Forma de pagamento ", , "", 32 } ;
+       }
+ 
+   CONFIG INIT FILE "config.json" COMPILE
+   CONFIG INIT TUI FILE "tui.json" COMPILE
    CONFIG LOG LEVEL ERROR
-   #pragma __streaminclude "tui.json" | cJsonConfig := %s // Compile time
-   ConfigTUISingleton( cJsonConfig )  
 
-   oMainMenu := MyMenu()
+
+
+
+   oMainMenu := __HBM_Menu_Item( hMenu )
+ //  __HBM_Menu_Show( oMainMenu )
    //nOpc := 1
    CLS
    SAVE SCREEN TO cTela
@@ -64,9 +85,9 @@ PROCEDURE Hbm_BootStrap
 RETURN
 
 #include "fcmd.ch"
-STATIC FUNCTION MyMenu
+STATIC FUNCTION __HBM_Menu_Item( hMenu )
 
-    LOCAL oMainMenu, hMenu
+    LOCAL oMainMenu
     LOCAL hElement
     LOCAL aItem, oItem, oSubMenu    
     LOCAL bMenuBlock := {|| NIL } 
@@ -74,27 +95,7 @@ STATIC FUNCTION MyMenu
     LOCAL cMenuColor := oCfgTUI:getColorMenu()
     LOCAL nLargura := 0, xElem
 
-set console on
 
-    hMenu := { => }
-    hMenu[ "[ Cadastros ]" ] := { ;
-       { " &Conta corrente ", , "", 11 } ,;
-       { " Movimentação Bancária" , , "" , 12 } ,;
-       { " Fornecedor " , , "" , 13 } ,;
-       { " Cliente " , , "" , 14 } ;
-       }
-       
-     hMenu[ "[ Movimentações ]" ] := { ;
-       { " Contas a pagar ", , "", 21 }, ;
-       { " Vendas ", , "" , 23 } ;
-       }
- 
-       
-     hMenu[ "[ Configurações ]" ] := { ;
-       { " &Contas ", , "", 31 } ,;
-       { " Forma de pagamento ", , "", 32 } ;
-       }
- 
     FOR EACH xElem IN hMenu
         nLargura += LEN( xElem:__enumkey() ) + 2
     NEXT    

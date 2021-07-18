@@ -6,8 +6,11 @@ isql.prg
 code/banco.prg
 code/bancoconta.prg
 code/bootstrap.prg
+code/cliente.prg
 code/conta.prg
 code/cpagar.prg
+code/formapagamento.prg
 code/fornecedor.prg
+code/venda.prg
 #EndBlockMain
 

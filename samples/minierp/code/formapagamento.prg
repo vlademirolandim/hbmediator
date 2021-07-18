@@ -62,7 +62,7 @@ STATIC FUNCTION BlockFooter
 
 RETURN NIL
 
-FUNCTION FormaPagamentoBeforeShow( hGet , hHidden )
+FUNCTION FormaPagamentoBeforeShow( hGet ) //, hHidden )
 
     if hGet["entrada"] == 0
         hGet["entrada"] := .f.
@@ -72,7 +72,7 @@ FUNCTION FormaPagamentoBeforeShow( hGet , hHidden )
 
 RETURN .T.
 
-FUNCTION FormaPagamentoBeforeSubmit( hGet , hHidden )
+FUNCTION FormaPagamentoBeforeSubmit( hGet ) //, hHidden )
 
     if hGet["entrada"] 
         hGet["entrada"] := 1

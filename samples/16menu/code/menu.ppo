@@ -1,0 +1,232 @@
+#line 28 "code/menu.prg"
+function hbm_menu()
+   local oInfo
+
+
+   SET( 39, ( 128 + 1 + 2 + 4 + 8 + 16 + 32 + 64 ) )
+
+
+   msetcursor(.T.)
+
+
+   Scroll() ; SetPos( 0, 0 )
+
+
+   oInfo=MENU_Create()
+
+
+   while MenuModal(oInfo,1,24,1,79,"r/w") <> 999
+   ENDDO
+
+   return(NIL)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function MENU_Create()
+
+   LOCAL oTopBar, oPopUp, oItem, oPopUp1
+   local oCfg := ConfigTUISingleton()
+
+
+
+      oTopBar := TopBar( 0, 0, 78 )
+      oTopBar:ColorSpec :=  "b/w,gr+/rb,r/w,g/rb,n+/w,w+/b"
+
+
+
+      oPopUp := PopUp()
+      oPopUp :ColorSpec:= "b/w,gr+/rb,r/w,g/rb,n+/w,w+/b"
+
+      oTopBar:AddItem( MenuItem( "&File" , oPopUp ) )
+
+
+
+
+
+      oItem :=MenuItem( "&New" ,{||MyCreateFile()} , 14 , "Create new file" ) ; oItem:Checked := .T. ;oPopUp:AddItem( oItem )
+      oItem :=MenuItem( "&New" ,{||MyCreateFile()} , 14 , "Create new file" ) ; oItem:Enabled := ! .T. ;oPopUp:AddItem( oItem )
+      oPopUp1 := PopUp();oItem := MenuItem( "Popup" , oPopUp1 );oPopUp:AddItem( oItem )
+      oItem :=MenuItem( "&Popup New" ,{||MyCreateFile()} , 14 , "Create new file" );oPopUp1:AddItem( oItem )
+      oItem :=MenuItem( "&Popup New" ,{||MyCreateFile()} , 14 , "Create new file" );oPopUp1:AddItem( oItem )
+
+
+
+
+
+      oItem :=MenuItem( "&Open..." ,{|| MyOpenFile() }, 15,"Open a file")
+      oPopUp:AddItem( oItem)
+
+
+      oItem :=MenuItem( "Sa&ve" ,{|| MySaveFile() }, 22,"Save a file")
+
+
+      oItem:Enabled := .F.
+      oPopUp:AddItem( oItem)
+
+
+
+      oPopUp:AddItem( MenuItem( Chr( 196 ) ) )
+
+
+      oItem :=MenuItem( "&Print..." ,{|| MyPrintFile() }, 16,"Print a file")
+
+      oItem:Enabled := .F.
+      oPopUp:AddItem( oItem)
+
+
+
+      oPopUp:AddItem( MenuItem( Chr( 196 ) ) )
+
+
+      oItem :=MenuItem( "E&xit" ,{|| .T. }, -33,"End of application", 999)
+      oPopUp:AddItem( oItem)
+
+
+
+
+      oPopUp := PopUp()
+      oPopUp :ColorSpec:= "b/w,gr+/rb,r/w,g/rb,n+/w,w+/b"
+      oTopBar:AddItem( MenuItem ( "&Edit",oPopUp) )
+
+
+      oItem :=MenuItem( "&Undo" ,{|| MyUndo() }, 26,"Reverse changes made to this file")
+      oPopUp:AddItem( oItem)
+
+
+      oItem :=MenuItem( "Cu&t" ,{|| MyCut() }, 24,"Cut to clipboard")
+      oPopUp:AddItem( oItem)
+
+
+      oItem :=MenuItem( "&Copy" ,{|| MyCopy() }, 3,"Copy to clipboard")
+      oPopUp:AddItem( oItem)
+
+
+      oItem :=MenuItem( "&Paste" ,{|| MyPaste() }, 22,"Paste from clipboard")
+      oPopUp:AddItem( oItem)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      oPopUp:AddItem( MenuItem( Chr( 196 ) ) )
+
+
+
+      oItem :=MenuItem( "&Find..." ,{|| MySearch() }, -32,"Search for text")
+      oPopUp:AddItem( oItem)
+
+
+      oPopUp := PopUp()
+      oPopUp:ColorSpec:= "b/w,gr+/rb,r/w,g/rb,n+/w,w+/b"
+      oTopBar:AddItem( MenuItem ( "&Options",oPopUp) )
+
+
+
+      oItem :=MenuItem( "AutoSave" ,{|| MyAutoSave() },,"Toggle auto save preference")
+
+
+
+      oItem:Checked := .T.
+      oPopUp:AddItem( oItem)
+
+
+
+      oItem :=MenuItem( "Tab Stops..." ,{|| MyTabStops() },,"Set number of spaces for tab stops")
+      oPopUp:AddItem( oItem)
+
+
+
+   return ( oTopBar)
+
+
+
+
+
+
+FUNCTION MyCreateFile()
+RETURN NIL
+
+FUNCTION MyOpenFile()
+RETURN NIL
+
+FUNCTION MySaveFile()
+RETURN NIL
+
+FUNCTION MyPrintFile()
+RETURN NIL
+
+FUNCTION MyUndo()
+RETURN NIL
+
+FUNCTION MyCut()
+RETURN NIL
+
+FUNCTION MyCopy()
+RETURN NIL
+
+FUNCTION MyPaste()
+RETURN NIL
+
+FUNCTION MyGoToLine()
+RETURN NIL
+
+FUNCTION MyGoTop()
+RETURN NIL
+
+FUNCTION MyGoBottom()
+RETURN NIL
+
+FUNCTION MySearch()
+RETURN NIL
+
+FUNCTION MyAutoSave()
+RETURN NIL
+
+FUNCTION MyTabStops()
+RETURN NIL

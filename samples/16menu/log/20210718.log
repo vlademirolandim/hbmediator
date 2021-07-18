@@ -1,0 +1,3575 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210718 02:54:57
+***************************** END LOG HEADER **************************************
+
+20210718 - 02:54:57 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'vbase.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:54:57 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:56:11 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'vbase.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:56:11 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:57:15 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'config.json'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:57:15 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:57:47 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/menu.prg : Compilation error : Can't open #include file 'button.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:57:47 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/menu.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:57:47 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:57:47 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:58:15 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:58:15 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:58:15 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:58:15 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:59:22 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:59:22 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:59:22 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:59:22 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:01:11 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:01:11 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:01:11 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:01:11 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:01:11 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_menu"
+ Description :  "Message not found"
+ Operation   :  "VCONFIGTUI:GETMENUCOLOR"
+INSIDE ROUTINE : hbm_menu(  )
+ ARGS : __itemSetObj( {{{"NMAXROW", 39}, {"NMAXCOL", 118}, {"NCOLLEFT", 0}, {"NCOLRIGHT", 118}, {"CCOLORMENU", "N/G,G+/N,  ,GR+/N ,  ,N/G"}, {"CCOLORDEFAULT", "G/N,N/G, ,N/G+ ,N/G+"}, {"CCOLORDEFAULTINVERSE", "N/G,N/G, ,G+/N ,G+/N"}, {"CCOLORBUTTON", "N/BG"}, {"CCOLORRETURNFIELD", "BG/N"}, {"CCOLORREADONLY", "R+/N"}, {"CCOLORWARNING", "R+/N"}, {"CCOLORBUTTONWARNING", "W/R+"}, {"CCOLORHEAD", "GR+/N"}, {"CCOLORTEXTATTENTION", "GR+/N"}, {"CCOLORALERT", "R+/N"}, {"CCOLORSEARCH", "G/N,N/G, , , ,N/GR+"}, {"CCOLORTHEME", "GREEN"}, {"CCOLORGET", "G/N,N/G, ,N/G+ ,N/G,N/G+"}, {"CCOLORGETPASSWORD", "W/W,W/W,,,W/W"}, {"CCOLORGETDROPDOWN", "G/N,G/N,G/N,N/G,N/N+,G/N,GR+/N,GR+/N"}, {"CCOLORGETLISTBOX", "G/N,N/G,G/N,N/G,N/N+,G/N,GR+/N"}, {"CCOLORGETRADIOGROUP", "N/N+,G/N,GR+/N"}, {"NROWTOPHEAD", 0}, {"NROWBOTTOMHEAD", 3}, {"NROWTOPCONTENT", 4}, {"NROWBOTTOMCONTENT", 36}, {"NROWTOPFOOTER", 37}, {"NROWBOTTOMFOOTER", 39}, {"CCOLORSAY", "GR+/N"}, {"CCOLORGETRADIOGROUPITEMS", "G/N,G/N,G/N,N/G,N/N+,G/N,GR+/N"}, {"CCOLORGETCHECKBOX", "G/N,N/G,G/N,GN/N"}}}, {{"VCONFIGTUI",{1}}} )
+ GENCODE : 13
+ FILENAME : ""
+ OPERATION : "VCONFIGTUI:GETMENUCOLOR"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:01:11 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:01:11 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:01:11 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:02:03 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:02:03 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:02:03 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:02:03 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:02:25 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:02:25 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:02:25 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:02:25 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:02:53 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:02:53 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:02:53 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:02:53 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:04:35 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:04:35 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:04:35 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:04:35 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:05:01 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:05:01 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:05:01 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:05:01 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:05:39 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:05:39 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:05:39 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:05:39 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:18:43 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:18:43 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:18:43 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:18:43 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:19:33 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:19:33 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:19:33 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:19:33 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:20:17 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:20:17 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:20:17 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:20:17 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:20:26 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:20:26 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:20:26 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:20:26 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:21:02 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:21:02 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:21:02 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:21:02 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:21:07 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:21:07 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:21:07 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:21:07 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:23:37 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:23:37 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:23:37 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:23:37 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:23:42 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:23:42 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:23:42 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:23:42 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:02 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:02 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:02 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:02 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:10 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:10 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:11 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:11 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:33 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:33 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:33 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:33 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:34 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:34 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:34 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:26:34 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:29:22 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:29:22 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:29:22 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:29:22 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:29:26 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:29:26 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:29:26 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:29:26 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:32:11 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:32:11 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:32:11 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:32:11 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:32:14 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:32:14 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:32:14 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:32:14 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:38:32 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:38:32 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:38:32 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:38:32 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:38:40 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:38:40 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:38:40 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:38:40 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:38:59 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:38:59 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:38:59 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:38:59 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:39:09 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:39:09 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:39:09 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:39:09 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:21 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:21 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:21 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:21 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:25 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:25 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:25 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:25 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:33 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:33 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:33 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:33 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:37 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_menu"
+ Description :  "Vari vel nÆo existe"
+ Operation   :  "MYCREATEFILE"
+INSIDE ROUTINE : hbm_menu(  )
+ ARGS : NIL
+ GENCODE : 14
+ FILENAME : ""
+ OPERATION : "MYCREATEFILE"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:37 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:37 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:37 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:40 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:40 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:40 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:40 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:45 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:45 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:45 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:41:45 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:43:59 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/menu.prg : Compilation error : Unknown result marker in #translate/#command
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:43:59 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/menu.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:43:59 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:43:59 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:20 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:20 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:20 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:20 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:24 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:25 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:25 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:25 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:47 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:47 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:47 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:47 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:54 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:54 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:54 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:45:54 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:01:24 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:01:24 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:01:24 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:01:24 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:01:40 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:01:40 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:01:40 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:01:40 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:03:53 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:03:53 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:03:53 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:03:53 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:03:59 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:03:59 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:03:59 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:03:59 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:04:12 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:04:12 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:04:12 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:04:12 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:04:18 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:04:18 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:04:18 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:04:18 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:06:45 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:06:45 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:06:45 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:06:45 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:06:54 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_menu"
+ Description :  "Vari vel nÆo existe"
+ Operation   :  "MYCREATEFILE"
+INSIDE ROUTINE : hbm_menu(  )
+ ARGS : NIL
+ GENCODE : 14
+ FILENAME : ""
+ OPERATION : "MYCREATEFILE"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:06:54 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:06:54 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:06:54 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:06:55 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:06:55 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:06:55 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:06:55 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:07:04 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_menu"
+ Description :  "Vari vel nÆo existe"
+ Operation   :  "MYCREATEFILE"
+INSIDE ROUTINE : hbm_menu(  )
+ ARGS : NIL
+ GENCODE : 14
+ FILENAME : ""
+ OPERATION : "MYCREATEFILE"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:07:05 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:07:05 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:07:05 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:09:23 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:09:23 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:09:23 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:09:23 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:09:28 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_menu"
+ Description :  "Vari vel nÆo existe"
+ Operation   :  "MYCREATEFILE"
+INSIDE ROUTINE : hbm_menu(  )
+ ARGS : NIL
+ GENCODE : 14
+ FILENAME : ""
+ OPERATION : "MYCREATEFILE"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:09:28 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:09:28 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:09:28 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:21:22 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:21:22 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:21:22 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:21:22 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:21:34 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_menu"
+ Description :  "Vari vel nÆo existe"
+ Operation   :  "MYCREATEFILE"
+INSIDE ROUTINE : hbm_menu(  )
+ ARGS : NIL
+ GENCODE : 14
+ FILENAME : ""
+ OPERATION : "MYCREATEFILE"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:21:34 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:21:34 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:21:34 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:22:43 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:22:43 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:22:43 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:22:43 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:22:52 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:22:52 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:22:52 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:22:52 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:25:14 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:25:14 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:25:14 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:25:14 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:25:22 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:25:22 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:25:22 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:25:22 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:25:41 >>  [INFO] After compile file code/menu.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:25:41 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(207)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:25:41 >>  [INFO] Before load buffer. Function : hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(427)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:25:41 >>  [INFO] Before execute function hbm_menu
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:26:19 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:26:19 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(9)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:26:19 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 04:26:19 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
