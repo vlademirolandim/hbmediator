@@ -2,7 +2,7 @@
 PROCEDURE Hbm_BootStrap
 
  InitConfig( e"{   \"loglevel\": 1,\n    \"logdisplay\": false,\n    \"sysname\":\"Cálculo do IMC\",\n    \"orgname\":\"\",\n    \"deptname\":\"\",\n    \"complement\":\"\",\n    \"address01\":\"\",\n    \"address02\":\"\",\n    \"email\":\"\",\n    \"url\":\"\"\n}" )
- ConfigTUISingleton( e"{   \n\t\"maxrow\":39,\n\t\"maxcol\":118,\n\t\"colortheme\":\"GREEN\"\n}\n" )
+ ConfigTUISingleton( e"{   \n\t\"maxrow\":29,\n\t\"maxcol\":118,\n\t\"colortheme\":\"GREEN\"\n}\n" )
     ConfigSetLogLevel( 4 )
 
     HbmLoad( "menu" )
