@@ -1,7 +1,7 @@
 #line 9 "code/menu.prg"
 function hbm_menu()
 
-   LOCAL __oTopBar, __oPopUp, __oItem, ____oPopUp1, __oCfg := ConfigTUISingleton(),__oScreen := Vcmd():New()
+   LOCAL __oTopBar, __oPopUp, __oItem, ____oPopUp1, __oCfg , __oScreen
 
    SET( 39, ( 128 + 1 + 2 + 4 + 8 + 16 + 32 + 64 ) )
 
@@ -12,7 +12,7 @@ function hbm_menu()
 
 
 
-      __oTopBar := TopBar( __oCfg:getRowBottomHead()+1, __oCfg:getColLeft()+2, __oCfg:getMaxCol()-3 ); __oTopBar:ColorSpec := __oCfg:getColorMenu();____oPopUp1 := PopUp();____oPopUp1:cargo := ""
+      __oCfg := ConfigTUISingleton();__oScreen := Vcmd():New();__oTopBar := TopBar( __oCfg:getRowBottomHead()+1, __oCfg:getColLeft()+2, __oCfg:getMaxCol()-3 ); __oTopBar:ColorSpec := __oCfg:getColorMenu();____oPopUp1 := PopUp();____oPopUp1:cargo := ""
       __oPopUp := PopUp();__oPopUp:ColorSpec := __oCfg:getColorMenu();__oTopBar:AddItem( MenuItem( "&File" , __oPopUp ) )
       __oItem :=MenuItem( "&New" ,{||MyCreateFile()} , 14 , "Create new file" , ) ; __oItem:Checked := .T. ;__oPopUp:AddItem( __oItem )
       __oItem :=MenuItem( "&New" ,{||MyCreateFile()} , 14 , "Create new file" , ) ; __oItem:Enabled := ! .T. ;__oPopUp:AddItem( __oItem )

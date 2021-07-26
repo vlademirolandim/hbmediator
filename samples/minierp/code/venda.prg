@@ -1,7 +1,9 @@
 #include "vbase.ch"
 #include "vdata.ch"
 #include "form.ch"
-//#include "code/cliente.prg"
+#ifndef COMPILE_MODE
+#include "code/cliente.prg"
+#endif
 
 procedure HBM_Venda
 

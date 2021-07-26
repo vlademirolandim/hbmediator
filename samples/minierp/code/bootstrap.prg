@@ -16,6 +16,7 @@ PROCEDURE Hbm_BootStrap
    MENU ADD SUBITEM " Movimentação Bancária " BLOCK {||HbmLoad("banco")} MESSAGE "Movimentação bancária"
    MENU ADD SUBITEM " Fornecedor " BLOCK {||HbmLoad("fornecedor")} MESSAGE "Cadastro de fornecedor"
    MENU ADD SUBITEM " Cliente " BLOCK {||HbmLoad("cliente")} MESSAGE "Cadastro de cliente"
+   MENU ADD SUBITEM " Categorias de Produto " BLOCK {||HbmLoad("produtocategoria")} MESSAGE "Categoria de produtos"
 
    MENU ADD ITEM "[ Movimentações ]" 
    MENU ADD SUBITEM " Contas a pagar " BLOCK {||HbmLoad("cpagar")} MESSAGE "Contas a pagar"

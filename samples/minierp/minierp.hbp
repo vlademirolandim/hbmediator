@@ -1,6 +1,7 @@
 #IniBlock=Main
 #Automatic=Yes
 hbmediator.hbc
+-dCOMPILE_MODE
 minierp.prg
 isql.prg
 code/banco.prg
