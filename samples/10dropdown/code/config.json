@@ -1,6 +1,6 @@
 {   "loglevel": 1,
     "logdisplay": false,
-    "sysname":"Cálculo do IMC",
+    "sysname":"Dropdown",
     "orgname":"",
     "deptname":"",
     "complement":"",
@@ -8,4 +8,4 @@
     "address02":"",
     "email":"",
     "url":""
-}
+}

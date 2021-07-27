@@ -20,7 +20,7 @@ PROCEDURE Hbm_BootStrap
 
     FORM ADD MAP "A" NAME "Text_Name" VAL SPACE(10)  MESSAGE "Name"   
     FORM ADD MAP "B" NAME "Text_Surname" VAL SPACE(10) MESSAGE "Surname"   
-    FORM ADD MAP "C" NAME "Text_Color" VAL "" MESSAGE "Favorite color" DROPDOWN WIDTH 10 HEIGHT 5 OPTIONS { "Yellow" , "Blue" , "Green" , "Cyan" }
+    FORM ADD MAP "C" NAME "Text_Color" MESSAGE "Favorite color" DROPDOWN WIDTH 10 HEIGHT 5 OPTIONS { "YELLOW" => "Yellow" , "BLUE" => "Blue" , "GREEN" => "Green" , "CYAN" => "Cyan" }
     
     FORM RETURN GETS TO hGets  
 

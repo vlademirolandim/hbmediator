@@ -1,7 +1,0 @@
-#line 5 "{SOURCE}.prg"
-PROCEDURE Hbm_BootStrap
-
-    LOCAL cContent ,x
-    LOCAL cExec := SPACE(2000)
-    LOCAL GetList := {}
-

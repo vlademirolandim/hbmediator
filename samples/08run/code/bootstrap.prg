@@ -26,6 +26,7 @@ PROCEDURE Hbm_BootStrap
        FOR x := 1 TO LEN( aContent )
           @ 13+x,10 say aContent[x]
        NEXT   
+       INKEY(0)
 
     ENDIF   
 

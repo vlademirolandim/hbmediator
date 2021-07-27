@@ -1,6 +1,6 @@
 {   "loglevel": 1,
     "logdisplay": false,
-    "sysname":"Cálculo do IMC",
+    "sysname":"TUI",
     "orgname":"",
     "deptname":"",
     "complement":"",

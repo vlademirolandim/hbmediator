@@ -23,6 +23,7 @@ PROCEDURE Hbm_BootStrap
        FOR x := 1 TO LEN( aContent )
           DevPos( 13+x, 10 ) ; DevOut( aContent[x] )
        NEXT
+       INKEY(0)
 
     ENDIF
 

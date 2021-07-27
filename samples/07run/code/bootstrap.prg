@@ -25,6 +25,7 @@ PROCEDURE Hbm_BootStrap
        EXEC RUN cExec PARAMETERS cParam1, cParam2 ERROR cError TO cContent 
        @ 15,10 say "RETURN : " + cContent
        @ 16,10 say "ERROR : " + cError
+       INKEY(0)
     ENDIF   
 
 RETURN
