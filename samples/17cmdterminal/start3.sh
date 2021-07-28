@@ -12,8 +12,10 @@ PROCEDURE Hbm_CGI
 
     SET CONSOLE ON
 
+    hb_SetEnv( "TESTE" , "mSnQQuuu3G9WqM4T8JpQtCXmhg3oZeplcYe6DyQAl/7N2L3yaK+2BWGiEVMqdia46eadisIxEys=" ) 
+
     USE EMP ;
-       USING CONNECT "TESTE" ;
+       USING CONNECT "TESTE" MEMORY ;
        QUERY "SELECT * FROM EMP"
 
     ? "DBF simulation (but database is sqlite)"
