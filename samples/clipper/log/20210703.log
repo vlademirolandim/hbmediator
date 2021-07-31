@@ -1,0 +1,34 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210703 21:15:03
+***************************** END LOG HEADER **************************************
+
+20210703 - 21:15:03 >>  [ERROR] (CODE:20200625114554) Function : hbm_41listbox() not found in buffer compiled
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(470)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(83)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210703 - 21:16:21 >>  [ERROR] (CODE:20200625114554) Function : hbm_41listbox() not found in buffer compiled
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(470)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(83)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+

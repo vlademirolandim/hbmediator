@@ -1,4 +1,0 @@
-{
-	"flagcomp": [ "-n" , "-m" , "-w1" , "-es2" ,  "-Ic:\\projetos\\sistemas23\\include" , "-I/home/vlademiro/sistemas/sistemas23/include" , "-I/usr/local/include/harbour" ],
-    "exename":"sample"
-}

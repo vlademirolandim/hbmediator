@@ -1,0 +1,12 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210730 04:12:23
+***************************** END LOG HEADER **************************************
+
+20210730 - 04:12:23 >>  [ERROR] Compilation error: Can't open #include file 'vbase.ch'
+
+# Called from : 
+VEXECUTE:EXECFROMCGI(436)  
+EXECCGI(83)  
+MAIN(74)  
+###################
+

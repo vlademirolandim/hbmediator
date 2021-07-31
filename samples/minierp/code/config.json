@@ -8,5 +8,6 @@
     "address02":"",
     "email":"",
     "url":"",
-	"codepage":"UTF8EX"
+	"codepage":"UTF8EX",
+    "databaseTypeConnection":"FILE"
 }

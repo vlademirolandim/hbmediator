@@ -1,0 +1,2444 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210731 03:37:57
+***************************** END LOG HEADER **************************************
+
+20210731 - 03:37:57 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(15)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(84)  
+MAIN(75)  
+###################
+
+20210731 - 03:37:57 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(15)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(84)  
+MAIN(75)  
+###################
+
+20210731 - 03:37:57 >>  [INFO] Mounted query : SELECT * FROM FAIXA / Original : SELECT * FROM FAIXA, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(15)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(84)  
+MAIN(75)  
+###################
+
+20210731 - 03:37:57 >>  [INFO] Mounted query : SELECT * FROM FAIXA / Original : SELECT * FROM FAIXA, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(15)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(84)  
+MAIN(75)  
+###################
+
+20210731 - 03:38:14 >>  [INFO] After compile file code/faixa.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:38:14 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:38:14 >>  [INFO] Before load buffer. Function : hbm_faixa
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(503)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:38:14 >>  [INFO] Before execute function hbm_faixa
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(525)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:38:14 >>  [ERROR] (CODE:20200710015211) Database identify (id: DATANET) not found. Datasource name: Y\¢wâ‚êÚ¶*'²…†MK¦ºS”±ˆõÂ¥NbÓyóØ—£±Ž”JHx)_xèÊür¥+EÉ
+šw©ü<ï…*††Žu†-\Z)‰µö‹³´+«åƒ½|ÿyBè™÷g#¿{HÔùáÚœ!¿'/Nú º! K”,ªütP>¦æ )QÀ}q!òÕÝg/ˆÐuR:Ž¬íPØíä×SðšCˆû»då.=ž)iR RÏBõdˆðkGD(!X|30ŸS_Ð»1ŠS_öjF—ÛFª”3$%ðø!_fß·š×r;@Ïµ=dK}íÿ±½• Ù™çd×†lŠË\¢yÞrØ¨žÊ'y¼¨ážêÚµç§½«±, Type: MEMORY
+
+# Called from : 
+ISQL:NEW(148)  
+FQUERYTODBF(95)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_FAIXA(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:38:14 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_faixa"
+ Description :  "M‚todo nÆo exportado"
+ Operation   :  "OPEN"
+INSIDE ROUTINE : hbm_faixa(  )
+ ARGS : {.F.}
+ GENCODE : 13
+ FILENAME : ""
+ OPERATION : "OPEN"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(560)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:38:14 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:38:15 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(527)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:38:15 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:43:25 >>  [INFO] After compile file code/cfg_ip.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:43:25 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:43:25 >>  [INFO] Before load buffer. Function : hbm_cfg_ip
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(503)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:43:25 >>  [INFO] Before execute function hbm_cfg_ip
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(525)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:43:25 >>  [ERROR] (CODE:20200710015211) Database identify (id: DATANET) not found. Datasource name: Y\¢wâ‚êÚ¶*'²…†MK¦ºS”±ˆõÂ¥NbÓyóØ—£±Ž”JHx)_xèÊür¥+EÉ
+šw©ü<ï…*††Žu†-\Z)‰µö‹³´+«åƒ½|ÿyBè™÷g#¿{HÔùáÚœ!¿'/Nú º! K”,ªütP>¦æ )QÀ}q!òÕÝg/ˆÐuR:Ž¬íPØíä×SðšCˆû»då.=ž)iR RÏBõdˆðkGD(!X|30ŸS_Ð»1ŠS_öjF—ÛFª”3$%ðø!_fß·š×r;@Ïµ=dK}íÿ±½• Ù™çd×†lŠË\¢yÞrØ¨žÊ'y¼¨ážêÚµç§½«±, Type: MEMORY
+
+# Called from : 
+ISQL:NEW(148)  
+FQUERYTODBF(95)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:43:25 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_cfg_ip"
+ Description :  "M‚todo nÆo exportado"
+ Operation   :  "OPEN"
+INSIDE ROUTINE : hbm_cfg_ip(  )
+ ARGS : {.F.}
+ GENCODE : 13
+ FILENAME : ""
+ OPERATION : "OPEN"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(560)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:43:25 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:43:26 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(527)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:43:26 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:16 >>  [INFO] After compile file code/cfg_ip.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:16 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:16 >>  [INFO] Before load buffer. Function : hbm_cfg_ip
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(503)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:16 >>  [INFO] Before execute function hbm_cfg_ip
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(525)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:16 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:17 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:17 >>  [INFO] Mounted query :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1  LIMIT 14 OFFSET 0 / Original :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1 , nPage : 1, nLimit : 14
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:17 >>  [INFO] Mounted query :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1  LIMIT 14 OFFSET 0 / Original :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1 , nPage : 1, nLimit : 14
+
+# Called from : 
+FQUERYTODBF(121)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:20 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(527)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:20 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:22 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(527)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:22 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:57 >>  [INFO] After compile file code/cfg_ip.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:57 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:57 >>  [INFO] Before load buffer. Function : hbm_cfg_ip
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(503)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:57 >>  [INFO] Before execute function hbm_cfg_ip
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(525)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:57 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:58 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:58 >>  [INFO] Mounted query :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1  LIMIT 14 OFFSET 0 / Original :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1 , nPage : 1, nLimit : 14
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:58 >>  [INFO] Mounted query :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1  LIMIT 14 OFFSET 0 / Original :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1 , nPage : 1, nLimit : 14
+
+# Called from : 
+FQUERYTODBF(121)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:59 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:59 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:44:59 >>  [INFO] Mounted query : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_030376554466784_2010-06-09_12:23:54_819798-03_::Wed_Jun_09_12:23:54_829205_2010_BRT' / Original : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_030376554466784_2010-06-09_12:23:54_819798-03_::Wed_Jun_09_12:23:54_829205_2010_BRT', nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:00 >>  [INFO] Mounted query : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_030376554466784_2010-06-09_12:23:54_819798-03_::Wed_Jun_09_12:23:54_829205_2010_BRT' / Original : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_030376554466784_2010-06-09_12:23:54_819798-03_::Wed_Jun_09_12:23:54_829205_2010_BRT', nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:03 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:REFRESH(1106)  
+VBROWSECMD:SHOW(713)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:03 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:REFRESH(1106)  
+VBROWSECMD:SHOW(713)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:03 >>  [INFO] Mounted query :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1  LIMIT 14 OFFSET 0 / Original :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1 , nPage : 1, nLimit : 14
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:REFRESH(1106)  
+VBROWSECMD:SHOW(713)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:03 >>  [INFO] Mounted query :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1  LIMIT 14 OFFSET 0 / Original :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1 , nPage : 1, nLimit : 14
+
+# Called from : 
+FQUERYTODBF(121)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:REFRESH(1106)  
+VBROWSECMD:SHOW(713)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:05 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:05 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:05 >>  [INFO] Mounted query : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_00222087744623423_2010-06-09_12:26:28_737183-03_::Wed_Jun_09_12:26:28_741041_2010_BRT' / Original : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_00222087744623423_2010-06-09_12:26:28_737183-03_::Wed_Jun_09_12:26:28_741041_2010_BRT', nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:05 >>  [INFO] Mounted query : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_00222087744623423_2010-06-09_12:26:28_737183-03_::Wed_Jun_09_12:26:28_741041_2010_BRT' / Original : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_00222087744623423_2010-06-09_12:26:28_737183-03_::Wed_Jun_09_12:26:28_741041_2010_BRT', nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:05 >>  [ERROR] (CODE:20200712210743) The configuration file (filename: database.ini) not found
+
+# Called from : 
+ISQL:NEW(133)  
+FQUERYTODBF(95)  
+VLJ_DLOOKUPTODEFCONTROL(404)  
+TUILOOKUP(55)  
+VGETCMD:EXECLOOKUP(617)  
+VGETCMD:SHOW(536)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:05 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_cfg_ip"
+ Description :  "M‚todo nÆo exportado"
+ Operation   :  "OPEN"
+INSIDE ROUTINE : hbm_cfg_ip(  )
+ ARGS : {NIL}
+ GENCODE : 13
+ FILENAME : ""
+ OPERATION : "OPEN"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(560)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:05 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:06 >>  [INFO] After compile file code/cfg_ip.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:06 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:06 >>  [INFO] Before load buffer. Function : hbm_cfg_ip
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(503)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:06 >>  [INFO] Before execute function hbm_cfg_ip
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(525)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:06 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:06 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:06 >>  [INFO] Mounted query :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1  LIMIT 14 OFFSET 0 / Original :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1 , nPage : 1, nLimit : 14
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:06 >>  [INFO] Mounted query :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1  LIMIT 14 OFFSET 0 / Original :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1 , nPage : 1, nLimit : 14
+
+# Called from : 
+FQUERYTODBF(121)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:07 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:07 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:07 >>  [INFO] Mounted query : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_00222087744623423_2010-06-09_12:26:28_737183-03_::Wed_Jun_09_12:26:28_741041_2010_BRT' / Original : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_00222087744623423_2010-06-09_12:26:28_737183-03_::Wed_Jun_09_12:26:28_741041_2010_BRT', nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:07 >>  [INFO] Mounted query : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_00222087744623423_2010-06-09_12:26:28_737183-03_::Wed_Jun_09_12:26:28_741041_2010_BRT' / Original : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_00222087744623423_2010-06-09_12:26:28_737183-03_::Wed_Jun_09_12:26:28_741041_2010_BRT', nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:07 >>  [ERROR] (CODE:20200712210743) The configuration file (filename: database.ini) not found
+
+# Called from : 
+ISQL:NEW(133)  
+FQUERYTODBF(95)  
+VLJ_DLOOKUPTODEFCONTROL(404)  
+TUILOOKUP(55)  
+VGETCMD:EXECLOOKUP(617)  
+VGETCMD:SHOW(536)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:07 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_cfg_ip"
+ Description :  "M‚todo nÆo exportado"
+ Operation   :  "OPEN"
+INSIDE ROUTINE : hbm_cfg_ip(  )
+ ARGS : {NIL}
+ GENCODE : 13
+ FILENAME : ""
+ OPERATION : "OPEN"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(560)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:07 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:09 >>  [INFO] After compile file code/cfg_ip.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:09 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:09 >>  [INFO] Before load buffer. Function : hbm_cfg_ip
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(503)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:09 >>  [INFO] Before execute function hbm_cfg_ip
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(525)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:09 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:09 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:10 >>  [INFO] Mounted query :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1  LIMIT 14 OFFSET 0 / Original :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1 , nPage : 1, nLimit : 14
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:10 >>  [INFO] Mounted query :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1  LIMIT 14 OFFSET 0 / Original :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1 , nPage : 1, nLimit : 14
+
+# Called from : 
+FQUERYTODBF(121)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:11 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:11 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:11 >>  [INFO] Mounted query : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_0168433105573058_2010-06-09_12:23:54_819798-03_::Wed_Jun_09_12:23:54_824129_2010_BRT' / Original : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_0168433105573058_2010-06-09_12:23:54_819798-03_::Wed_Jun_09_12:23:54_824129_2010_BRT', nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:11 >>  [INFO] Mounted query : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_0168433105573058_2010-06-09_12:23:54_819798-03_::Wed_Jun_09_12:23:54_824129_2010_BRT' / Original : SELECT * FROM cfg_ip WHERE id_cfg_ip = '0_0168433105573058_2010-06-09_12:23:54_819798-03_::Wed_Jun_09_12:23:54_824129_2010_BRT', nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:REFRESH(1106)  
+VBROWSECMD:SHOW(713)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:REFRESH(1106)  
+VBROWSECMD:SHOW(713)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:13 >>  [INFO] Mounted query :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1  LIMIT 14 OFFSET 0 / Original :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1 , nPage : 1, nLimit : 14
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:REFRESH(1106)  
+VBROWSECMD:SHOW(713)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:13 >>  [INFO] Mounted query :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1  LIMIT 14 OFFSET 0 / Original :         SELECT  a.id_cfg_ip, a.descricao, a.endereco_ip, a.mac        FROM cfg_ip as a WHERE 1=1 , nPage : 1, nLimit : 14
+
+# Called from : 
+FQUERYTODBF(121)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:REFRESH(1106)  
+VBROWSECMD:SHOW(713)  
+HBM_CFG_IP(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:15 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(527)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:15 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:16 >>  [INFO] After compile file code/faixa.prg. Ok.
+
+# Called from : 
+VCOMPILE:COMPILE(187)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:16 >>  [INFO] Before send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:16 >>  [INFO] Before load buffer. Function : hbm_faixa
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(503)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:16 >>  [INFO] Before execute function hbm_faixa
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(525)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:16 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_FAIXA(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:16 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_FAIXA(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:16 >>  [INFO] Mounted query :         SELECT  a.id_faixa, a.prefixo, a.inicio, a.fim        FROM faixa as a WHERE 1=1  LIMIT 20 OFFSET 0 / Original :         SELECT  a.id_faixa, a.prefixo, a.inicio, a.fim        FROM faixa as a WHERE 1=1 , nPage : 1, nLimit : 20
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_FAIXA(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:16 >>  [INFO] Mounted query :         SELECT  a.id_faixa, a.prefixo, a.inicio, a.fim        FROM faixa as a WHERE 1=1  LIMIT 20 OFFSET 0 / Original :         SELECT  a.id_faixa, a.prefixo, a.inicio, a.fim        FROM faixa as a WHERE 1=1 , nPage : 1, nLimit : 20
+
+# Called from : 
+FQUERYTODBF(121)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_FAIXA(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:17 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_FAIXA(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:17 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_FAIXA(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:17 >>  [INFO] Mounted query : SELECT * FROM faixa WHERE id_faixa = '2018042614321900052339' / Original : SELECT * FROM faixa WHERE id_faixa = '2018042614321900052339', nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_FAIXA(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:17 >>  [INFO] Mounted query : SELECT * FROM faixa WHERE id_faixa = '2018042614321900052339' / Original : SELECT * FROM faixa WHERE id_faixa = '2018042614321900052339', nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+VLJ_DLOOKUPREGISTER(154)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(708)  
+HBM_FAIXA(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:18 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:REFRESH(1106)  
+VBROWSECMD:SHOW(713)  
+HBM_FAIXA(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:18 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:REFRESH(1106)  
+VBROWSECMD:SHOW(713)  
+HBM_FAIXA(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:18 >>  [INFO] Mounted query :         SELECT  a.id_faixa, a.prefixo, a.inicio, a.fim        FROM faixa as a WHERE 1=1  LIMIT 20 OFFSET 0 / Original :         SELECT  a.id_faixa, a.prefixo, a.inicio, a.fim        FROM faixa as a WHERE 1=1 , nPage : 1, nLimit : 20
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:REFRESH(1106)  
+VBROWSECMD:SHOW(713)  
+HBM_FAIXA(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:18 >>  [INFO] Mounted query :         SELECT  a.id_faixa, a.prefixo, a.inicio, a.fim        FROM faixa as a WHERE 1=1  LIMIT 20 OFFSET 0 / Original :         SELECT  a.id_faixa, a.prefixo, a.inicio, a.fim        FROM faixa as a WHERE 1=1 , nPage : 1, nLimit : 20
+
+# Called from : 
+FQUERYTODBF(121)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:REFRESH(1106)  
+VBROWSECMD:SHOW(713)  
+HBM_FAIXA(38)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:22 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(527)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:22 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(19)  
+VEXECUTE:EXECFROMBUFF(526)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:24 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(527)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:45:24 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(30)  
+###################
+
+20210731 - 03:47:49 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(15)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(84)  
+MAIN(75)  
+###################
+
+20210731 - 03:47:50 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(15)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(84)  
+MAIN(75)  
+###################
+
+20210731 - 03:47:50 >>  [INFO] Mounted query : SELECT * FROM FAIXA / Original : SELECT * FROM FAIXA, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(15)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(84)  
+MAIN(75)  
+###################
+
+20210731 - 03:47:50 >>  [INFO] Mounted query : SELECT * FROM FAIXA / Original : SELECT * FROM FAIXA, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(15)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(84)  
+MAIN(75)  
+###################
+
