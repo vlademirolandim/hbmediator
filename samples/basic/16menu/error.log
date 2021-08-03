@@ -1,0 +1,244 @@
+--------------------------------------------------------------------------------
+20210718 - 17:04:52 >>  [FATAL] 
+Error on 18/07/2021 17:04:52
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: EVAL
+Called from (b)EVAL(0)  
+Called from HBMENUSYS:EXECUTE(0)  
+Called from HBMENUSYS:MODAL(0)  
+Called from MENUMODAL(0)  
+Called from HBM_MENU(44)  
+Called from HBMLOAD(10)  
+Called from HBM_BOOTSTRAP(9)  
+Called from MAIN(4)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210718 - 17:14:02 >>  [FATAL] 
+Error on 18/07/2021 17:14:02
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: EVAL
+Called from (b)EVAL(0)  
+Called from HBMENUSYS:EXECUTE(0)  
+Called from HBMENUSYS:MODAL(0)  
+Called from MENUMODAL(0)  
+Called from HBM_MENU(44)  
+Called from HBMLOAD(10)  
+Called from HBM_BOOTSTRAP(9)  
+Called from MAIN(4)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210718 - 19:41:25 >>  [FATAL] 
+Error on 18/07/2021 19:41:25
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: EVAL
+Called from (b)EVAL(0)  
+Called from HBMENUSYS:EXECUTE(0)  
+Called from HBMENUSYS:MODAL(0)  
+Called from MENUMODAL(0)  
+Called from HBM_MENU(44)  
+Called from HBMLOAD(10)  
+Called from HBM_BOOTSTRAP(9)  
+Called from MAIN(4)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210718 - 21:09:52 >>  [FATAL] 
+Error on 18/07/2021 21:09:52
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: EVAL
+Called from (b)EVAL(0)  
+Called from HBMENUSYS:EXECUTE(0)  
+Called from HBMENUSYS:MODAL(0)  
+Called from MENUMODAL(0)  
+Called from HBM_MENU(44)  
+Called from HBMLOAD(10)  
+Called from HBM_BOOTSTRAP(9)  
+Called from MAIN(4)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210718 - 21:10:23 >>  [FATAL] 
+Error on 18/07/2021 21:10:23
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: EVAL
+Called from (b)EVAL(0)  
+Called from HBMENUSYS:EXECUTE(0)  
+Called from HBMENUSYS:MODAL(0)  
+Called from MENUMODAL(0)  
+Called from HBM_MENU(44)  
+Called from HBMLOAD(10)  
+Called from HBM_BOOTSTRAP(9)  
+Called from MAIN(4)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210718 - 21:25:47 >>  [FATAL] 
+Error on 18/07/2021 21:25:47
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error POPUPMENU/1001  Erro nos parÉmetros: COLORSPEC
+Called from __EINSTVAR53(0)  
+Called from POPUPMENU:_COLORSPEC(0)  
+Called from HBM_MENU(56)  
+Called from HBMLOAD(10)  
+Called from HBM_BOOTSTRAP(9)  
+Called from MAIN(4)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210718 - 21:36:27 >>  [FATAL] 
+Error on 18/07/2021 21:36:27
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: ENABLED
+Called from ENABLED(0)  
+Called from HBMENUSYS:MODAL(0)  
+Called from MENUMODAL(0)  
+Called from HBM_MENU(66)  
+Called from HBMLOAD(10)  
+Called from HBM_BOOTSTRAP(9)  
+Called from MAIN(4)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210718 - 21:37:26 >>  [FATAL] 
+Error on 18/07/2021 21:37:26
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: ENABLED
+Called from ENABLED(0)  
+Called from HBMENUSYS:MODAL(0)  
+Called from MENUMODAL(0)  
+Called from HBM_MENU(66)  
+Called from HBMLOAD(10)  
+Called from HBM_BOOTSTRAP(9)  
+Called from MAIN(4)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210718 - 21:42:33 >>  [FATAL] 
+Error on 18/07/2021 21:42:33
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: ENABLED
+Called from ENABLED(0)  
+Called from HBMENUSYS:MODAL(0)  
+Called from MENUMODAL(0)  
+Called from HBM_MENU(67)  
+Called from HBMLOAD(10)  
+Called from HBM_BOOTSTRAP(9)  
+Called from MAIN(4)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210718 - 21:47:07 >>  [FATAL] 
+Error on 18/07/2021 21:47:07
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: ENABLED
+Called from ENABLED(0)  
+Called from HBMENUSYS:MODAL(0)  
+Called from MENUMODAL(0)  
+Called from HBM_MENU(67)  
+Called from HBMLOAD(10)  
+Called from HBM_BOOTSTRAP(9)  
+Called from MAIN(4)  
+--------------------------------------------------------------------------------

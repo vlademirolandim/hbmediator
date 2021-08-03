@@ -1,0 +1,193 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210707 20:04:38
+***************************** END LOG HEADER **************************************
+
+20210707 - 20:04:38 >>  [INFO] After execute with return : 1001
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:04:38 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:07:27 >>  [INFO] After execute with return : 13
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:07:27 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:07:33 >>  [INFO] After execute with return : 13
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:07:34 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:07:45 >>  [INFO] After execute with return : 13
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:07:45 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:14:31 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:14:31 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:22:23 >>  [INFO] After execute with return : 13
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:22:23 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:22:30 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:22:30 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:36:04 >>  [INFO] After execute with return : 13
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:36:05 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:37:48 >>  [INFO] After execute with return : 13
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210707 - 20:37:48 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+

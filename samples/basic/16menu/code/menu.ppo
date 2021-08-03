@@ -1,0 +1,74 @@
+#line 9 "code/menu.prg"
+function hbm_menu()
+
+   LOCAL __oTopBar, __oPopUp, __oItem, ____oPopUp1, __oCfg , __oScreen
+
+   SET( 39, ( 128 + 1 + 2 + 4 + 8 + 16 + 32 + 64 ) )
+
+
+   msetcursor(.T.)
+   Scroll() ; SetPos( 0, 0 )
+
+
+
+
+      __oCfg := ConfigTUISingleton();__oScreen := Vcmd():New();__oTopBar := TopBar( __oCfg:getRowBottomHead()+1, __oCfg:getColLeft()+2, __oCfg:getMaxCol()-3 ); __oTopBar:ColorSpec := __oCfg:getColorMenu();____oPopUp1 := PopUp();____oPopUp1:cargo := ""
+      __oPopUp := PopUp();__oPopUp:ColorSpec := __oCfg:getColorMenu();__oTopBar:AddItem( MenuItem( "&File" , __oPopUp ) )
+      __oItem :=MenuItem( "&New" ,{||MyCreateFile()} , 14 , "Create new file" , ) ; __oItem:Checked := .T. ;__oPopUp:AddItem( __oItem )
+      __oItem :=MenuItem( "&New" ,{||MyCreateFile()} , 14 , "Create new file" , ) ; __oItem:Enabled := ! .T. ;__oPopUp:AddItem( __oItem )
+      ____oPopUp1 := PopUp();____oPopUp1:ColorSpec := __oCfg:getColorMenu();__oItem := MenuItem( "Popup" , ____oPopUp1 );__oPopUp:AddItem( __oItem )
+      __oItem :=MenuItem( "&Popup New" ,{||MyCreateFile()} , 14 , "Create new file" ) ;____oPopUp1:AddItem( __oItem )
+      __oItem :=MenuItem( "&Popup New" ,{||MyCreateFile()} , 14 , "Create new file" ) ; __oItem:Checked := .T. ;____oPopUp1:AddItem( __oItem )
+      __oPopUp := PopUp();__oPopUp:ColorSpec := __oCfg:getColorMenu();__oTopBar:AddItem( MenuItem( "Manut" , __oPopUp ) )
+      __oItem :=MenuItem( "Print file" ,{||MyPrintFile()} , , , ) ;__oPopUp:AddItem( __oItem )
+      __oItem :=MenuItem( "Exit" ,{||nil} , , , 999 ) ;__oPopUp:AddItem( __oItem )
+      __oScreen:StandardScreen();while MenuModal( __oTopBar , 1 , __oCfg:getMaxRow()-1 , __oCfg:getColLeft()+1 , __oCfg:getColRight()-1 , __oCfg:getColorTextAttention() ) <> 999;ENDDO
+
+RETURN nil
+
+
+
+
+
+
+FUNCTION MyCreateFile()
+RETURN NIL
+
+FUNCTION MyOpenFile()
+RETURN NIL
+
+FUNCTION MySaveFile()
+RETURN NIL
+
+FUNCTION MyPrintFile()
+RETURN NIL
+
+FUNCTION MyUndo()
+RETURN NIL
+
+FUNCTION MyCut()
+RETURN NIL
+
+FUNCTION MyCopy()
+RETURN NIL
+
+FUNCTION MyPaste()
+RETURN NIL
+
+FUNCTION MyGoToLine()
+RETURN NIL
+
+FUNCTION MyGoTop()
+RETURN NIL
+
+FUNCTION MyGoBottom()
+RETURN NIL
+
+FUNCTION MySearch()
+RETURN NIL
+
+FUNCTION MyAutoSave()
+RETURN NIL
+
+FUNCTION MyTabStops()
+RETURN NIL

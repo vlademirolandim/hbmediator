@@ -1,0 +1,42 @@
+#line 5 "code/bootstrap.prg"
+PROCEDURE Hbm_BootStrap
+
+    LOCAL hRet
+    LOCAL __oForm__ := VGetCMD():New()
+
+ InitConfig( e"{   \"loglevel\": 1,\n    \"logdisplay\": false,\n    \"sysname\":\"Cálculo do IMC\",\n    \"orgname\":\"\",\n    \"deptname\":\"\",\n    \"complement\":\"\",\n    \"address01\":\"\",\n    \"address02\":\"\",\n    \"email\":\"\",\n    \"url\":\"\"\n}" )
+ ConfigTUISingleton( e"{   \n\t\"maxrow\":39,\n\t\"maxcol\":128,\n\t\"colortheme\":\"GREEN\"\n}\n" )
+    ConfigSetLogLevel( 4 )
+
+
+    Scroll() ; SetPos( 0, 0 )
+__oForm__:setScreenDef(e"     \n      Field 1......: [A     \n\n      Field 2......: [B  \n      \n      Field 3......: [C                 [D\n\t  \n\t  \n\t \n    \n\n\n")
+    __oForm__:setRowBegin(14);__oForm__:setColBegin(30)
+    __oForm__:setTitle( "Update field" )
+
+    __oForm__:addMapControl( "A" , "Text_1" , 0 , "@re 9999.99" , , , , , , )
+    __oForm__:addMapControl( "B" , "Text_2" , 0 , "@re 9999.99" , , , , , , )
+    __oForm__:addMapControl( "C" , "Text_3" , 0 , "@re 9999.99" , , , , , , )
+    __oForm__:addMapControl( "D" , "Text_4" , SPACE(16) , , , , , , , )
+
+    hRet := __oForm__:getAllGets()
+    __oForm__:setValid( {|a,b|Valida(a,b)} )
+    __oForm__:Show()
+    DevPos( 29, 10 ) ; DevOut( hb_ValToExp( hRet ) )
+    DevPos( 30, 40 ) ; DevOut( "Tecle algo para sair" )
+    INKEY(0)
+
+RETURN
+
+
+
+
+STATIC FUNCTION Valida( __cControl__ , hGet );LOCAL __lRet__ := .T.
+
+    if Upper( __cControl__ ) == Upper(Alltrim("TEXT_3"))
+       hGet["Text_1"] := 100
+       hGet["Text_2"] := 200
+       hGet["Text_4"] := "DEFAULT VALUE   "
+    ENDIF
+
+RETURN __lRet__

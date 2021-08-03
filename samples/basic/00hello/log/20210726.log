@@ -1,0 +1,235 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210726 14:39:28
+***************************** END LOG HEADER **************************************
+
+20210726 - 14:39:28 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'button.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:39:28 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(214)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:39:31 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'button.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:39:31 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(214)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:39:32 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'button.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:39:32 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(214)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:39:33 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'button.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:39:33 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(214)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:39:35 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'button.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:39:35 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(214)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:39:42 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'button.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:39:42 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(214)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:41:00 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'button.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:41:00 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(214)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:42:28 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'button.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(206)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:42:28 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(214)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:45:49 >>  [INFO] After execute with return : 1
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(517)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:45:49 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:45:52 >>  [INFO] After execute with return : 1
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(517)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:45:52 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:45:55 >>  [INFO] After execute with return : 1
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(517)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 14:45:55 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+

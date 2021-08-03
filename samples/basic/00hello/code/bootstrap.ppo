@@ -1,0 +1,14 @@
+#line 6 "code/bootstrap.prg"
+PROCEDURE Hbm_BootStrap
+
+    LOCAL __oForm__ := VGetCMD():New()
+
+ InitConfig( e"{   \"loglevel\": 1,\n    \"logdisplay\": false,\n    \"sysname\":\"Cálculo do IMC\",\n    \"orgname\":\"\",\n    \"deptname\":\"\",\n    \"complement\":\"\",\n    \"address01\":\"\",\n    \"address02\":\"\",\n    \"email\":\"\",\n    \"url\":\"\"\n}" )
+ ConfigTUISingleton( e"{   \n\t\"maxrow\":39,\n\t\"maxcol\":128,\n\t\"colortheme\":\"GREEN\"\n}\n" )
+    ConfigSetLogLevel( 4 )
+
+
+    Scroll() ; SetPos( 0, 0 )
+    hb_Alert("Hello World")
+
+RETURN

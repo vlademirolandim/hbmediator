@@ -1,0 +1,30 @@
+#line 5 "code/bootstrap.prg"
+PROCEDURE Hbm_BootStrap
+
+   LOCAL __oTopBar, __oPopUp, __oItem, ____oPopUp1, __oCfg , __oScreen
+
+ InitConfig( e"{   \"loglevel\": 1,\n    \"logdisplay\": false,\n    \"sysname\":\"Mini ERP\",\n    \"orgname\":\"\",\n    \"deptname\":\"\",\n    \"complement\":\"\",\n    \"address01\":\"\",\n    \"address02\":\"\",\n    \"email\":\"\",\n    \"url\":\"\",\n\t\"codepage\":\"UTF8EX\",\n    \"databaseTypeConnection\":\"FILE\"\n}\n" )
+ ConfigTUISingleton( e"{   \n\t\"maxrow\":33,\n\t\"maxcol\":128,\n\t\"colortheme\":\"GREEN\"\n}\n" )
+   ConfigSetLogLevel( 4 )
+
+   __oCfg := ConfigTUISingleton();__oScreen := Vcmd():New();__oTopBar := TopBar( __oCfg:getRowBottomHead()+1, __oCfg:getColLeft()+2, __oCfg:getMaxCol()-3 ); __oTopBar:ColorSpec := __oCfg:getColorMenu();____oPopUp1 := PopUp();____oPopUp1:cargo := ""
+   __oPopUp := PopUp();__oPopUp:ColorSpec := __oCfg:getColorMenu();__oTopBar:AddItem( MenuItem( "[ Cadastro ]" , __oPopUp ) )
+   __oItem :=MenuItem( " &Conta corrente " ,{||HbmLoad("bancoconta")} , , "Conta corrente" , ) ;__oPopUp:AddItem( __oItem )
+   __oItem :=MenuItem( " Movimentação Bancária " ,{||HbmLoad("banco")} , , "Movimentação bancária" , ) ;__oPopUp:AddItem( __oItem )
+   __oItem :=MenuItem( " Fornecedor " ,{||HbmLoad("fornecedor")} , , "Cadastro de fornecedor" , ) ;__oPopUp:AddItem( __oItem )
+   __oItem :=MenuItem( " Cliente " ,{||HbmLoad("cliente")} , , "Cadastro de cliente" , ) ;__oPopUp:AddItem( __oItem )
+   __oItem :=MenuItem( " Categorias de Produto " ,{||HbmLoad("produtocategoria")} , , "Categoria de produtos" , ) ;__oPopUp:AddItem( __oItem )
+
+   __oPopUp := PopUp();__oPopUp:ColorSpec := __oCfg:getColorMenu();__oTopBar:AddItem( MenuItem( "[ Movimentações ]" , __oPopUp ) )
+   __oItem :=MenuItem( " Contas a pagar " ,{||HbmLoad("cpagar")} , , "Contas a pagar" , ) ;__oPopUp:AddItem( __oItem )
+   __oItem :=MenuItem( " Venda " ,{||HbmLoad("venda")} , , "Vendas" , ) ;__oPopUp:AddItem( __oItem )
+
+   __oPopUp := PopUp();__oPopUp:ColorSpec := __oCfg:getColorMenu();__oTopBar:AddItem( MenuItem( "[ Configurações ]" , __oPopUp ) )
+   __oItem :=MenuItem( " &Contas " ,{||HbmLoad("conta")} , , "Configuração das contas" , ) ;__oPopUp:AddItem( __oItem )
+   __oItem :=MenuItem( " Forma de pagamento " ,{||HbmLoad("formapagamento")} , , "Formas de pagamento" , ) ;__oPopUp:AddItem( __oItem )
+   __oItem :=MenuItem( " Sair do sistema " ,{||nil} , , , 999 ) ;__oPopUp:AddItem( __oItem )
+
+   __oScreen:StandardScreen();while MenuModal( __oTopBar , 1 , __oCfg:getMaxRow()-1 , __oCfg:getColLeft()+1 , __oCfg:getColRight()-1 , __oCfg:getColorTextAttention() ) <> 999;ENDDO
+
+
+RETURN

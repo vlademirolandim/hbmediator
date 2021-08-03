@@ -1,0 +1,298 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210728 04:20:03
+***************************** END LOG HEADER **************************************
+
+20210728 - 04:20:03 >>  [ERROR] (CODE:20200704113654) near "WHERE": syntax error ( UPDATE VENDA SET WHERE ID = 1014; ) 
+
+# Called from : 
+VSQLITE:EXEC(192)  
+VSQLITE:UPDATESQL(1484)  
+FUPDATESQL(255)  
+VGETCMD:EXECSUBMIT(1076)  
+VBROWSECMD:SHOW(701)  
+HBM_VENDA(35)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(23)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(27)  
+###################
+
+20210728 - 04:20:03 >>  [ERROR] near "WHERE": syntax error ( UPDATE VENDA SET WHERE ID = 1014; ) 
+
+# Called from : 
+FUPDATESQL(259)  
+VGETCMD:EXECSUBMIT(1076)  
+VBROWSECMD:SHOW(701)  
+HBM_VENDA(35)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(23)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(27)  
+###################
+
+20210728 - 04:26:54 >>  [ERROR] (CODE:20200704113654) near "WHERE": syntax error ( UPDATE CLIENTE SET WHERE ID = 2; ) 
+
+# Called from : 
+VSQLITE:EXEC(192)  
+VSQLITE:UPDATESQL(1484)  
+FUPDATESQL(255)  
+VGETCMD:EXECSUBMIT(1076)  
+VBROWSECMD:SHOW(701)  
+HBM_CLIENTE(41)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(18)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(27)  
+###################
+
+20210728 - 04:26:54 >>  [ERROR] near "WHERE": syntax error ( UPDATE CLIENTE SET WHERE ID = 2; ) 
+
+# Called from : 
+FUPDATESQL(259)  
+VGETCMD:EXECSUBMIT(1076)  
+VBROWSECMD:SHOW(701)  
+HBM_CLIENTE(41)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(18)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(27)  
+###################
+
+20210728 - 17:16:20 >>  [ERROR] (CODE:20200710015211) Database identify (id: MINIERP) not found. Datasource name: , Type: MEMORY
+
+# Called from : 
+ISQL:NEW(148)  
+FQUERYTODBF(95)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_BANCOCONTA(33)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(27)  
+###################
+
+20210728 - 17:16:20 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_bancoconta"
+ Description :  "MÇtodo n∆o exportado"
+ Operation   :  "OPEN"
+INSIDE ROUTINE : hbm_bancoconta(  )
+ ARGS : {.F.}
+ GENCODE : 13
+ FILENAME : ""
+ OPERATION : "OPEN"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(553)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(27)  
+###################
+
+20210728 - 17:16:21 >>  [ERROR] (CODE:20200710015211) Database identify (id: MINIERP) not found. Datasource name: , Type: MEMORY
+
+# Called from : 
+ISQL:NEW(148)  
+FQUERYTODBF(95)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_BANCO(43)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(27)  
+###################
+
+20210728 - 17:16:22 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_banco"
+ Description :  "MÇtodo n∆o exportado"
+ Operation   :  "OPEN"
+INSIDE ROUTINE : hbm_banco(  )
+ ARGS : {.F.}
+ GENCODE : 13
+ FILENAME : ""
+ OPERATION : "OPEN"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(553)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(16)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(27)  
+###################
+
+20210728 - 17:16:22 >>  [ERROR] (CODE:20200710015211) Database identify (id: MINIERP) not found. Datasource name: , Type: MEMORY
+
+# Called from : 
+ISQL:NEW(148)  
+FQUERYTODBF(95)  
+VBROWSECMD:OPEN(222)  
+VBROWSECMD:SHOW(439)  
+HBM_FORNECEDOR(41)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(17)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(27)  
+###################
+
+20210728 - 17:16:22 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_fornecedor"
+ Description :  "MÇtodo n∆o exportado"
+ Operation   :  "OPEN"
+INSIDE ROUTINE : hbm_fornecedor(  )
+ ARGS : {.F.}
+ GENCODE : 13
+ FILENAME : ""
+ OPERATION : "OPEN"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(553)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+(b)HBM_BOOTSTRAP(17)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+VEXECUTE:EXECFROMBUFF(519)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(27)  
+###################
+

@@ -1,0 +1,53 @@
+#line 6 "code/bootstrap.prg"
+PROCEDURE Hbm_BootStrap
+
+    LOCAL hGet
+
+    LOCAL __oForm__ := VGetCMD():New()
+
+ InitConfig( e"{   \"loglevel\": 1,\n    \"logdisplay\": false,\n    \"sysname\":\"Monitor\",\n    \"orgname\":\"Universidade Federal do Ceará\",\n    \"deptname\":\"Departamento de Computação\",\n    \"complement\":\"LIA - Laboratórios de Pesquisa em Computação\",\n    \"address01\":\"\",\n    \"address02\":\"\",\n    \"email\":\"\",\n    \"url\":\"lia.ufc.br\"\n}" )
+ ConfigTUISingleton( e"{   \n\t\"maxrow\":39,\n\t\"maxcol\":118,\n\t\"colortheme\":\"GREEN\"\n}\n" )
+    ConfigSetLogLevel( 4 )
+
+
+    Scroll() ; SetPos( 0, 0 )
+__oForm__:setScreenDef(e"     \n      [01] Criar usuário\n      \n      [02] Criar shell do usuário\n      \n      [03] Verificar espaço em disco livre\n      \n      [04]\n\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n     Selecione a opção.....: [A     \n\n\t  \n\t  \n\t \n    \n\n\n")
+    __oForm__:setRowBegin(05);__oForm__:setColBegin(05)
+    __oForm__:setTitle( "Menu Principal" )
+
+    __oForm__:addMapControl( "A" , "WOPC" , "  " , "99" , , , , , "Digite o número referente a opção selecionada (99 SAI)" , )
+
+    __oForm__:setValid( {|a,b|Valida(a,b)} )
+    __oForm__:ButtonsOff()
+
+    while .T.
+        __oForm__:Show()
+        hGet := __oForm__:getAllGets()
+        DO CASE
+        CASE hGet["WOPC"] == "01"
+            HbmLoad("adduser")
+        CASE hGet["WOPC"] == "02"
+        CASE LASTKEY() == 27
+            EXIT
+        ENDCASE
+    ENDDO
+
+RETURN
+
+
+
+
+STATIC FUNCTION Valida( __cControl__ , hGet );LOCAL __lRet__ := .T.
+
+    if Upper( __cControl__ ) == Upper(Alltrim("WOPC"))
+        IF EMPTY(hGet["WOPC"])
+            RETURN .F.
+        ENDIF
+        hGet["WOPC"] := STRZERO(val(hGet["WOPC"]),2)
+        DO CASE
+        CASE hGet["WOPC"] == "99"
+            __Keyboard( CHR(27) )
+        ENDCASE
+    ENDIF
+
+RETURN __lRet__

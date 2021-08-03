@@ -1,0 +1,87 @@
+#line 6 "code/cpagar.prg"
+procedure HBM_Cpagar
+
+    LOCAL cSQL
+    LOCAL __oBrw__
+
+cSQL:=""
+cSQL+="        SELECT  a.id, a.fornecedor_id, a.conta_id, a.dataVencimento, "
+cSQL+="                a.dataConta, a.valor, a.descricao, a.obs,"
+cSQL+="                b.nome as nome_fornecedor , c.nome as nome_conta"
+cSQL+="        FROM cpagar as a"
+cSQL+="        INNER JOIN fornecedor as b ON a.fornecedor_id=b.id "
+cSQL+="        INNER JOIN conta as c ON a.conta_id = c.id"
+
+
+    __oBrw__ := VBrowseCMD():New( "MINIERP" , cSQL );__oBrw__:setStandardScreen(.T.)
+    __oBrw__:setTitle( "Contas a pagar" )
+
+    __oBrw__:addColumn( "DATACONTA" , "Data" , "@x" , 10 )
+    __oBrw__:addColumn( "DESCRICAO" , "Descrição" , "@x" , 50 )
+    __oBrw__:addColumn( "VALOR" , "Valor a pagar" , "@RE 9999,999,999.99" , 15 )
+
+
+    __oBrw__:setTable( "CPAGAR" )
+    __oBrw__:setPKName( "ID" )
+    __oBrw__:setUpdate( {|oForm|FrmCPagar( oForm )} )
+    __oBrw__:setInsert( {|oForm|FrmCPagar( oForm )} )
+    __oBrw__:setDelete( .T. )
+
+    __oBrw__:setBlockFooter( {|| BlockFooter() } , 5 )
+
+
+
+
+
+    __oBrw__:setFilter( "Filtro" , "nome_fornecedor LIKE '%' || %s || '%'", { "Fornecedor   : "  } , { SPACE(30)  } , { "@K"  } , { .F. } )
+
+    __oBrw__:Show()
+
+RETURN
+
+FUNCTION FrmCPagar( __oForm__ )
+
+    LOCAL cSQL
+
+__oForm__:setScreenDef(e"     \n      Data Conta.: [A\n\n      Vencimento.: [B\n\n      Fornecedor.: [C       [H\n\n      Conta......: [D       [I\n\n      Valor.....: [E               \n\t  \n      Descrição.: [F                                           \n\n      Observação: [G\n\n      \n    \n\n\n")
+    __oForm__:setRowBegin(7);__oForm__:setColBegin(10)
+
+    __oForm__:addMapControl( "A" , "DataConta" , DATE() , "@X" , , , "DATACONTA" , , "Data do lançamento" , )
+    __oForm__:addMapControl( "B" , "DataVencimento" , DATE() , "@X" , , , "DATAVENCIMENTO" , , "Informe a conta bancária" , )
+    __oForm__:addMapControl( "C" , "Fornecedor_ID" , 0 , "9999" , , , "FORNECEDOR_ID" , , , )
+    __oForm__:addMapControl( "D" , "Conta_ID" , 0 , "9999" , , , "CONTA_ID" , , , )
+    __oForm__:addMapControl( "E" , "Valor" , 0 , "@RE 999,999,999.99" , , , "VALOR" , , "Valor" , )
+    __oForm__:addMapControl( "F" , "Descricao" , "" , "@!" , 30 , , "DESCRICAO" , , "Descrição do lançamento" , )
+    __oForm__:addMapControl( "G" , "Obs" , "" , "@S50" , 1024 , , "OBS" , , "Observações" , )
+
+    __oForm__:addMapControl( "H" , "NomeFornecedor" , SPACE(40) , "@x" , , , , .T. , , )
+    __oForm__:addMapControl( "I" , "NomeConta" , SPACE(40) , "@x" , , , , .T. , , )
+
+
+
+
+
+
+    __oForm__:addLookUp( "Fornecedor_ID" , "MINIERP" , "SELECT * FROM FORNECEDOR" , "WHERE ID=#1" , hb_HSetCaseMatch( { "NOME" => "NomeFornecedor" } , .F. ) , hb_HSetCaseMatch( { "gridWhere" => "Where nome LIKE '%#1%'" , "returnField" => "ID" , "fields" => { "nome" } , "captions" => { "Fornecedor" } , "widths" => { "100%" } , "aligns" => { "LEFT" } } , .F. ) , __FormInc( "MINIERP" , , ) , )
+
+cSQL:=""
+cSQL+="        SELECT  id, nome as nome_conta  "
+cSQL+="        FROM conta WHERE tipoconta='D'"
+
+
+
+
+
+
+
+    __oForm__:addLookUp( "Conta_ID" , "MINIERP" , cSQL , " and ID=#1" , hb_HSetCaseMatch( { "NOME_CONTA" => "NomeConta" } , .F. ) , hb_HSetCaseMatch( { "gridWhere" => " and nome_conta LIKE '%#1%'" , "returnField" => "ID" , "fields" => { "nome_conta" } , "captions" => { "Conta" } , "widths" => { "100%" } , "aligns" => { "LEFT" } } , .F. ) , __FormInc( "MINIERP" , , ) , )
+
+
+
+RETURN __oForm__
+
+STATIC FUNCTION BlockFooter
+
+
+
+RETURN NIL

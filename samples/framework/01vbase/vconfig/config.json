@@ -1,0 +1,11 @@
+{   "loglevel": 2,
+    "logdisplay": true,
+    "sysname":"System's name...;)",
+    "orgname":"Organization's name",
+    "deptname":"Department's name",
+    "complement":"Complement (E.g: Sector name)",
+    "address01":"Address Line 01",
+    "address02":"Address Line 02",
+    "email":"email@email.com",
+    "url":"mydomain.com"
+}

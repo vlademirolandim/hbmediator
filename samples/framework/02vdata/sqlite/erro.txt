@@ -1,0 +1,10 @@
+(CODE:20200711110443) File sistemas33.db3 in path ./ doesn't exists
+(CODE:20200711110443) File sistemas33.db3 in path ./ doesn't exists
+
+# Called from : 
+VSQLITE:OPEN(140)  
+FQUERYTODBF(94)  
+MAIN(17)  
+###################
+
+Saiba mais : ;;Saiba mais:http://codebug.thats.im/site/20200711110443.prg.html

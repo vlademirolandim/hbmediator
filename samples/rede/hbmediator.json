@@ -1,3 +1,4 @@
 {
-	"flagcomp": [ "-n" , "-m" , "-w1" , "-es2" , "-q0" , "-I./include/harbour" , "-I./include/hbmediator"  ]
+	"flagcomp": [ "-n" , "-m" , "-w1" , "-es2" , "-q0" , "-I./include/harbour" , "-I./include/hbmediator"  ],
+    "exename":"datanet"
 }

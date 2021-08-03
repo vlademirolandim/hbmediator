@@ -1,0 +1,45 @@
+--------------------------------------------------------------------------------
+20210802 - 02:28:38 >>  [FATAL] 
+Error on 2021-08-02 02:28:38
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1003  Vari†vel n∆o existe: K_TAB
+Called from HBM_CGI(9)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(443)  
+Called from EXECCGI(86)  
+Called from MAIN(77)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210802 - 02:30:05 >>  [FATAL] 
+Error on 2021-08-02 02:30:05
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: EMP
+Driver: DBFNTX
+     Workarea #1 : EMP / RDDNAME : SQLMIX / STRUCT : {{"EMPNO", "C", 100, 0}, {"ENAME", "C", 100, 0}, {"JOB", "C", 100, 0}, {"MGR", "C", 100, 0}, {"HIREDATE", "C", 100, 0}, {"SAL", "C", 100, 0}, {"COMM", "C", 100, 0}, {"DEPTNO", "C", 100, 0}, {"STATUS", "C", 100, 0}}
+
+
+Error BASE/1003  Vari†vel n∆o existe: SALARY
+Called from HBM_CGI(18)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(443)  
+Called from EXECCGI(86)  
+Called from MAIN(77)  
+--------------------------------------------------------------------------------

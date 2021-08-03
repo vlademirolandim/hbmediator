@@ -1,0 +1,11 @@
+{   "loglevel": 1,
+    "logdisplay": false,
+    "sysname":"System title",
+    "orgname":"Organization name",
+    "deptname":"Department name",
+    "complement":"Complement",
+    "address01":"Street",
+    "address02":"Neigh",
+    "email":"hbmediator@hbmediator.com",
+    "url":"www.hbmediator.com"
+}

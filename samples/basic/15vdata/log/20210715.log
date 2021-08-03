@@ -1,0 +1,410 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210715 01:15:43
+***************************** END LOG HEADER **************************************
+
+20210715 - 01:15:43 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(94)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:15:43 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(98)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:15:43 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(113)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:15:43 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(116)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:15:43 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:15:43 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:16:50 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(94)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:16:50 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(98)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:16:50 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(113)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:16:50 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(116)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:16:50 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:16:50 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:17:40 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'config.json'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:17:40 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:17:55 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(94)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:17:55 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(98)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:17:55 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(113)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:17:55 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(116)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:17:55 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:17:55 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:18:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(94)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:18:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(98)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:18:13 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(113)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:18:13 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(116)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:18:13 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:18:13 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:31:03 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(94)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:31:03 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(98)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:31:03 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(113)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:31:03 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(116)  
+HBM_BOOTSTRAP(14)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:31:03 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210715 - 01:31:03 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+

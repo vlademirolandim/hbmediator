@@ -1,0 +1,18 @@
+-n
+-m
+-L${SISTEMAS_PATH_TO_LIB}
+-I${SISTEMAS_PATH_TO_INCLUDE}
+-lvbase
+-lvdatacore
+-lvdatasqlite
+-lfcore
+
+hbsqlit3.hbc
+-l{linux}dl
+-lpthread
+
+rddsql.hbc
+
+# xhb.hbc é usado para hb_Crypt/Decrypt
+xhb.hbc 
+

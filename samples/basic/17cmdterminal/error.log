@@ -1,0 +1,1020 @@
+--------------------------------------------------------------------------------
+20210727 - 20:11:39 >>  [FATAL] 
+Error on 2021-07-27 20:11:39
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/6101  Unknown or unregistered symbol: SETENV
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210727 - 23:28:10 >>  [FATAL] 
+Error on 2021-07-27 23:28:10
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(16)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210727 - 23:29:12 >>  [FATAL] 
+Error on 2021-07-27 23:29:12
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(16)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:29:19 >>  [FATAL] 
+Error on 2021-07-28 01:29:19
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(16)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:31:08 >>  [FATAL] 
+Error on 2021-07-28 01:31:08
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(16)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:33:11 >>  [FATAL] 
+Error on 2021-07-28 01:33:11
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(16)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:33:15 >>  [FATAL] 
+Error on 2021-07-28 01:33:15
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(16)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:35:11 >>  [FATAL] 
+Error on 2021-07-28 01:35:11
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(16)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:35:22 >>  [FATAL] 
+Error on 2021-07-28 01:35:22
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(16)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:37:05 >>  [FATAL] 
+Error on 2021-07-28 01:37:05
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(17)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:41:10 >>  [FATAL] 
+Error on 2021-07-28 01:41:10
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(17)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:41:22 >>  [FATAL] 
+Error on 2021-07-28 01:41:22
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(17)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:55:52 >>  [FATAL] 
+Error on 2021-07-28 01:55:52
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(17)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:57:27 >>  [FATAL] 
+Error on 2021-07-28 01:57:27
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(17)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:58:15 >>  [FATAL] 
+Error on 2021-07-28 01:58:15
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(17)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:58:45 >>  [FATAL] 
+Error on 2021-07-28 01:58:45
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(17)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 01:59:20 >>  [FATAL] 
+Error on 2021-07-28 01:59:20
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(18)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 02:01:28 >>  [FATAL] 
+Error on 2021-07-28 02:01:28
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(20)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 02:01:47 >>  [FATAL] 
+Error on 2021-07-28 02:01:47
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(20)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 02:24:13 >>  [FATAL] 
+Error on 2021-07-28 02:24:13
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(20)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 02:31:48 >>  [FATAL] 
+Error on 2021-07-28 02:31:48
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(20)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 02:32:42 >>  [FATAL] 
+Error on 2021-07-28 02:32:42
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(20)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 02:48:29 >>  [FATAL] 
+Error on 2021-07-28 02:48:29
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(20)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 02:53:11 >>  [FATAL] 
+Error on 2021-07-28 02:53:11
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(20)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 02:57:45 >>  [FATAL] 
+Error on 2021-07-28 02:57:45
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(19)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 02:58:52 >>  [FATAL] 
+Error on 2021-07-28 02:58:52
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(19)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 02:59:14 >>  [FATAL] 
+Error on 2021-07-28 02:59:14
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(19)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 03:00:13 >>  [FATAL] 
+Error on 2021-07-28 03:00:13
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/6101  Unknown or unregistered symbol: HB_UTF8ENCODE
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 03:00:28 >>  [FATAL] 
+Error on 2021-07-28 03:00:28
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/6101  Unknown or unregistered symbol: UTF8ENCODE
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 03:01:50 >>  [FATAL] 
+Error on 2021-07-28 03:01:50
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(19)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 03:07:25 >>  [FATAL] 
+Error on 2021-07-28 03:07:25
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(19)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 03:08:58 >>  [FATAL] 
+Error on 2021-07-28 03:08:58
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(19)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 03:09:37 >>  [FATAL] 
+Error on 2021-07-28 03:09:37
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(16)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 03:10:20 >>  [FATAL] 
+Error on 2021-07-28 03:10:20
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(16)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 03:17:36 >>  [FATAL] 
+Error on 2021-07-28 03:17:36
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(16)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 03:18:11 >>  [FATAL] 
+Error on 2021-07-28 03:18:11
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(16)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 03:36:56 >>  [FATAL] 
+Error on 2021-07-28 03:36:56
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(15)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210728 - 04:12:59 >>  [FATAL] 
+Error on 2021-07-28 04:12:59
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/6101  Unknown or unregistered symbol: VLJ_OUTSTD
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(81)  
+Called from MAIN(72)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210730 - 03:29:14 >>  [FATAL] 
+Error on 2021-07-30 03:29:14
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1132  Erro de limite: acesso de array
+Called from ISQL:NEW(183)  
+Called from FQUERYTODBF(95)  
+Called from HBM_CGI(29)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(83)  
+Called from MAIN(74)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210730 - 03:34:37 >>  [FATAL] 
+Error on 2021-07-30 03:34:37
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(28)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(83)  
+Called from MAIN(74)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210730 - 03:38:27 >>  [FATAL] 
+Error on 2021-07-30 03:38:27
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(28)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(83)  
+Called from MAIN(74)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210730 - 04:16:49 >>  [FATAL] 
+Error on 2021-07-30 04:16:49
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(29)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(83)  
+Called from MAIN(74)  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+20210730 - 04:17:04 >>  [FATAL] 
+Error on 2021-07-30 04:17:04
+Computer Name: 
+User Name: 
+Logon Server: 
+Client Name: 
+User Domain: 
+OS: Linux 4.4.0-19041-Microsoft x86_64
+Harbour: Harbour 3.2.0dev (r2104281802)
+Compiler: GNU C 9.3 (64-bit)
+Current workarea: 
+Driver: DBFNTX
+
+
+Error BASE/1004  MÇtodo n∆o exportado: OPEN
+Called from OPEN(0)  
+Called from FQUERYTODBF(99)  
+Called from HBM_CGI(29)  
+Called from HB_HRBRUN(0)  
+Called from VEXECUTE:EXECFROMCGI(440)  
+Called from EXECCGI(83)  
+Called from MAIN(74)  
+--------------------------------------------------------------------------------

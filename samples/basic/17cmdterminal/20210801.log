@@ -1,0 +1,3940 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210801 01:05:12
+***************************** END LOG HEADER **************************************
+
+20210801 - 01:05:12 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 01:05:12 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 01:05:12 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 01:05:12 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 01:05:21 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 01:05:21 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 01:05:21 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 01:05:21 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:11:44 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:11:44 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:11:44 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:11:44 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:12:56 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:12:56 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:12:56 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:12:56 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:13:38 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:13:38 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:13:38 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:13:38 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:14:14 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:14:14 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:14:14 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:14:14 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:14:16 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:14:16 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:14:16 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:14:16 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:15:50 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:15:50 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:15:50 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:15:50 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:16:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:16:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:16:13 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:16:13 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:16:33 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:16:33 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:16:33 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:16:33 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:16:39 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:16:39 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:16:39 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:16:39 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:17:26 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:17:26 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:17:26 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:17:26 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(29)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:18:38 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:18:38 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:18:38 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:18:38 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:19:45 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:19:45 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:19:45 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:19:45 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:20:28 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:20:28 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:20:28 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:20:28 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:20:45 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:20:45 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:20:45 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:20:45 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:20:59 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:20:59 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:20:59 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:20:59 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:21:05 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:21:05 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:21:05 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:21:05 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:23:39 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:23:39 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:23:39 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:23:39 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:23:48 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:23:48 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:23:48 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:23:48 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:32:39 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:32:39 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:32:39 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:32:39 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:32:57 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:32:57 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:32:57 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:32:57 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:32:59 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:32:59 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:32:59 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:32:59 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:05 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:05 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:05 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:05 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:13 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:13 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:51 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:51 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:51 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:51 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:58 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:58 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:58 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:33:58 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:15 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:15 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:15 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:15 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:23 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:23 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:24 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:24 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:34 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:34 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:34 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:34 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:38 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:38 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:38 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:34:38 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:37:47 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:37:47 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:37:47 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:37:47 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:37:53 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:37:53 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:37:53 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:37:53 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:38:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:38:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:38:13 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:38:13 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:38:32 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:38:32 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:38:32 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:38:32 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:40:38 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:40:38 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:40:38 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:40:38 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:41:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:41:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:41:13 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:41:13 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:43:37 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:43:37 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:43:37 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:43:37 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:15 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:15 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:15 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:15 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:19 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:19 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:19 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:19 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:26 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:26 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:26 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:26 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:39 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:39 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:39 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:49:39 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:51:52 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:51:52 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:51:52 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:51:52 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:51:56 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:51:56 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:51:56 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:51:56 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:52:01 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:52:01 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:52:01 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:52:01 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:52:07 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:52:07 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:52:07 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:52:07 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:52:09 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:52:09 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:52:09 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:52:09 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:53:30 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:53:30 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:53:30 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:53:30 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:53:32 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:53:32 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:53:32 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:53:32 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:55:59 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:55:59 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:55:59 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:55:59 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:58:28 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:58:28 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:58:28 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:58:28 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:58:33 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:58:33 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:58:33 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:58:33 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:59:00 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:59:00 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:59:00 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:59:00 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:59:12 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:59:12 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:59:12 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 19:59:12 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:02:47 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:02:47 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:02:47 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:02:47 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:22:26 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:22:26 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:22:26 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:22:26 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:23:20 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(32)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:23:20 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(32)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:23:20 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(32)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:23:20 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(32)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:23:58 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:23:58 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:23:58 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:23:58 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:28:57 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:28:57 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:28:57 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:28:57 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:31:42 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:31:42 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:31:42 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:31:42 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:31:51 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:31:51 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:31:51 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:31:51 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(30)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:34:22 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:34:22 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:34:22 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:34:22 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:34:48 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:34:48 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:34:48 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:34:48 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:34:59 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:34:59 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:34:59 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:34:59 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:36:46 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:36:46 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:36:46 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:36:46 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:37:25 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:37:25 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:37:25 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:37:25 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(31)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:37:57 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:37:57 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:37:57 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:37:57 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:17 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:17 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:17 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:17 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:35 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:35 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:35 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:35 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:38 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:38 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:38 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:38 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:48 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:48 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:48 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:48 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:52 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:52 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:52 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:38:52 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:00 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:00 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:00 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:00 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:03 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:03 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:03 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:03 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:27 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:27 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:27 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:27 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:34 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:34 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:34 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:39:34 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:00 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:00 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:00 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:00 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:08 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:08 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:08 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:08 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:13 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:13 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:13 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:27 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:27 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:27 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:40:27 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:41:32 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:41:32 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:41:32 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:41:32 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:41:48 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:41:48 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:41:48 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+
+20210801 - 20:41:48 >>  [INFO] Mounted query : SELECT * FROM EMP / Original : SELECT * FROM EMP, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+HBM_CGI(35)  
+HB_HRBRUN(0)  
+VEXECUTE:EXECFROMCGI(443)  
+EXECCGI(86)  
+MAIN(77)  
+###################
+

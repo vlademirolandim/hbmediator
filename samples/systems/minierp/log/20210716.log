@@ -1,0 +1,224 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210716 20:28:06
+***************************** END LOG HEADER **************************************
+
+20210716 - 20:28:06 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_cliente"
+ Description :  "Erro de limite"
+ Operation   :  "HB_HKEYAT"
+INSIDE ROUTINE : hbm_cliente(  )
+ ARGS : {{"AC"=>"Acre", "AM"=>"Amazonas", "CE"=>"Ceará", "MG"=>"Minas Gerais", "PR"=>"Paraná"}, 0}
+ GENCODE : 2
+ FILENAME : ""
+ OPERATION : "HB_HKEYAT"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(47)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210716 - 21:21:56 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_cliente"
+ Description :  "Erro de limite"
+ Operation   :  "HB_HKEYAT"
+INSIDE ROUTINE : hbm_cliente(  )
+ ARGS : {{"AC"=>"Acre", "AM"=>"Amazonas", "CE"=>"Ceará", "MG"=>"Minas Gerais", "PR"=>"Paraná"}, 0}
+ GENCODE : 2
+ FILENAME : ""
+ OPERATION : "HB_HKEYAT"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(47)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210716 - 22:15:22 >>  [ERROR] (CODE:20200625221048) Execution error while load binary to memory: "hbm_venda" => "Unknown or unregistered symbol"
+ROUTINE NAME : hbm_venda
+ ARGS : NIL
+ GENCODE : 1
+ FILENAME : ""
+ OPERATION : "FRMCLIENTE"
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(440)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(51)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210716 - 22:15:22 >>  [ERROR] (CODE:20200625111133) I can't load buffer code
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(498)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(51)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210716 - 22:15:24 >>  [ERROR] (CODE:20200625221048) Execution error while load binary to memory: "hbm_venda" => "Unknown or unregistered symbol"
+ROUTINE NAME : hbm_venda
+ ARGS : NIL
+ GENCODE : 1
+ FILENAME : ""
+ OPERATION : "FRMCLIENTE"
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(440)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(51)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210716 - 22:15:25 >>  [ERROR] (CODE:20200625111133) I can't load buffer code
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(498)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(51)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210716 - 22:15:26 >>  [ERROR] (CODE:20200625221048) Execution error while load binary to memory: "hbm_venda" => "Unknown or unregistered symbol"
+ROUTINE NAME : hbm_venda
+ ARGS : NIL
+ GENCODE : 1
+ FILENAME : ""
+ OPERATION : "FRMCLIENTE"
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(440)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(51)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210716 - 22:15:26 >>  [ERROR] (CODE:20200625111133) I can't load buffer code
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(498)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(51)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210716 - 22:15:47 >>  [ERROR] (CODE:20200625221048) Execution error while load binary to memory: "hbm_venda" => "Unknown or unregistered symbol"
+ROUTINE NAME : hbm_venda
+ ARGS : NIL
+ GENCODE : 1
+ FILENAME : ""
+ OPERATION : "FRMCLIENTE"
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(440)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(51)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210716 - 22:15:47 >>  [ERROR] (CODE:20200625111133) I can't load buffer code
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(498)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBM_BOOTSTRAP(51)  
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+

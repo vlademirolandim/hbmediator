@@ -1,0 +1,271 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210718 02:06:12
+***************************** END LOG HEADER **************************************
+
+20210718 - 02:06:12 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Syntax error "syntax error at 'code/config.json'"
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:06:12 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:06:34 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Syntax error "syntax error at 'config.json'"
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:06:34 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:12:18 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'config.json'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:12:18 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:12:38 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_bootstrap"
+ Description :  "Erro nos parƒmetros"
+ Operation   :  "acesso de array"
+INSIDE ROUTINE : hbm_bootstrap(  )
+ ARGS : {NIL}
+ GENCODE : 1
+ FILENAME : ""
+ OPERATION : "acesso de array"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:12:40 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_bootstrap"
+ Description :  "Erro nos parƒmetros"
+ Operation   :  "acesso de array"
+INSIDE ROUTINE : hbm_bootstrap(  )
+ ARGS : {NIL}
+ GENCODE : 1
+ FILENAME : ""
+ OPERATION : "acesso de array"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 02:21:10 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_bootstrap"
+ Description :  "Erro nos parƒmetros"
+ Operation   :  "<="
+INSIDE ROUTINE : hbm_bootstrap(  )
+ ARGS : {"bancoconta", 1}
+ GENCODE : 1
+ FILENAME : ""
+ OPERATION : "<="
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:07:10 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_bootstrap"
+ Description :  "Erro nos parƒmetros"
+ Operation   :  "<="
+INSIDE ROUTINE : hbm_bootstrap(  )
+ ARGS : {"bancoconta", 1}
+ GENCODE : 1
+ FILENAME : ""
+ OPERATION : "<="
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:07:12 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_bootstrap"
+ Description :  "Erro nos parƒmetros"
+ Operation   :  "<="
+INSIDE ROUTINE : hbm_bootstrap(  )
+ ARGS : {"bancoconta", 1}
+ GENCODE : 1
+ FILENAME : ""
+ OPERATION : "<="
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+
+20210718 - 03:07:15 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_bootstrap"
+ Description :  "Erro nos parƒmetros"
+ Operation   :  "<="
+INSIDE ROUTINE : hbm_bootstrap(  )
+ ARGS : {"bancoconta", 1}
+ GENCODE : 1
+ FILENAME : ""
+ OPERATION : "<="
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(25)  
+###################
+

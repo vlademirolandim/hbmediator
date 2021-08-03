@@ -1,0 +1,109 @@
+#line 6 "code/cliente.prg"
+procedure HBM_Cliente
+
+    LOCAL cSQL
+    LOCAL __oBrw__
+
+cSQL:=""
+cSQL+="        SELECT  a.id, a.nome, a.endereco, a.bairro, a.telefones,"
+cSQL+="                a.cidade, a.uf, a.cep , a.email, a.dataNascimento,"
+cSQL+="                a.cpf, a.rg, a.nomedopai, a.nomedamae, a.obs, a.sexo"
+cSQL+="        FROM cliente as a"
+
+
+    __oBrw__ := VBrowseCMD():New( "MINIERP" , cSQL );__oBrw__:setStandardScreen(.T.)
+    __oBrw__:setTitle( "Cliente" )
+
+    __oBrw__:addColumn( "NOME" , "Nome" , "@x" , 40 )
+    __oBrw__:addColumn( "EMAIL" , "E-mail" , "@x" , 30 )
+    __oBrw__:addColumn( "TELEFONES" , "Telefones" , "@x" , 20 )
+
+    __oBrw__:setTable( "CLIENTE" )
+    __oBrw__:setPKName( "ID" )
+    __oBrw__:setUpdate( {|oForm|FrmCliente( oForm )} )
+    __oBrw__:setInsert( {|oForm|FrmCliente( oForm )} )
+    __oBrw__:setDelete( .T. )
+
+    __oBrw__:setBlockFooter( {|| BlockFooter() } , 5 )
+
+
+
+
+
+    __oBrw__:setFilter( "Filtra por nome" , "nome LIKE '%' || %s || '%'", { "Nome   : "  } , { SPACE(30)  } , { "@K"  } , { .F. } )
+
+
+
+    __oBrw__:Show()
+
+RETURN
+
+FUNCTION FrmCliente( __oForm__ )
+
+    LOCAL hEstados := { "AC" => "Acre" , "AM" => "Amazonas" , "CE" => "Ceará" , "MG" => "Minas Gerais" , "PR" => "Paraná" }
+
+__oForm__:setScreenDef(e"\n      Nome......: [A                                              Nascimento : [O\n\n\n      Endereço..: [B                                                  Bairro : [C \n\n      Cidade....: [D                                                  Estado : [E\n\n      C.E.P.....: [F\n\n\n\n      E-mails...: [G                                               Telefones : [H\n\n      C.P.F.....: [I                                                    R.G. : [J\n\t  \n\n      Mãe...... : [K                                           \n\n      Pai...... : [L\n\n      Observações\n\n      [M\n\n      \n    \n\n\n")
+    __oForm__:setRowBegin(5);__oForm__:setColBegin(10)
+
+    __oForm__:addMapControl( "A" , "NOME" , "" , "@!S40" , 50 , , "NOME" , , "Nome" , )
+    __oForm__:addMapControl( "O" , "NASCIMENTO" , DATE() , , , , "DATANASCIMENTO" , , "Data de nascimento" , )
+    __oForm__:addMapControl( "B" , "ENDERECO" , SPACE(40) , , , , "ENDERECO" , , "Informe a rua/avenida, o complemento e o número" , )
+    __oForm__:addMapControl( "C" , "BAIRRO" , SPACE(40) , , , , "BAIRRO" , , , )
+    __oForm__:addMapControl( "D" , "CIDADE" , SPACE(40) , , , , "CIDADE" , , , )
+    __oForm__:addMapControl( "E" , "UF" , "", , , , "UF" , .F. , "Unidade da federação" , "DROPDOWN" , 20 , 20 , hEstados )
+    __oForm__:addMapControl( "F" , "CEP" , "       " , "@R 99.999-999" , 8 , , "CEP" , , , )
+    __oForm__:addMapControl( "G" , "EMAIL" , SPACE(20) , , , , "EMAIL" , , , )
+    __oForm__:addMapControl( "H" , "TELEFONES" , SPACE(20) , , , , "TELEFONES" , , , )
+    __oForm__:addMapControl( "I" , "CPF" , SPACE(20) , , , , "CPF" , , , )
+    __oForm__:addMapControl( "J" , "RG" , SPACE(20) , , , , "RG" , , , )
+    __oForm__:addMapControl( "K" , "NOMEDAMAE" , SPACE(20) , , , , "NOMEDAMAE" , , , )
+    __oForm__:addMapControl( "L" , "NOMEDOPAI" , SPACE(20) , , , , "NOMEDOPAI" , , , )
+    __oForm__:addMapControl( "M" , "OBS" , SPACE(50) , , , , "OBS" , , , )
+
+
+    __oForm__:setBeforeSubmit( {|a,b| ClienteBeforeSubmit(a,b) })
+
+
+
+
+
+RETURN __oForm__
+
+static FUNCTION BlockFooter
+
+    DevPos( ROW()+1, 2 ) ; DevOut( "Obs         : " + PADR( FIELD->OBS , 50 ) )
+    DevPos( ROW()+2, 2 ) ; DevOut( "Nome da mãe : " + PADR( FIELD->NOMEDAMAE , 50 ) )
+
+RETURN NIL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FUNCTION ClienteBeforeSubmit( hGet )
+
+    if empty( hGet["UF"] )
+        hGet["UF"] := "CE"
+    endif
+
+
+RETURN .T.

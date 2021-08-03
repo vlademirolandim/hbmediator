@@ -1,0 +1,46 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210726 15:08:08
+***************************** END LOG HEADER **************************************
+
+20210726 - 15:08:08 >>  [INFO] After execute with return : 16
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(517)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 15:08:08 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 15:09:03 >>  [INFO] After execute with return : 13
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(517)  
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+
+20210726 - 15:09:03 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(210)  
+HBMLOAD(28)  
+HBMBOOTSTRAP(12)  
+HBMSTART(6)  
+MAIN(26)  
+###################
+

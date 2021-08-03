@@ -1,0 +1,45 @@
+#line 6 "code/bancoconta.prg"
+procedure HBM_BancoConta
+
+    LOCAL cSQL
+    LOCAL __oBrw__
+
+cSQL:=""
+cSQL+="        SELECT  id, nome, tipoconta,"
+cSQL+="                banco_nome, obs, agencia, conta"
+cSQL+="        FROM BancoConta        "
+
+
+    __oBrw__ := VBrowseCMD():New( "MINIERP" , cSQL );__oBrw__:setStandardScreen(.T.)
+    __oBrw__:setTitle( "Contas bancárias" )
+
+    __oBrw__:addColumn( "NOME" , "Nome da conta" , "@x" , 30 )
+    __oBrw__:addColumn( "BANCO_NOME" , "Nome do Banco" , "@x" , 30 )
+    __oBrw__:addColumn( "CONTA" , "Conta" , "@X" , 15 )
+    __oBrw__:addColumn( "TIPOCONTA" , "Tipo" , "@X" , 15 )
+    __oBrw__:addColumn( "AGENCIA" , "Agência" , "@x" , 30 )
+
+
+    __oBrw__:setTable( "BANCOCONTA" )
+    __oBrw__:setPKName( "ID" )
+    __oBrw__:setUpdate( {|oForm|FrmBancoConta( oForm )} )
+    __oBrw__:setInsert( {|oForm|FrmBancoConta( oForm )} )
+    __oBrw__:setDelete( .T. )
+
+    __oBrw__:Show()
+
+RETURN
+
+FUNCTION FrmBancoConta( __oForm__ )
+
+__oForm__:setScreenDef(e"     \n      Conta....: [A     \n\n      Tipo.....: [B \n\n\n\n\n\n\n      Banco....: [C               \n\t  \n      Agência..: [D                                           Conta..: [E\n\n      \n    \n\n\n")
+    __oForm__:setRowBegin(7);__oForm__:setColBegin(10)
+    __oForm__:setTitle( "Conta Corrente" )
+
+    __oForm__:addMapControl( "A" , "Text_Nome" , "" , "@!" , 30 , , "NOME" , , "Nome da conta" , )
+    __oForm__:addMapControl( "B" , "Text_TipoConta" , "" , , , , "TIPOCONTA" , , "Tipo" , "RADIOGROUP" , 20 , 4 , { "CONTA_CORRENTE" => "Conta Corrente" , "POUPANCA" => "Poupança" } )
+    __oForm__:addMapControl( "C" , "Text_BancoNome" , "" , "@!" , 30 , , "BANCO_NOME" , , "Banco" , )
+    __oForm__:addMapControl( "D" , "Text_Agencia" , "" , "@!" , 30 , , "AGENCIA" , , "Agência do banco" , )
+    __oForm__:addMapControl( "E" , "Text_Conta" , "" , "@R 99999-X" , 15 , , "CONTA" , , "Conta corrente (com o dígito)" , )
+
+RETURN __oForm__

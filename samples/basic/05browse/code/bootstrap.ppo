@@ -1,0 +1,47 @@
+#line 6 "code/bootstrap.prg"
+procedure HBM_Bootstrap
+
+    LOCAL __oBrw__
+
+    InitConfig( hb_MemoRead( "code/config.json" ) )
+    ConfigTUISingleton( hb_MemoRead( "code/tui.json" ) )
+    ConfigSetLogLevel( 4 )
+
+    __oBrw__ := VBrowseCMD():New( "TESTE" , "SELECT * FROM EMP" );__oBrw__:setStandardScreen(.T.);__oBrw__:setLimit(5)
+    __oBrw__:setTitle( "Employee" )
+
+    __oBrw__:addColumn( "EMPNO" , "Code" , "999999" , )
+    __oBrw__:addColumn( "ENAME" , "Employee's name" , "@x" , 40 )
+
+    __oBrw__:setTable( "EMP" )
+    __oBrw__:setPKName( "EMPNO" )
+    __oBrw__:setUpdate( {|oForm|FrmEmp( oForm )} )
+    __oBrw__:setInsert( {|oForm|FrmEmp( oForm )} )
+    __oBrw__:setDelete( .T. )
+
+    __oBrw__:addRoutine( "Rotina" , {||RotinaExtra()} , )
+
+
+
+
+
+
+    __oBrw__:Show()
+
+RETURN
+
+STATIC FUNCTION FrmEmp( __oForm__ )
+
+__oForm__:setScreenDef(e"     \n      Code.....: [A     \n\n      Name.....: [B  \n\n\t  \n\t  \n\t \n    \n\n\n")
+    __oForm__:setRowBegin(14);__oForm__:setColBegin(30)
+
+    __oForm__:addMapControl( "A" , "Text_EmpNo" , 0 , "@r 99999" , , , "EMPNO" , IIF( __oForm__:getOper() == "A" , .T. , .F. ) , "Type code employee" , )
+    __oForm__:addMapControl( "B" , "Text_Ename" , "" , "@X" , 30 , , "ENAME" , , "Type name employee" , )
+
+RETURN __oForm__
+
+PROCEDURE RotinaExtra
+
+    hb_alert("Extra Routine Here")
+
+    RETURN

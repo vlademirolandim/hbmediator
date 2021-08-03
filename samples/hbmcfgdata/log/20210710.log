@@ -1,0 +1,468 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210710 18:56:23
+***************************** END LOG HEADER **************************************
+
+20210710 - 18:56:23 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'vbase.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 18:56:23 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:05:21 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'vbase.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:05:21 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:05:40 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Syntax error "syntax error at 'FORM'"
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:05:40 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:06:52 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'config.json'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:06:52 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:08:53 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:08:53 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:08:59 >>  [INFO] After execute with return : NIL
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:08:59 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:10:16 >>  [INFO] After execute with return : .F.
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:10:16 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:12:59 >>  [INFO] After execute with return : .F.
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:12:59 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:19:18 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'config.json'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:19:18 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:21:13 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'config.json'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VEXECUTE:EXECFROMPRG(205)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:21:13 >>  [ERROR] (CODE:20200717110513) Probable compile error / GetResultCompiler return .f. after compile file code/bootstrap.prg
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(213)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:25:40 >>  [INFO] After execute with return : .F.
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:25:40 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:26:54 >>  [INFO] After execute with return : .F.
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:26:54 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:30:28 >>  [INFO] After execute with return : .F.
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:30:28 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:31:47 >>  [INFO] After execute with return : .F.
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:31:47 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:34:33 >>  [INFO] After execute with return : .F.
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:34:33 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:37:07 >>  [INFO] After execute with return : .T.
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:37:07 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:37:26 >>  [INFO] After execute with return : .F.
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 19:37:26 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 22:26:39 >>  [INFO] After execute with return : .F.
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 22:26:39 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 22:29:46 >>  [ERROR] (CODE:20200625105833) Execution error: "hbm_bootstrap"
+ Description :  "Erro nos parƒmetros"
+ Operation   :  "HB_HPOS"
+INSIDE ROUTINE : hbm_bootstrap(  )
+ ARGS : {{"SQLITE"=>"SQLite", "POSTGRES"=>"PostgreSQL"}, NIL}
+ GENCODE : 1
+ FILENAME : ""
+ OPERATION : "HB_HPOS"
+                               ((((c,               ,7))))
+                               (((((((              ))))))))
+                              (((((((            ))))))))
+                               ((((((@@@@@@@@@@@))))))))
+                               @@@@@@@@@@@@@@@@)))))))
+                              @@@@@@@@@@@@@@@@@@))))))@@@@
+                             @@/,:::,\/,:::,\@@@@@@@@@@@@@@
+                             @@|:::::||:::::|@@@@@@@@@@@@@@@
+                             @@\':::'/\':::'/@@@@@@@@@@@@@@
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@
+                               @@@@@@@@@@@@@@@@@@@@@@\
+                                  /    \        (     \
+                                 (      )        \     \
+                                  \    /          \
+Runtime error                  bug
+
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(484)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 22:29:46 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 22:32:35 >>  [INFO] After execute with return : .F.
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 22:32:35 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 22:34:12 >>  [INFO] After execute with return : .F.
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(451)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+
+20210710 - 22:34:12 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(26)  
+###################
+

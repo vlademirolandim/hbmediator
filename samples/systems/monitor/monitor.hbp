@@ -1,0 +1,9 @@
+#IniBlock=Main
+#Automatic=Yes
+hbmediator.hbc
+monitor.prg
+isql.prg
+code/adduser.prg
+code/bootstrap.prg
+#EndBlockMain
+

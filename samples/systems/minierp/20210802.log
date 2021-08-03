@@ -1,0 +1,216 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210802 21:38:54
+***************************** END LOG HEADER **************************************
+
+20210802 - 21:38:54 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VBROWSECMD:OPEN(218)  
+VBROWSECMD:SHOW(439)  
+HBM_BANCOCONTA(33)  
+HBMLOAD(12)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+MAIN(4)  
+###################
+
+20210802 - 21:38:54 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VBROWSECMD:OPEN(218)  
+VBROWSECMD:SHOW(439)  
+HBM_BANCOCONTA(33)  
+HBMLOAD(12)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+MAIN(4)  
+###################
+
+20210802 - 21:38:54 >>  [INFO] Mounted query :         SELECT  id, nome, tipoconta,                banco_nome, obs, agencia, conta        FROM BancoConta         WHERE 1=1  LIMIT 20 OFFSET 0 / Original :         SELECT  id, nome, tipoconta,                banco_nome, obs, agencia, conta        FROM BancoConta         WHERE 1=1 , nPage : 1, nLimit : 20
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VBROWSECMD:OPEN(218)  
+VBROWSECMD:SHOW(439)  
+HBM_BANCOCONTA(33)  
+HBMLOAD(12)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+MAIN(4)  
+###################
+
+20210802 - 21:38:54 >>  [INFO] Mounted query :         SELECT  id, nome, tipoconta,                banco_nome, obs, agencia, conta        FROM BancoConta         WHERE 1=1  LIMIT 20 OFFSET 0 / Original :         SELECT  id, nome, tipoconta,                banco_nome, obs, agencia, conta        FROM BancoConta         WHERE 1=1 , nPage : 1, nLimit : 20
+
+# Called from : 
+FQUERYTODBF(121)  
+VBROWSECMD:OPEN(218)  
+VBROWSECMD:SHOW(439)  
+HBM_BANCOCONTA(33)  
+HBMLOAD(12)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+MAIN(4)  
+###################
+
+20210802 - 21:39:35 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VLJ_DLOOKUPREGISTER(158)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(713)  
+HBM_BANCOCONTA(33)  
+HBMLOAD(12)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+MAIN(4)  
+###################
+
+20210802 - 21:39:35 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VLJ_DLOOKUPREGISTER(158)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(713)  
+HBM_BANCOCONTA(33)  
+HBMLOAD(12)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+MAIN(4)  
+###################
+
+20210802 - 21:39:35 >>  [INFO] Mounted query : SELECT * FROM BANCOCONTA WHERE ID = 28 / Original : SELECT * FROM BANCOCONTA WHERE ID = 28, nPage : 1, nLimit : 0
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VLJ_DLOOKUPREGISTER(158)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(713)  
+HBM_BANCOCONTA(33)  
+HBMLOAD(12)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+MAIN(4)  
+###################
+
+20210802 - 21:39:35 >>  [INFO] Mounted query : SELECT * FROM BANCOCONTA WHERE ID = 28 / Original : SELECT * FROM BANCOCONTA WHERE ID = 28, nPage : 1, nLimit : 0
+
+# Called from : 
+FQUERYTODBF(121)  
+VLJ_DLOOKUPREGISTER(158)  
+VGETCMD:SHOW(417)  
+VBROWSECMD:SHOW(713)  
+HBM_BANCOCONTA(33)  
+HBMLOAD(12)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+MAIN(4)  
+###################
+
+20210802 - 21:39:37 >>  [INFO] Data base open successfully
+
+# Called from : 
+VSQLITE:OPEN(134)  
+FQUERYTODBF(99)  
+VBROWSECMD:OPEN(218)  
+VBROWSECMD:REFRESH(1118)  
+VBROWSECMD:SHOW(721)  
+HBM_BANCOCONTA(33)  
+HBMLOAD(12)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+MAIN(4)  
+###################
+
+20210802 - 21:39:37 >>  [INFO] Data base open successfully
+
+# Called from : 
+FQUERYTODBF(103)  
+VBROWSECMD:OPEN(218)  
+VBROWSECMD:REFRESH(1118)  
+VBROWSECMD:SHOW(721)  
+HBM_BANCOCONTA(33)  
+HBMLOAD(12)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+MAIN(4)  
+###################
+
+20210802 - 21:39:37 >>  [INFO] Mounted query :         SELECT  id, nome, tipoconta,                banco_nome, obs, agencia, conta        FROM BancoConta         WHERE 1=1  LIMIT 20 OFFSET 0 / Original :         SELECT  id, nome, tipoconta,                banco_nome, obs, agencia, conta        FROM BancoConta         WHERE 1=1 , nPage : 1, nLimit : 20
+
+# Called from : 
+VSQLITE:MOUNTQUERY(730)  
+VSQLITE:EXECUTEQUERY(263)  
+VSQLITE:EXECUTEQUERYTODBF(1250)  
+FQUERYTODBF(118)  
+VBROWSECMD:OPEN(218)  
+VBROWSECMD:REFRESH(1118)  
+VBROWSECMD:SHOW(721)  
+HBM_BANCOCONTA(33)  
+HBMLOAD(12)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+MAIN(4)  
+###################
+
+20210802 - 21:39:37 >>  [INFO] Mounted query :         SELECT  id, nome, tipoconta,                banco_nome, obs, agencia, conta        FROM BancoConta         WHERE 1=1  LIMIT 20 OFFSET 0 / Original :         SELECT  id, nome, tipoconta,                banco_nome, obs, agencia, conta        FROM BancoConta         WHERE 1=1 , nPage : 1, nLimit : 20
+
+# Called from : 
+FQUERYTODBF(121)  
+VBROWSECMD:OPEN(218)  
+VBROWSECMD:REFRESH(1118)  
+VBROWSECMD:SHOW(721)  
+HBM_BANCOCONTA(33)  
+HBMLOAD(12)  
+(b)HBM_BOOTSTRAP(15)  
+HBMENUSYS:EXECUTE(0)  
+HBMENUSYS:MODAL(0)  
+MENUMODAL(0)  
+HBM_BOOTSTRAP(30)  
+MAIN(4)  
+###################
+

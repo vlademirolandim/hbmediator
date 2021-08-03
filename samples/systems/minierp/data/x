@@ -1,0 +1,519 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE Cliente ( 
+    id                 INTEGER       PRIMARY KEY AUTOINCREMENT,
+    nome               TEXT          ,
+    endereco           TEXT          ,
+    bairro             TEXT          ,
+    telefones          TEXT          ,
+    cidade             TEXT          ,
+    uf                 TEXT          ,
+    cep                TEXT          ,
+    email              TEXT          ,
+    dataNascimento     DATE,
+    cpf                TEXT         ,
+    rg                 TEXT          ,
+    nomeDaMae          TEXT          ,
+    nomeDoPai          TEXT          ,
+    clienteBloqueado   INTEGER,
+    ultimareceita      TEXT,
+    obs                TEXT,
+    sexo               TEXT  ,
+    localtrabalho      TEXT          ,
+    datacadastro       TEXT          ,
+    dataultimaconsulta TEXT          ,
+    criadoEm           TEXT          ,
+    criadoPor          TEXT          ,
+    alteradoEm         TEXT          ,
+    alteradoPor        TEXT          
+);
+CREATE TABLE [Fornecedor] ([id] INTEGER PRIMARY KEY AUTOINCREMENT, [nome] TEXT, [endereco] TEXT, [bairro] TEXT, [telefones] TEXT, [cidade] TEXT, [uf] TEXT, [cep] TEXT, [email] TEXT, [dataNascimento] DATE, [cnpj] TEXT, [inscestadual] TEXT, [contato1] TEXT, [contato2] TEXT, [obs] TEXT, [obs2] TEXT, [criadoEm] TEXT, [criadoPor] TEXT, [alteradoEm] TEXT, [alteradoPor] TEXT);
+CREATE TABLE ProdutoCategoria ( 
+    id             INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome           TEXT,
+    obs            TEXT,
+    criadoEm       TEXT,
+    criadoPor      TEXT,
+    alteradoEm     TEXT,
+    alteradoPor    TEXT 
+);
+CREATE TABLE Conta ( 
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome        TEXT,
+    tipoconta   TEXT,
+    obs         TEXT,
+    criadoEm    TEXT,
+    criadoPor   TEXT,
+    alteradoEm  TEXT,
+    alteradoPor TEXT 
+);
+CREATE TABLE CReceber ( 
+    id             INTEGER PRIMARY KEY AUTOINCREMENT,
+    cliente_id     INTEGER,
+    venda_id       INTEGER,
+    conta_id       INTEGER,    
+    dataVencimento TEXT   ,
+    dataPagamento  TEXT   ,
+    dataConta      TEXT   ,
+    valor          REAL   ,
+    valor_pago     REAL   ,
+    descricao      TEXT   ,
+    obs            TEXT,
+    criadoEm       TEXT   ,
+    criadoPor      TEXT   ,
+    alteradoEm     TEXT   ,
+    alteradoPor    TEXT    
+);
+CREATE TABLE [CPagar] ([id] INTEGER PRIMARY KEY AUTOINCREMENT, [fornecedor_id] INTEGER, [conta_id] INTEGER, [dataVencimento] DATE, [dataPagamento] DATE, [dataConta] DATE, [valor] REAL, [valor_pago] REAL, [descricao] TEXT, [obs] TEXT, [criadoEm] TEXT, [criadoPor] TEXT, [alteradoEm] TEXT, [alteradoPor] TEXT);
+CREATE TABLE [Caixa] ([id] INTEGER PRIMARY KEY AUTOINCREMENT, [conta_id] INTEGER, [venda_id] INTEGER, [cliente_id] INTEGER, [debito] REAL DEFAULT(0), [credito] REAL DEFAULT(0), [descricao] TEXT, [obs] TEXT, [data] TEXT, [criadoEm] TEXT, [criadoPor] TEXT, [alteradoEm] TEXT, [alteradoPor] TEXT, [fornecedor_id] INTEGER);
+INSERT INTO Caixa VALUES(32,0,0,0,0.0,50.0,'SALDO INICIAL','','2014-12-06','2014-12-06 10:35:12','admin',NULL,NULL,0);
+INSERT INTO Caixa VALUES(4405,2,NULL,3,NULL,500.0,'Teste',NULL,'2018-01-20',NULL,NULL,NULL,NULL,NULL);
+CREATE TABLE [FormaPagamento] ([id] INTEGER PRIMARY KEY AUTOINCREMENT, [descricao] TEXT, [entrada] INTEGER, [parcelas] INTEGER, [obs] TEXT, [criadoEm] TEXT, [criadoPor] TEXT, [alteradoEm] TEXT, [alteradoPor] TEXT);
+CREATE TABLE [VendaDetalhes] ([id] INTEGER PRIMARY KEY AUTOINCREMENT, [venda_id] INTEGER, [produto_id] INTEGER, [qtd] INTEGER, [preco_venda] INTEGER, [criadoEm] TEXT, [criadoPor] TEXT, [alteradoEm] TEXT, [alteradoPor] TEXT);
+CREATE TABLE [Produto] ([id] INTEGER PRIMARY KEY AUTOINCREMENT, [nome] TEXT, [descricao] TEXT, [categoria_id] INTEGER, [fornecedor_id] INTEGER, [preco_custo] REAL DEFAULT(0), [preco_avista] REAL DEFAULT(0), [preco_aprazo] REAL DEFAULT(0), [tipo_cadastro] TEXT, [estoque_minimo] INTEGER DEFAULT(0), [estoque_atual] INTEGER DEFAULT(0), [codigo_barras] TEXT, [obs] TEXT, [criadoEm] TEXT, [criadoPor] TEXT, [alteradoEm] TEXT, [alteradoPor] TEXT);
+CREATE TABLE [Config] ([id] INTEGER PRIMARY KEY AUTOINCREMENT, [chave] TEXT UNIQUE, [valor] TEXT, [obs] TEXT, [ordem] INTEGER DEFAULT(0));
+CREATE TABLE [Banco] ([id] INTEGER PRIMARY KEY AUTOINCREMENT, [bancoconta_id] INTEGER, [debito] REAL DEFAULT(0), [credito] REAL DEFAULT(0), [descricao] TEXT, [obs] TEXT, [data] TEXT, [criadoEm] TEXT, [criadoPor] TEXT, [alteradoEm] TEXT, [alteradoPor] TEXT);
+CREATE TABLE [BancoConta] ([id] INTEGER PRIMARY KEY AUTOINCREMENT, [nome] TEXT, [tipoconta] TEXT, [obs] TEXT, [banco_nome] TEXT, [agencia] TEXT, [conta] TEXT, [criadoEm] TEXT, [criadoPor] TEXT, [alteradoEm] TEXT, [alteradoPor] TEXT);
+CREATE TABLE [Venda] ([id] INTEGER PRIMARY KEY AUTOINCREMENT, [cliente_id] INTEGER, [descricao] TEXT, [obs] TEXT, [data] TEXT, [meiopagamento] TEXT, [formaPagamento_id] INTEGER, [criadoEm] TEXT, [criadoPor] TEXT, [alteradoEm] TEXT, [alteradoPor] TEXT, [totaldavenda] REAL, [usuario_id] INTEGER DEFAULT(0));
+INSERT INTO Venda VALUES(1013,4824,'des','obs','2021-07-15',NULL,NULL,NULL,NULL,NULL,NULL,150.0,0);
+INSERT INTO Venda VALUES(1014,3,'','','2021-07-16',NULL,NULL,NULL,NULL,NULL,NULL,200.0,0);
+INSERT INTO Venda VALUES(1015,4833,'','','2021-07-16',NULL,NULL,NULL,NULL,NULL,NULL,250.0,0);
+CREATE TABLE [temporaria] ([id] INTEGER PRIMARY KEY AUTOINCREMENT, [texto1] TEXT, [texto2] TEXT, [texto3] TEXT, [texto4] TEXT, [valor1] Real, [valor2] Real, [valor3] Real, [valor4] Real, [valor5] Real, [inteiro1] Integer, [inteiro2] Integer, [inteiro3] Integer, [inteiro4] Integer, [inteiro5] Integer, [data1] date, [data2] date, [data3] date, [data4] date, [data5] date, [chave] STRING);
+CREATE TABLE [Usuario] ([id] INTEGER PRIMARY KEY AUTOINCREMENT, [nome] TEXT, [email] TEXT, [username] TEXT, [senha] TEXT, [criadoEm] TEXT, [criadoPor] TEXT, [alteradoEm] TEXT, [alteradoPor] TEXT, [root] BOOLEAN, [menu] TEXT (2000));
+DELETE FROM sqlite_sequence;
+INSERT INTO sqlite_sequence VALUES('Cliente',4833);
+INSERT INTO sqlite_sequence VALUES('Fornecedor',14);
+INSERT INTO sqlite_sequence VALUES('ProdutoCategoria',8);
+INSERT INTO sqlite_sequence VALUES('Conta',19);
+INSERT INTO sqlite_sequence VALUES('CPagar',9);
+INSERT INTO sqlite_sequence VALUES('Caixa',4405);
+INSERT INTO sqlite_sequence VALUES('FormaPagamento',34);
+INSERT INTO sqlite_sequence VALUES('CReceber',10698);
+INSERT INTO sqlite_sequence VALUES('VendaDetalhes',1040);
+INSERT INTO sqlite_sequence VALUES('Produto',21);
+INSERT INTO sqlite_sequence VALUES('Config',46);
+INSERT INTO sqlite_sequence VALUES('BancoConta',27);
+INSERT INTO sqlite_sequence VALUES('Banco',13);
+INSERT INTO sqlite_sequence VALUES('Venda',1015);
+INSERT INTO sqlite_sequence VALUES('temporaria',4);
+INSERT INTO sqlite_sequence VALUES('Usuario',6);
+CREATE INDEX [idx_Caixa] ON [Caixa] ([conta_id]);
+CREATE INDEX [Config_Chave] ON [Config] ( [chave] );
+CREATE INDEX [idx_temporaria] ON [temporaria] ([chave]);
+CREATE INDEX [idx_Cliente] ON [Cliente] ([nome]);
+CREATE VIEW [rel_cliente_aniversario_nome] AS select id as "Código",ifnull(nome,"-") as "Nome do Cliente", 
+ifnull(telefones,"-") as "Telefone", ifnull(strftime("%d/%m",dataNascimento),"-") as "Aniversário"
+from cliente
+order by nome;
+CREATE VIEW [rel_cliente_aniversario_mes] AS select id as "Código",ifnull(nome,"-") as "Nome do Cliente", 
+ifnull(telefones,"-") as "Telefone", ifnull(strftime("%d/%m",dataNascimento),"-") as "Aniversário"
+from cliente
+order by strftime("%m", dataNascimento);
+CREATE VIEW [rel_cliente] AS select id as "Código",
+ifnull(nome,"-") as "Nome do Cliente", 
+ifnull(endereco,"-") as "Endereço", 
+ifnull(bairro,"-") as "Bairro", 
+ifnull(cidade,"-") as "Cidade", 
+ifnull(uf,"-") as "Estado", 
+ifnull(cep,"-") as "Cep", 
+ifnull(telefones,"-") as "Telefone" from cliente
+order by nome;
+CREATE VIEW [rel_cliente_cidadebairro] AS select id as "Código",
+ifnull(nome,"-") as "Nome do Cliente", 
+ifnull(endereco,"-") as "Endereço", 
+ifnull(bairro,"-") as "Bairro", 
+ifnull(cidade,"-") as "Cidade", 
+ifnull(uf,"-") as "Estado", 
+ifnull(cep,"-") as "Cep", 
+ifnull(telefones,"-") as "Telefone" from cliente
+order by cidade, bairro;
+CREATE VIEW [rel_produtocategoria_id] AS select id as "Código", 
+ifnull(nome,"-") as "Nome da Categoria"
+from ProdutoCategoria
+order by id;
+CREATE VIEW [rel_produtocategoria_nome] AS select id as "Código", 
+ifnull(nome,"-") as "Nome da Categoria"
+from ProdutoCategoria
+order by nome;
+CREATE VIEW [rel_conta_id] AS select id as "Código", 
+ifnull(nome,"-") as "Nome da Conta",
+
+CASE 
+When tipoconta="C" then "Crédito"
+WHEN tipoconta="D" then "Débito"
+else ifnull(tipoconta,"-")
+end
+ as "Tipo da Conta"
+
+from Conta
+order by id;
+CREATE VIEW [rel_conta_nome] AS select id as "Código", 
+ifnull(nome,"-") as "Nome da Conta",
+
+CASE 
+When tipoconta="C" then "Crédito"
+WHEN tipoconta="D" then "Débito"
+else ifnull(tipoconta,"-")
+end
+ as "Tipo da Conta"
+
+from Conta
+order by nome;
+CREATE VIEW [rel_formapagamento_id] AS select id as "Código", 
+ifnull(descricao,"-") as "Forma de Pagamento",
+case
+when entrada=1 then "Sim"
+when entrada=0 then "Não"
+end as "Possui Entrada?",
+parcelas as "Número de Parcelas"
+
+ from formapagamento
+ order by id;
+CREATE VIEW [rel_formapagamento_descricao] AS select id as "Código", 
+ifnull(descricao,"-") as "Forma de Pagamento",
+case
+when entrada=1 then "Sim"
+when entrada=0 then "Não"
+end as "Possui Entrada?",
+parcelas as "Número de Parcelas"
+
+ from formapagamento
+ order by descricao;
+CREATE VIEW [rel_fornecedor_nome] AS select id as "Código",ifnull(nome,"-") as "Nome do Fornecedor", 
+ifnull(telefones,"-") as "Telefone",
+ifnull(endereco,"-") as "Endereço",
+ifnull(bairro,"-") as "Bairro",
+ifnull(cidade,"-") as "Cidade",
+ifnull(uf,"-") as "UF",
+ifnull(cep,"-") as "Cep"
+
+
+from Fornecedor
+order by nome;
+CREATE VIEW [rel_fornecedor_id] AS select id as "Código",ifnull(nome,"-") as "Nome do Fornecedor", 
+ifnull(telefones,"-") as "Telefone",
+ifnull(endereco,"-") as "Endereço",
+ifnull(bairro,"-") as "Bairro",
+ifnull(cidade,"-") as "Cidade",
+ifnull(uf,"-") as "UF",
+ifnull(cep,"-") as "Cep"
+
+
+from Fornecedor
+order by id;
+CREATE VIEW [rel_produto_id] AS select p.id as "Código",
+ifnull(p.nome,"-") as "Nome do Produto", 
+ifnull(c.nome,"-") as "Nome da Categoria",
+
+case 
+    when substr(preco_custo,length(ROUND(preco_custo,2))-1,1) = "." then replace(p.preco_custo,".",",") || "0" 
+    else replace(p.preco_custo,".",",") end  as "Preço de Custo",
+
+case 
+    when substr(preco_avista,length(ROUND(preco_avista,2))-1,1) = "." then replace(p.preco_avista,".",",") || "0" 
+    else replace(p.preco_avista,".",",") end  as "Preço A Vista",
+
+case 
+    when substr(preco_aprazo,length(ROUND(preco_aprazo,2))-1,1) = "." then replace(p.preco_aprazo,".",",") || "0" 
+    else replace(p.preco_aprazo,".",",") end  as "Preço A Prazo",
+    
+p.tipo_cadastro as "Tipo Cadastro",
+p.estoque_atual as "Estoque Atual",
+p.estoque_minimo as "Estoque Mínimo"
+    
+
+
+
+
+
+
+from produto p, Produtocategoria c
+
+where p.categoria_id = c.id
+
+order by p.id;
+CREATE VIEW [rel_produto_nome] AS select p.id as "Código",
+ifnull(p.nome,"-") as "Nome do Produto", 
+ifnull(c.nome,"-") as "Nome da Categoria",
+
+case 
+    when substr(preco_custo,length(ROUND(preco_custo,2))-1,1) = "." then replace(p.preco_custo,".",",") || "0" 
+    else replace(p.preco_custo,".",",") end  as "Preço de Custo",
+
+case 
+    when substr(preco_avista,length(ROUND(preco_avista,2))-1,1) = "." then replace(p.preco_avista,".",",") || "0" 
+    else replace(p.preco_avista,".",",") end  as "Preço A Vista",
+
+case 
+    when substr(preco_aprazo,length(ROUND(preco_aprazo,2))-1,1) = "." then replace(p.preco_aprazo,".",",") || "0" 
+    else replace(p.preco_aprazo,".",",") end  as "Preço A Prazo",
+    
+p.tipo_cadastro as "Tipo Cadastro",
+p.estoque_atual as "Estoque Atual",
+p.estoque_minimo as "Estoque Mínimo"
+    
+
+
+
+
+
+
+from produto p, Produtocategoria c
+
+where p.categoria_id = c.id
+
+order by p.nome;
+CREATE VIEW [rel_produto_categoria] AS select p.id as "Código",
+ifnull(p.nome,"-") as "Nome do Produto", 
+ifnull(c.nome,"-") as "Nome da Categoria",
+
+case 
+    when substr(preco_custo,length(ROUND(preco_custo,2))-1,1) = "." then replace(p.preco_custo,".",",") || "0" 
+    else replace(p.preco_custo,".",",") end  as "Preço de Custo",
+
+case 
+    when substr(preco_avista,length(ROUND(preco_avista,2))-1,1) = "." then replace(p.preco_avista,".",",") || "0" 
+    else replace(p.preco_avista,".",",") end  as "Preço A Vista",
+
+case 
+    when substr(preco_aprazo,length(ROUND(preco_aprazo,2))-1,1) = "." then replace(p.preco_aprazo,".",",") || "0" 
+    else replace(p.preco_aprazo,".",",") end  as "Preço A Prazo",
+    
+p.tipo_cadastro as "Tipo Cadastro",
+p.estoque_atual as "Estoque Atual",
+p.estoque_minimo as "Estoque Mínimo"
+    
+
+
+
+
+
+
+from produto p, Produtocategoria c
+
+where p.categoria_id = c.id
+
+order by c.nome;
+CREATE VIEW [rel_cpagar_vencimento] AS select p.dataConta as "Data Conta", 
+ifnull(p.descricao,"-") as "Descricao",
+case 
+    when substr(p.valor,length(ROUND(valor,2))-1,1) = "." then replace(p.valor,".",",") || "0"     
+    else replace(p.valor,".",",") end  as "Valor",
+
+case 
+    when substr(p.valor_pago,length(ROUND(valor_pago,2))-1,1) = "." then replace(p.valor_pago,".",",") || "0"     
+    else ifnull(replace(p.valor_pago,".",","),"-") end  as "Valor Pago",
+
+ifnull((select nome from fornecedor where id=p.fornecedor_id),"-") as "Nome do Fornecedor",
+
+p.dataVencimento as "Data Vencimento",
+
+ifnull(p.dataPagamento,"-") as "Data Pagamento",
+
+Case 
+  when (dataVencimento<date()  and  dataPagamento is null) then "EM ATRASO"
+  when dataPagamento is null then "Em aberto"
+  when dataPagamento is not null then "Pago"
+  END as Status
+
+from cPagar p
+
+order by p.dataVencimento;
+CREATE VIEW [rel_cliente_ficha] AS select id as "Código",
+ifnull(nome,"-") as "Nome",
+ifnull(endereco,"-") as "Endereço",
+ifnull(bairro,"-") as "Bairro",
+ifnull(cidade,"-") as "Cidade",
+ifnull(uf,"-") as "Estado",
+ifnull(cep,"-") as "Cep",
+ifnull(telefones,"-") as "Telefones",
+ifnull(Datanascimento,"-") as "Data de Nascimento",
+ifnull(cpf,"-") as "CPF",
+ifnull(rg,"-") as "Rg",
+ifnull(sexo,"-") as "Sexo",
+ifnull(nomedamae,"-") as "Nome da Mãe",
+ifnull(nomedopai,"-") as "Nome do Pai",
+ifnull(localTrabalho,"-") as "Local de Trabalho",
+ifnull(datacadastro,"-") as "Data de Cadastro",
+ifnull(dataultimaconsulta,"-") as "Data da Última Consulta",
+ifnull(ultimareceita,"-") as "Última Receita"
+
+
+
+from cliente;
+CREATE VIEW [rel_fornecedor_ficha] AS select id as "Código",
+ifnull(nome,"-") as "Nome",
+ifnull(endereco,"-") as "Endereço",
+ifnull(bairro,"-") as "Bairro",
+ifnull(cidade,"-") as "Cidade",
+ifnull(uf,"-") as "Estado",
+ifnull(cep,"-") as "Cep",
+ifnull(telefones,"-") as "Telefones",
+ifnull(Datanascimento,"-") as "Data Fundação",
+ifnull(cnpj,"-") as "CNPJ",
+ifnull(inscestadual,"-") as "Insc. Estadual",
+ifnull(contato1,"-") as "Contato 1",
+ifnull(contato2,"-") as "Contato 2"
+
+
+from fornecedor;
+CREATE VIEW [rel_bancoconta_id] AS select ifnull(id,"-") as "Código",
+ifnull(nome,"-") as "Nome",
+ifnull(banco_nome,"-") as "Banco",
+ifnull(agencia,"-") as "Agência",
+ifnull(conta,"-") as "Número Da Conta",
+
+case
+ when tipoconta="C" then "Conta Corrente"
+ when tipoconta="P" then "Conta Poupança"
+ end as "Tipo da Conta"
+ 
+
+
+from BancoConta
+
+order by id;
+CREATE VIEW [rel_bancoconta_nome] AS select ifnull(id,"-") as "Código",
+ifnull(nome,"-") as "Nome",
+ifnull(banco_nome,"-") as "Banco",
+ifnull(agencia,"-") as "Agência",
+ifnull(conta,"-") as "Número Da Conta",
+
+case
+ when tipoconta="C" then "Conta Corrente"
+ when tipoconta="P" then "Conta Poupança"
+ end as "Tipo da Conta"
+ 
+
+
+from BancoConta
+
+order by nome;
+CREATE VIEW [rel_creceber_vencimento] AS select r.dataConta as "Data Conta", 
+ifnull(r.descricao,"-") as "Descricao",
+case 
+    when substr(r.valor,length(ROUND(valor,2))-1,1) = "." then replace(r.valor,".",",") || "0"     
+    else replace(r.valor,".",",") end  as "Valor",
+
+case 
+    when substr(r.valor_pago,length(ROUND(valor_pago,2))-1,1) = "." then replace(r.valor_pago,".",",") || "0"     
+    else ifnull(replace(r.valor_pago,".",","),"-") end  as "Valor Pago",
+
+ifnull(c.nome,"-") as "Nome do Cliente",
+
+r.dataVencimento as "Data Vencimento",
+ifnull(r.dataPagamento,"-") as "Data Pagamento",
+
+(select f.descricao 
+ from FormaPagamento f, venda v
+ where f.id = v.formapagamento_id
+ and v.id = r.venda_id 
+ ) as "FormaPagamento",
+
+
+Case 
+  when (dataVencimento<date()  and  dataPagamento is null) then "EM ATRASO"
+  when dataPagamento is null then "Em aberto"
+  when dataPagamento is not null then "Pago"
+  END as Status
+
+from CReceber r, cliente c
+
+where c.id = r.cliente_id
+
+and c.clienteBloqueado = 0
+
+order by r.dataVencimento;
+CREATE VIEW [rel_creceber_BLOQUEADOS] AS select r.dataConta as "Data Conta", 
+ifnull(r.descricao,"-") as "Descricao",
+case 
+    when substr(r.valor,length(ROUND(valor,2))-1,1) = "." then replace(r.valor,".",",") || "0"     
+    else replace(r.valor,".",",") end  as "Valor",
+
+case 
+    when substr(r.valor_pago,length(ROUND(valor_pago,2))-1,1) = "." then replace(r.valor_pago,".",",") || "0"     
+    else ifnull(replace(r.valor_pago,".",","),"-") end  as "Valor Pago",
+
+ifnull(c.nome,"-") as "Nome do Cliente",
+
+r.dataVencimento as "Data Vencimento",
+ifnull(r.dataPagamento,"-") as "Data Pagamento",
+
+(select f.descricao 
+ from FormaPagamento f, venda v
+ where f.id = v.formapagamento_id
+ and v.id = r.venda_id 
+ ) as "FormaPagamento",
+
+
+Case 
+  when (dataVencimento<date()  and  dataPagamento is null) then "EM ATRASO"
+  when dataPagamento is null then "Em aberto"
+  when dataPagamento is not null then "Pago"
+  END as Status
+
+from CReceber r, cliente c
+
+where c.id = r.cliente_id
+
+and c.clienteBloqueado = 1
+
+order by r.dataVencimento;
+CREATE VIEW [rel_cobranca] AS select r.dataConta as "Data Conta", 
+ifnull(r.descricao,"-") as "Descricao",
+case 
+    when substr(r.valor,length(ROUND(valor,2))-1,1) = "." then replace(r.valor,".",",") || "0"     
+    else replace(r.valor,".",",") end  as "Valor",
+
+ifnull(c.nome,"-") as "Nome do Cliente",
+ifnull(c.telefones,"-") as "Telefone",
+
+r.dataVencimento as "Data Vencimento",
+
+
+
+Case 
+  when (dataVencimento<date()  and  dataPagamento is null) then "EM ATRASO"
+  when dataPagamento is null then "Em aberto"
+  when dataPagamento is not null then "Pago"
+  END as Status
+
+from CReceber r, cliente c
+
+where c.id = r.cliente_id
+
+and c.clienteBloqueado = 0
+
+
+order by r.dataVencimento;
+CREATE VIEW [rel_venda] AS SELECT ifnull ( v . id , "-" ) AS "Código" , ifnull ( v . data , "-" ) AS Data , ifnull ( ( SELECT nome FROM cliente c WHERE c . id = v . cliente_id ) , "-" ) AS "Nome do Cliente" , ifnull ( v . descricao , "-" ) AS "Descrição" , ifnull ( v . meiopagamento , "-" ) AS "Meio de Pagamento" , ifnull ( ( SELECT descricao FROM formapagamento fp WHERE fp . id = v . formapagamento_id ) , "-" ) AS "Forma Pagamento" , CASE WHEN substr ( v . totaldavenda , length ( ROUND ( v . totaldavenda , 2 ) ) - 1 , 1 ) = "." THEN REPLACE ( v . totaldavenda , "." , "," ) || "0" ELSE REPLACE ( v . totaldavenda , "." , "," ) END AS "Total da Venda" FROM Venda v ORDER BY v . data;
+CREATE VIEW [rel_analiseanual1] AS SELECT texto1 AS "Mês" , CASE WHEN substr ( valor1 , length ( ROUND ( valor1 , 2 ) ) - 1 , 1 ) = "." THEN REPLACE ( valor1 , "." , "," ) || "0" ELSE REPLACE ( valor1 , "." , "," ) END AS "Total de Vendas" , CASE WHEN substr ( valor2 , length ( ROUND ( valor2 , 2 ) ) - 1 , 1 ) = "." THEN REPLACE ( valor2 , "." , "," ) || "0" ELSE REPLACE ( valor2 , "." , "," ) END AS "Total de Recebimentos" 
+FROM temporaria where chave="analiseanual1";
+CREATE VIEW [rel_usuario_id] AS SELECT id AS "Código" , ifnull ( nome , "-" ) AS "Nome do Usuário" , ifnull ( email , "-" ) AS "Email" , ifnull ( username , "-" ) AS "Identificação" , CASE WHEN root = "True" THEN "Administrador" WHEN root = "False" THEN "Usuário Normal" END AS "Perfil do Usuário" FROM Usuario ORDER BY id;
+CREATE VIEW [rel_usuario_nome] AS SELECT id AS "Código" , ifnull ( nome , "-" ) AS "Nome do Usuário" , ifnull ( email , "-" ) AS "Email" , ifnull ( username , "-" ) AS "Identificação" , CASE WHEN root = "True" THEN "Administrador" WHEN root = "False" THEN "Usuário Normal" END AS "Perfil do Usuário" FROM Usuario ORDER BY nome;
+CREATE VIEW [rel_caixa] AS select 
+
+data as "Data",
+ifnull(c.descricao,"-") as "Descrição",
+ifnull((select nome from conta where id = c.conta_id),"-") as "Conta Gerencial",
+ifnull((select nome from cliente where id = c.cliente_id),"-") as "Nome do Cliente",
+ifnull((select nome from fornecedor where id = c.fornecedor_id),"-") as "Nome do Fornecedor",
+
+case 
+    when substr(c.debito,length(ROUND(debito,2))-1,1) = "." then replace(c.debito,".",",") || "0" 
+    else replace(c.debito,".",",") end as "Débito",
+    
+case 
+    when substr(c.credito,length(ROUND(credito,2))-1,1) = "." then replace(c.credito,".",",") || "0" 
+    else replace(c.credito,".",",") end  as "Crédito",
+
+case 
+    when substr((select SUM(credito) - SUM(debito) from Caixa caixa where caixa.id<=c.id),length(ROUND((select SUM(credito) - SUM(debito) from Caixa caixa where caixa.id<=c.id),2))-1,1) = "." then replace(round((select SUM(credito) - SUM(debito) from Caixa caixa where caixa.id<=c.id),2),".",",") || "0" 
+    else replace(round((select SUM(credito) - SUM(debito) from Caixa caixa where caixa.id<=c.id),2),".",",") end  as "Saldo"
+    
+    from Caixa c
+    
+    where data >="2015-09-20"
+    
+    order by c.data;
+COMMIT;

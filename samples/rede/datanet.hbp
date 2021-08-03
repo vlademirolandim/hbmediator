@@ -1,0 +1,11 @@
+#IniBlock=Main
+#Automatic=Yes
+hbmediator.hbc
+-dCOMPILE_MODE
+datanet.prg
+isql.prg
+code/bootstrap.prg
+code/cfg_ip.prg
+code/faixa.prg
+#EndBlockMain
+

@@ -1,0 +1,1350 @@
+***************************** BEGIN LOG HEADER ************************************
+File created at : 20210628 11:36:45
+***************************** END LOG HEADER **************************************
+
+20210628 - 11:36:45 >>  [ERROR] (CODE:20200625113952) Compilation errors when compilation code/bootstrap.prg : Compilation error : Can't open #include file 'vbase.ch'
+
+# Called from : 
+VCOMPILE:COMPILE(185)  
+VCOMPILE:COMPILEANDSAVEBINARY(242)  
+HBMCOMPILE(16)  
+MAIN(30)  
+###################
+
+20210628 - 11:37:06 >>  [INFO] Start config TUI with : e"{   \n	\"maxrow\":39,\n	\"maxcol\":158,\n	\"colortheme\":\"GREEN\"\n}\n"
+
+# Called from : 
+CONFIGTUISINGLETON(24)  
+HBM_BOOTSTRAP(28)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 11:37:06 >>  [ERROR] Get definitions not found. Hash ::hGet is empty
+
+# Called from : 
+VGETCMD:SHOW(389)  
+HBM_BOOTSTRAP(44)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 11:37:17 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 11:37:18 >>  [INFO] Start config TUI with : e"{   \n	\"maxrow\":39,\n	\"maxcol\":158,\n	\"colortheme\":\"GREEN\"\n}\n"
+
+# Called from : 
+CONFIGTUISINGLETON(24)  
+HBM_BOOTSTRAP(28)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 11:37:18 >>  [ERROR] Get definitions not found. Hash ::hGet is empty
+
+# Called from : 
+VGETCMD:SHOW(389)  
+HBM_BOOTSTRAP(44)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 11:37:20 >>  [INFO] After execute with return : 32
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 14:04:28 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 14:04:28 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 14:04:28 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 14:04:28 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 14:04:46 >>  [INFO] After execute with return : 13
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 15:25:41 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:25:41 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:25:41 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:25:41 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:25:45 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:25:45 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:25:46 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:25:46 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:25:46 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:25:46 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:26:04 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:26:04 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:35:12 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:35:12 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:35:12 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:35:12 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:36:44 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:36:44 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:36:44 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:36:44 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:36:50 >>  [INFO] After execute with return : 5
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:36:50 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:36:51 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:36:51 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:36:51 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:36:51 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:37:12 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:37:12 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:37:55 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:37:55 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:37:55 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:37:55 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:38:19 >>  [INFO] After execute with return : 13
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:38:19 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:38:34 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 15:38:34 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 15:38:34 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 15:38:34 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 15:40:08 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 15:43:00 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:43:00 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:43:00 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:43:00 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:43:19 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:43:19 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:51:01 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:51:01 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:51:01 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:51:01 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:51:07 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:51:07 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:51:09 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:51:09 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:51:09 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:51:09 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:51:15 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:51:15 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 15:53:02 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 15:53:02 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 15:53:02 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 15:53:02 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 15:54:38 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMHRB(136)  
+HBMLOAD(22)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(19)  
+###################
+
+20210628 - 17:16:30 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:16:30 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:16:30 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:16:30 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:21:22 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:21:22 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:26:03 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:26:03 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:26:03 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:26:03 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:26:36 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:26:36 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:35:01 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:35:01 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:35:01 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:35:01 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:36:34 >>  [INFO] After execute with return : 13
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:36:34 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:38:27 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:38:27 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:38:27 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:38:27 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:47:34 >>  [INFO] After execute with return : 27
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:47:34 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:47:37 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:47:37 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:47:37 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:47:37 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:53:33 >>  [INFO] After execute with return : 13
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:53:33 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:53:38 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:53:38 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:53:38 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 17:53:38 >>  [WARNING] Undefined operation in form TUI. ::cOper = 
+
+# Called from : 
+VGETCMD:SHOW(379)  
+HBM_BOOTSTRAP(26)  
+VEXECUTE:EXECFROMBUFF(449)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 18:35:35 >>  [INFO] After execute with return : 32
+
+# Called from : 
+VEXECUTE:EXECFROMBUFF(450)  
+VEXECUTE:EXECFROMPRG(208)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+
+20210628 - 18:35:36 >>  [INFO] After send buffer to execute
+
+# Called from : 
+VEXECUTE:EXECFROMPRG(209)  
+HBMLOAD(24)  
+HBMBOOTSTRAP(10)  
+HBMSTART(4)  
+MAIN(23)  
+###################
+

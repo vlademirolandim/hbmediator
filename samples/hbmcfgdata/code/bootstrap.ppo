@@ -1,0 +1,24 @@
+#line 4 "code/bootstrap.prg"
+PROCEDURE Hbm_BootStrap
+
+    LOCAL __oForm__ := VGetCMD():New()
+
+ InitConfig( e"{   \"loglevel\": 1,\n    \"logdisplay\": false,\n    \"sysname\":\"database.ini file access configuration\",\n    \"orgname\":\"\",\n    \"deptname\":\"\",\n    \"complement\":\"\",\n    \"address01\":\"\",\n    \"address02\":\"\",\n    \"email\":\"\",\n    \"url\":\"\"\n}\n" )
+ ConfigTUISingleton( e"{   \n\t\"maxrow\":29,\n\t\"maxcol\":118,\n\t\"colortheme\":\"GREEN\"\n}\n" )
+    ConfigSetLogLevel( 4 )
+
+    __oForm__:setRowBegin(5);__oForm__:setColBegin(5)
+__oForm__:setScreenDef(e"\r\n\r\n\r\n\r\n       Connection name : [A\r\n\r\n       Database type   : [B\r\n\r\n\r\n\r\n\r\n       Path            : [C\r\n\r\n       Filename        : [D\r\n\r\n\r\n\r\n\r\n\r\n\r\n")
+
+    __oForm__:setTitle( "Database configuration" )
+
+    __oForm__:addMapControl( "A" , "CONNECTION" , SPACE(30) , "@!" , , , , , "Connection name (Letters and numbers only. Not spaces or special characteres" , )
+    __oForm__:addMapControl( "B" , "TYPE" , "" , , , , , , "Database type" , "RADIOGROUP" , 16 , 3 , { "SQLITE" => "SQLite" , "POSTGRES" => "PostgreSQL" } )
+    __oForm__:addMapControl( "C" , "PATH" , "./data" + SPACE(80) , "@S20" , , , , , "Path to database file" , )
+    __oForm__:addMapControl( "D" , "FILENAME" , SPACE(20) , , , , , , "Enter file name (without path)" , )
+
+    __oForm__:Show()
+
+
+
+RETURN
