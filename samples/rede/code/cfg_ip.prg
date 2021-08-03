@@ -22,7 +22,7 @@ procedure HBM_Cfg_Ip
    
     
     BROWSE SET TABLE "cfg_ip"
-    BROWSE SET PKNAME "id_cfg_ip"
+    BROWSE SET PKNAME "id_cfg_ip" GENERATOR {||VLJ_CHAVE()}
     BROWSE SET UPDATE FrmCfgIP
     BROWSE SET INSERT FrmCfgIP
     BROWSE SET DELETE ON

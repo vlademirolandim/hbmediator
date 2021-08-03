@@ -3,4 +3,4 @@
 //    #define __SISTEMAS_ADO__
 #endif
 #define __SISTEMAS_SQLITE__
-//#define __SISTEMAS_POSTGRES__
+#define __SISTEMAS_POSTGRES__

@@ -27,7 +27,7 @@
 #command BROWSE TITLE <cTitle> => __oBrw__:setTitle( <cTitle> )
 #command BROWSE ADD COLUMN <cField> CAPTION <cCaption> PICTURE <cPicture> [LENGTH <nLen>] => __oBrw__:addColumn( <cField> , <cCaption>  , <cPicture> , [<nLen>] )
 #command BROWSE SET TABLE <cTable> => __oBrw__:setTable( <cTable> )
-#command BROWSE SET PKNAME <cPkName> => __oBrw__:setPKName( <cPkName> )
+#command BROWSE SET PKNAME <cPkName> [GENERATOR <bGen>] => __oBrw__:setPKName( <cPkName> ) [;__oBrw__:setPKGenerator( <bGen> )]
 #command BROWSE SET UPDATE <Frm> => __oBrw__:setUpdate( {|oForm|<Frm>( oForm )} )  
 #command BROWSE SET INSERT <Frm> => __oBrw__:setInsert( {|oForm|<Frm>( oForm )} )
 #command BROWSE SET DELETE ON => __oBrw__:setDelete( .t. )
