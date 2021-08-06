@@ -29,8 +29,8 @@ procedure HBM_Cfg_Ip
 
     //BROWSE SET BLOCKFOOTER {|| BlockFooter() } HEIGHT 5
 
-    BROWSE SET FILTER "Filtro" WHERE  "endereco_ip LIKE '%' || %s || '%' AND descricao LIKE '%' || %s || '%'"  ;
-    CAPTION  { "IP   : " , "Descrição : " } ;
+    BROWSE SET FILTER "Filtro" WHERE  "descricao LIKE '%' || %s || '%' AND endereco_ip LIKE '%' || %s || '%'"  ;
+    CAPTION  { "Descrição   : " , "Endereço IP : " } ;
     VAL { SPACE(30) , SPACE(30) } ;
     PICT   { "@K" , "@X" }  ;
     NEWLINE  { .F. , .F. }     
@@ -48,23 +48,22 @@ BEGIN FORM FrmCfgIP
     IF IS_FORM_INSERT
         FORM ADD MAP "B" NAME "id_faixa" VAL SPACE(255) PICT "@S5" MESSAGE "Faixa"   
         FORM ADD MAP "C" NAME "faixa_descricao" VAL SPACE(30) ISREADONLY .T.
-    ELSE
-        FORM ADD MAP "B" NAME "faixa_descricao" VAL SPACE(30) ISREADONLY .T.
     ENDIF
     FORM ADD MAP "D" NAME "endereco_ip" VAL SPACE(30) PICT "@X" FIELDNAME "endereco_ip" MESSAGE "Endereço IP"   
     FORM ADD MAP "E" NAME "mac" VAL SPACE(30) PICT "@X" FIELDNAME "mac" MESSAGE "Endereço físico da placa de rede"
    
-if IS_FORM_INSERT
-    FORM SEARCH "id_faixa" KEY "id_faixa" CONNECT "DATANET"  QUERY "SELECT * FROM faixa" WHERE "WHERE id_faixa='#1'" ;
-      RETURN "prefixo" TO "faixa_descricao" ;
-      GRID WHERE "Where prefixo LIKE '%#1%'" FIELDS { 'prefixo' , 'inicio' , 'fim' } ;
-              CAPTIONS { 'Prefixo' , 'Início' , 'Fim' } ;
-              WIDTHS { "50%","30%","20%"  } ;
-              ALIGNS { "LEFT" , "LEFT" , "LEFT" }
-ENDIF
+    IF IS_FORM_INSERT
+        FORM SEARCH "id_faixa" KEY "id_faixa" CONNECT "DATANET"  QUERY "SELECT * FROM faixa" WHERE "WHERE id_faixa='#1'" ;
+          RETURN "prefixo" TO "faixa_descricao" ;
+          GRID WHERE "Where prefixo LIKE '%#1%'" FIELDS { 'prefixo' , 'inicio' , 'fim' } ;
+                  CAPTIONS { 'Prefixo' , 'Início' , 'Fim' } ;
+                  WIDTHS { "50%","30%","20%"  } ;
+                  ALIGNS { "LEFT" , "LEFT" , "LEFT" }
+    ENDIF
 
-    FORM BEFORE SHOW FaixaBeforeShow
+    //FORM BEFORE SHOW FaixaBeforeShow
     //FORM BEFORE SUBMIT FaixaBeforeSubmit
+    FORM VALID ValidCfgIP
 
 END FORM RETURN TO BROWSE
 
@@ -80,23 +79,37 @@ FUNCTION BlockFooter
     @ ROW()  ,70 SAY "Saldo geral (todas as contas) : " + TRANSFORM( nSaldoCredito - nSaldoDebito , "@RE 999,999,999.99" )
 
 RETURN NIL
-
-
-BEGIN FORM VALID ValidFrmFaixa( hGet )
-
-    LOCAL lRet := .t.
-
-
-RETURN lRet
 */
 
-FUNCTION FaixaBeforeShow( hGet )
+BEGIN FORM VALID ValidCfgIP( hGet )
+
+    IF CONTROL NAME "ID_FAIXA"
+        hGet["endereco_ip"] := BuscaDescricao( hGet["faixa_descricao"] , 30 )
+    ENDIF
+
+
+END FORM
+
+STATIC FUNCTION BuscaDescricao( cFaixa , nLen )
+
+    LOCAL cIp 
+
+    cFaixa := ALLTRIM( cFaixa )
+    USE PROX_IP USING CONNECT "DATANET" MEMORY QUERY "SELECT id_cfg_ip , endereco_ip FROM cfg_ip WHERE endereco_ip LIKE '" + cFaixa + "%'"
+    HB_ALERT( FIELD->ENDERECO_IP ) 
+    cIp := FIELD->ENDERECO_IP + "ll"
+
+
+RETURN PADR( cIp , nLen )
+
+/*
+FUNCTION CfgIPBeforeShow( hGet )
 
         hGet["FAIXA_DESCRICAO"] := PADR( hGet["endereco_ip"] , 30 )
 
 RETURN .T.
-/*
-FUNCTION FaixaBeforeSubmit( hGet , hHidden )
+
+FUNCTION CfgIPBeforeSubmit( hGet , hHidden )
 
     if hGet["TEXT_TIPO"] == "DEBITO"
         hHidden["DEBITO"] := hGet["TEXT_VALOR"]
