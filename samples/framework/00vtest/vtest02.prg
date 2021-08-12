@@ -1,5 +1,4 @@
-#!/home/vlademiro/sistemas/sistemas23/bin/hbmediator --cgi 
--I/home/vlademiro/sistemas/sistemas23/include
+#!/home/vlademiro/sistemas/sistemas23/bin/hbmshell
 #include "vtest.ch"
 
 PROCEDURE hbm_Main

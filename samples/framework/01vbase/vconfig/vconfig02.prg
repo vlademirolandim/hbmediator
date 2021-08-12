@@ -1,6 +1,7 @@
-#!/home/vlademiro/sistemas/sistemas23/bin/hbmediator --cgi 
+#!/home/vlademiro/sistemas/sistemas23/bin/hbmshell 
 
 #include "vbase.ch"
+#include "cmdterminal.ch"
 
 PROCEDURE HBM_CGI
 

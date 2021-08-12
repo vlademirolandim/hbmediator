@@ -1,7 +1,6 @@
-#!/home/vlademiro/sistemas/sistemas23/bin/hbmediator --cgi 
--I/home/vlademiro/sistemas/sistemas23/include
+#!/home/vlademiro/sistemas/sistemas23/bin/hbmshell
 -b
-
+#include "cmdterminal.ch"
 #include "vbase.ch"
 PROCEDURE HBM_CGI
 
@@ -55,6 +54,7 @@ Note que ele irá exibir os níveis do hash ou array. Conforme o exemplo abaixo
     ?
     ? "Erasing file now"
     Ferase( "debug.log" )
+    ? "UTF8 test áéíãção"
 
 
     RETURN

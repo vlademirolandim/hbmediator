@@ -1,5 +1,0 @@
-#line 4 "{SOURCE}.prg"
-PROCEDURE Hbm_BootStrap
-
-    LOCAL __oForm__ := VGetCMD():New()
-

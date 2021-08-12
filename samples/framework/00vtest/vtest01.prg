@@ -1,6 +1,6 @@
-#!/home/vlademiro/sistemas/sistemas23/bin/hbmediator --cgi 
--I/home/vlademiro/sistemas/sistemas23/include
+#!/home/vlademiro/sistemas/sistemas23/bin/hbmshell
 #include "vtest.ch"
+#include "cmdterminal.ch"
 
 PROCEDURE hb_CGI
 

@@ -45,21 +45,21 @@ BEGIN FORM FrmCfgIP
     FORM ROWTOP 7 COLTOP 10
 
     FORM ADD MAP "A" NAME "descricao" VAL SPACE(20) PICT "@x" MAXLEN 20  FIELDNAME "descricao" MESSAGE "Descrição"   
-    IF IS_FORM_INSERT
+    //IF IS_FORM_INSERT
         FORM ADD MAP "B" NAME "id_faixa" VAL SPACE(255) PICT "@S5" MESSAGE "Faixa"   
         FORM ADD MAP "C" NAME "faixa_descricao" VAL SPACE(30) ISREADONLY .T.
-    ENDIF
+    //ENDIF
     FORM ADD MAP "D" NAME "endereco_ip" VAL SPACE(30) PICT "@X" FIELDNAME "endereco_ip" MESSAGE "Endereço IP"   
     FORM ADD MAP "E" NAME "mac" VAL SPACE(30) PICT "@X" FIELDNAME "mac" MESSAGE "Endereço físico da placa de rede"
    
-    IF IS_FORM_INSERT
+    //IF IS_FORM_INSERT
         FORM SEARCH "id_faixa" KEY "id_faixa" CONNECT "DATANET"  QUERY "SELECT * FROM faixa" WHERE "WHERE id_faixa='#1'" ;
           RETURN "prefixo" TO "faixa_descricao" ;
           GRID WHERE "Where prefixo LIKE '%#1%'" FIELDS { 'prefixo' , 'inicio' , 'fim' } ;
                   CAPTIONS { 'Prefixo' , 'Início' , 'Fim' } ;
                   WIDTHS { "50%","30%","20%"  } ;
                   ALIGNS { "LEFT" , "LEFT" , "LEFT" }
-    ENDIF
+    //ENDIF
 
     //FORM BEFORE SHOW FaixaBeforeShow
     //FORM BEFORE SUBMIT FaixaBeforeSubmit

@@ -1,4 +1,3 @@
-#!/home/vlademiro/sistemas/sistemas23/bin/hbmshell
 
 PROCEDURE hbm_MAIN
    
@@ -24,3 +23,4 @@ PROCEDURE hbm_MAIN
     oObj:EndBlock()
 
 RETURN
+
